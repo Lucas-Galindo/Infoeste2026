@@ -1,0 +1,121 @@
+sk_maquina,id_maquina_origem,codigo,nome_maquina,tipo_maquina,status_maquina,sk_linha
+1,1,MAQ0001,Maquina de Corte a Laser,Maquina de Corte a Laser,ATIVA,1
+2,2,MAQ0002,Guilhotina CNC,Guilhotina CNC,ATIVA,1
+3,3,MAQ0003,Puncionadeira CNC,Puncionadeira CNC,ATIVA,1
+4,4,MAQ0004,Torno CNC,Torno CNC,ATIVA,2
+5,5,MAQ0005,Fresadora CNC,Fresadora CNC,ATIVA,2
+6,6,MAQ0006,Furadeira CNC,Furadeira CNC,ATIVA,2
+7,7,MAQ0007,Robo de Solda MIG 1,Robo de Solda MIG 1,ATIVA,3
+8,8,MAQ0008,Robo de Solda MIG 2,Robo de Solda MIG 2,ATIVA,3
+9,9,MAQ0009,Robo de Solda TIG,Robo de Solda TIG,ATIVA,3
+10,10,MAQ0010,Cabine de Pintura Eletrostatica,Cabine de Pintura Eletrostatica,ATIVA,4
+11,11,MAQ0011,Estufa de Secagem,Estufa de Secagem,ATIVA,4
+12,12,MAQ0012,Cabine de Pintura Manual,Cabine de Pintura Manual,ATIVA,4
+13,13,MAQ0013,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,5
+14,14,MAQ0014,Elevador Hidraulico,Elevador Hidraulico,ATIVA,5
+15,15,MAQ0015,Ponte Rolante 5t,Ponte Rolante 5t,ATIVA,5
+16,16,MAQ0016,Bancada de Montagem de Cabine,Bancada de Montagem de Cabine,ATIVA,6
+17,17,MAQ0017,Elevador de Cabine,Elevador de Cabine,ATIVA,6
+18,18,MAQ0018,Ponte Rolante 3t,Ponte Rolante 3t,ATIVA,6
+19,19,MAQ0019,Esteira Transportadora,Esteira Transportadora,ATIVA,7
+20,20,MAQ0020,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,7
+21,21,MAQ0021,Ponte Rolante 10t,Ponte Rolante 10t,ATIVA,7
+22,22,MAQ0022,Esteira Transportadora,Esteira Transportadora,ATIVA,8
+23,23,MAQ0023,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,8
+24,24,MAQ0024,Ponte Rolante 10t,Ponte Rolante 10t,ATIVA,8
+25,25,MAQ0025,Bancada de Teste Hidraulico,Bancada de Teste Hidraulico,ATIVA,9
+26,26,MAQ0026,Bancada de Teste Eletrico,Bancada de Teste Eletrico,ATIVA,9
+27,27,MAQ0027,Dinamometro,Dinamometro,ATIVA,9
+28,28,MAQ0028,Maquina de Embalagem,Maquina de Embalagem,ATIVA,10
+29,29,MAQ0029,Empilhadeira Industrial,Empilhadeira Industrial,ATIVA,10
+30,30,MAQ0030,Ponte Rolante de Expedicao,Ponte Rolante de Expedicao,ATIVA,10
+31,31,MAQ0031,Maquina de Corte a Laser,Maquina de Corte a Laser,ATIVA,11
+32,32,MAQ0032,Guilhotina CNC,Guilhotina CNC,ATIVA,11
+33,33,MAQ0033,Puncionadeira CNC,Puncionadeira CNC,ATIVA,11
+34,34,MAQ0034,Torno CNC,Torno CNC,ATIVA,12
+35,35,MAQ0035,Fresadora CNC,Fresadora CNC,ATIVA,12
+36,36,MAQ0036,Furadeira CNC,Furadeira CNC,ATIVA,12
+37,37,MAQ0037,Robo de Solda MIG 1,Robo de Solda MIG 1,ATIVA,13
+38,38,MAQ0038,Robo de Solda MIG 2,Robo de Solda MIG 2,ATIVA,13
+39,39,MAQ0039,Robo de Solda TIG,Robo de Solda TIG,ATIVA,13
+40,40,MAQ0040,Cabine de Pintura Eletrostatica,Cabine de Pintura Eletrostatica,ATIVA,14
+41,41,MAQ0041,Estufa de Secagem,Estufa de Secagem,ATIVA,14
+42,42,MAQ0042,Cabine de Pintura Manual,Cabine de Pintura Manual,ATIVA,14
+43,43,MAQ0043,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,15
+44,44,MAQ0044,Elevador Hidraulico,Elevador Hidraulico,ATIVA,15
+45,45,MAQ0045,Ponte Rolante 5t,Ponte Rolante 5t,ATIVA,15
+46,46,MAQ0046,Bancada de Montagem de Cabine,Bancada de Montagem de Cabine,ATIVA,16
+47,47,MAQ0047,Elevador de Cabine,Elevador de Cabine,ATIVA,16
+48,48,MAQ0048,Ponte Rolante 3t,Ponte Rolante 3t,ATIVA,16
+49,49,MAQ0049,Esteira Transportadora,Esteira Transportadora,ATIVA,17
+50,50,MAQ0050,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,17
+51,51,MAQ0051,Ponte Rolante 10t,Ponte Rolante 10t,ATIVA,17
+52,52,MAQ0052,Esteira Transportadora,Esteira Transportadora,ATIVA,18
+53,53,MAQ0053,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,18
+54,54,MAQ0054,Ponte Rolante 10t,Ponte Rolante 10t,ATIVA,18
+55,55,MAQ0055,Bancada de Teste Hidraulico,Bancada de Teste Hidraulico,ATIVA,19
+56,56,MAQ0056,Bancada de Teste Eletrico,Bancada de Teste Eletrico,ATIVA,19
+57,57,MAQ0057,Dinamometro,Dinamometro,ATIVA,19
+58,58,MAQ0058,Maquina de Embalagem,Maquina de Embalagem,ATIVA,20
+59,59,MAQ0059,Empilhadeira Industrial,Empilhadeira Industrial,ATIVA,20
+60,60,MAQ0060,Ponte Rolante de Expedicao,Ponte Rolante de Expedicao,ATIVA,20
+61,61,MAQ0061,Maquina de Corte a Laser,Maquina de Corte a Laser,ATIVA,21
+62,62,MAQ0062,Guilhotina CNC,Guilhotina CNC,ATIVA,21
+63,63,MAQ0063,Puncionadeira CNC,Puncionadeira CNC,ATIVA,21
+64,64,MAQ0064,Torno CNC,Torno CNC,ATIVA,22
+65,65,MAQ0065,Fresadora CNC,Fresadora CNC,ATIVA,22
+66,66,MAQ0066,Furadeira CNC,Furadeira CNC,ATIVA,22
+67,67,MAQ0067,Robo de Solda MIG 1,Robo de Solda MIG 1,ATIVA,23
+68,68,MAQ0068,Robo de Solda MIG 2,Robo de Solda MIG 2,ATIVA,23
+69,69,MAQ0069,Robo de Solda TIG,Robo de Solda TIG,ATIVA,23
+70,70,MAQ0070,Cabine de Pintura Eletrostatica,Cabine de Pintura Eletrostatica,ATIVA,24
+71,71,MAQ0071,Estufa de Secagem,Estufa de Secagem,ATIVA,24
+72,72,MAQ0072,Cabine de Pintura Manual,Cabine de Pintura Manual,ATIVA,24
+73,73,MAQ0073,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,25
+74,74,MAQ0074,Elevador Hidraulico,Elevador Hidraulico,ATIVA,25
+75,75,MAQ0075,Ponte Rolante 5t,Ponte Rolante 5t,ATIVA,25
+76,76,MAQ0076,Bancada de Montagem de Cabine,Bancada de Montagem de Cabine,ATIVA,26
+77,77,MAQ0077,Elevador de Cabine,Elevador de Cabine,ATIVA,26
+78,78,MAQ0078,Ponte Rolante 3t,Ponte Rolante 3t,ATIVA,26
+79,79,MAQ0079,Esteira Transportadora,Esteira Transportadora,ATIVA,27
+80,80,MAQ0080,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,27
+81,81,MAQ0081,Ponte Rolante 10t,Ponte Rolante 10t,ATIVA,27
+82,82,MAQ0082,Esteira Transportadora,Esteira Transportadora,ATIVA,28
+83,83,MAQ0083,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,28
+84,84,MAQ0084,Ponte Rolante 10t,Ponte Rolante 10t,ATIVA,28
+85,85,MAQ0085,Bancada de Teste Hidraulico,Bancada de Teste Hidraulico,ATIVA,29
+86,86,MAQ0086,Bancada de Teste Eletrico,Bancada de Teste Eletrico,ATIVA,29
+87,87,MAQ0087,Dinamometro,Dinamometro,ATIVA,29
+88,88,MAQ0088,Maquina de Embalagem,Maquina de Embalagem,ATIVA,30
+89,89,MAQ0089,Empilhadeira Industrial,Empilhadeira Industrial,ATIVA,30
+90,90,MAQ0090,Ponte Rolante de Expedicao,Ponte Rolante de Expedicao,ATIVA,30
+91,91,MAQ0091,Maquina de Corte a Laser,Maquina de Corte a Laser,ATIVA,31
+92,92,MAQ0092,Guilhotina CNC,Guilhotina CNC,ATIVA,31
+93,93,MAQ0093,Puncionadeira CNC,Puncionadeira CNC,ATIVA,31
+94,94,MAQ0094,Torno CNC,Torno CNC,ATIVA,32
+95,95,MAQ0095,Fresadora CNC,Fresadora CNC,ATIVA,32
+96,96,MAQ0096,Furadeira CNC,Furadeira CNC,ATIVA,32
+97,97,MAQ0097,Robo de Solda MIG 1,Robo de Solda MIG 1,ATIVA,33
+98,98,MAQ0098,Robo de Solda MIG 2,Robo de Solda MIG 2,ATIVA,33
+99,99,MAQ0099,Robo de Solda TIG,Robo de Solda TIG,ATIVA,33
+100,100,MAQ0100,Cabine de Pintura Eletrostatica,Cabine de Pintura Eletrostatica,ATIVA,34
+101,101,MAQ0101,Estufa de Secagem,Estufa de Secagem,ATIVA,34
+102,102,MAQ0102,Cabine de Pintura Manual,Cabine de Pintura Manual,ATIVA,34
+103,103,MAQ0103,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,35
+104,104,MAQ0104,Elevador Hidraulico,Elevador Hidraulico,ATIVA,35
+105,105,MAQ0105,Ponte Rolante 5t,Ponte Rolante 5t,ATIVA,35
+106,106,MAQ0106,Bancada de Montagem de Cabine,Bancada de Montagem de Cabine,ATIVA,36
+107,107,MAQ0107,Elevador de Cabine,Elevador de Cabine,ATIVA,36
+108,108,MAQ0108,Ponte Rolante 3t,Ponte Rolante 3t,ATIVA,36
+109,109,MAQ0109,Esteira Transportadora,Esteira Transportadora,ATIVA,37
+110,110,MAQ0110,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,37
+111,111,MAQ0111,Ponte Rolante 10t,Ponte Rolante 10t,ATIVA,37
+112,112,MAQ0112,Esteira Transportadora,Esteira Transportadora,ATIVA,38
+113,113,MAQ0113,Torquimetro Pneumatico,Torquimetro Pneumatico,ATIVA,38
+114,114,MAQ0114,Ponte Rolante 10t,Ponte Rolante 10t,ATIVA,38
+115,115,MAQ0115,Bancada de Teste Hidraulico,Bancada de Teste Hidraulico,ATIVA,39
+116,116,MAQ0116,Bancada de Teste Eletrico,Bancada de Teste Eletrico,ATIVA,39
+117,117,MAQ0117,Dinamometro,Dinamometro,ATIVA,39
+118,118,MAQ0118,Maquina de Embalagem,Maquina de Embalagem,ATIVA,40
+119,119,MAQ0119,Empilhadeira Industrial,Empilhadeira Industrial,ATIVA,40
+120,120,MAQ0120,Ponte Rolante de Expedicao,Ponte Rolante de Expedicao,ATIVA,40

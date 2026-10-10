@@ -1,0 +1,75 @@
+{
+  "semente": 20261011,
+  "ordens": 960,
+  "perdas": 1159,
+  "total": {
+    "ordens": 960,
+    "produzido": 79702,
+    "rejeitado": 1852,
+    "pct_refugo": 2.32
+  },
+  "por_mes": {
+    "1": {
+      "ordens": 304,
+      "produzido": 24740,
+      "rejeitado": 542,
+      "pct_refugo": 2.19
+    },
+    "2": {
+      "ordens": 324,
+      "produzido": 26903,
+      "rejeitado": 570,
+      "pct_refugo": 2.12
+    },
+    "3": {
+      "ordens": 332,
+      "produzido": 28059,
+      "rejeitado": 740,
+      "pct_refugo": 2.64
+    }
+  },
+  "soldagem_por_mes": {
+    "1": {
+      "ordens": 31,
+      "produzido": 3176,
+      "rejeitado": 75,
+      "pct_refugo": 2.36
+    },
+    "2": {
+      "ordens": 31,
+      "produzido": 3050,
+      "rejeitado": 72,
+      "pct_refugo": 2.36
+    },
+    "3": {
+      "ordens": 34,
+      "produzido": 3386,
+      "rejeitado": 238,
+      "pct_refugo": 7.03
+    }
+  },
+  "outros_setores_por_mes": {
+    "1": {
+      "ordens": 273,
+      "produzido": 21564,
+      "rejeitado": 467,
+      "pct_refugo": 2.17
+    },
+    "2": {
+      "ordens": 293,
+      "produzido": 23853,
+      "rejeitado": 498,
+      "pct_refugo": 2.09
+    },
+    "3": {
+      "ordens": 298,
+      "produzido": 24673,
+      "rejeitado": 502,
+      "pct_refugo": 2.03
+    }
+  },
+  "motivo_dominante_soldagem_marco": [
+    "Problema de soldagem - porosidade",
+    172
+  ]
+}

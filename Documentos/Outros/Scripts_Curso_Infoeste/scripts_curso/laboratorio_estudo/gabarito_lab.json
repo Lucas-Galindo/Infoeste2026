@@ -1,0 +1,46 @@
+{
+  "semente": 20261010,
+  "linhas_no_arquivo": 8626,
+  "grade_limpa": 8496,
+  "defeitos": {
+    "nulo": 60,
+    "sentinela": 45,
+    "orfao": 30,
+    "duplicada_exata": 80,
+    "duplicada_data_br": 20,
+    "data_formato_br": 70,
+    "valor_virgula": 50
+  },
+  "rejeitos_esperados": {
+    "SENSOR_INEXISTENTE": 30,
+    "VALOR_NULO": 60,
+    "VALOR_SENTINELA": 45,
+    "DUPLICADA": 100
+  },
+  "linhas_tratadas_esperadas": 8391,
+  "pico_legitimo": {
+    "sensor_id": 16,
+    "leituras": [
+      [
+        "2026-03-12 12:00:00",
+        98.4
+      ],
+      [
+        "2026-03-12 13:00:00",
+        105.2
+      ],
+      [
+        "2026-03-12 14:00:00",
+        112.7
+      ],
+      [
+        "2026-03-12 15:00:00",
+        121.3
+      ],
+      [
+        "2026-03-12 16:00:00",
+        118.9
+      ]
+    ]
+  }
+}

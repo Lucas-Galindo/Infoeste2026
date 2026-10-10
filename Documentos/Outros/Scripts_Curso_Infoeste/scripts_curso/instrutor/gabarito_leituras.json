@@ -1,0 +1,57 @@
+{
+  "semente": 20261010,
+  "inicio": "2026-02-16",
+  "dias": 28,
+  "sensores": 316,
+  "linhas_no_arquivo": 215537,
+  "grade_limpa": 212352,
+  "defeitos_plantados": {
+    "valor_nulo": 1486,
+    "sentinela_-999": 1062,
+    "sensor_orfao": 743,
+    "duplicada_exata": 1911,
+    "duplicada_data_br": 531,
+    "data_formato_br": 1699,
+    "valor_virgula": 1274,
+    "suspeita_legitima": 956
+  },
+  "datas_fora_do_padrao_ISO": 2230,
+  "rejeitos_esperados": {
+    "SENSOR_INEXISTENTE": 743,
+    "VALOR_NULO": 1486,
+    "VALOR_SENTINELA": 1062,
+    "DUPLICADA": 2442
+  },
+  "linhas_tratadas_esperadas": 209804,
+  "fora_da_faixa_esperado_na_fato": 37,
+  "fora_da_faixa_por_categoria": {
+    "Colhedora": 32,
+    "Trator": 5
+  },
+  "pico_legitimo": {
+    "sensor_id": 16,
+    "leituras": [
+      [
+        "2026-03-12 12:00:00",
+        98.4
+      ],
+      [
+        "2026-03-12 13:00:00",
+        105.2
+      ],
+      [
+        "2026-03-12 14:00:00",
+        112.7
+      ],
+      [
+        "2026-03-12 15:00:00",
+        121.3
+      ],
+      [
+        "2026-03-12 16:00:00",
+        118.9
+      ]
+    ]
+  },
+  "sensor_noite_quente": 104
+}
