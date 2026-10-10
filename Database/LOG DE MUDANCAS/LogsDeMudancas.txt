@@ -1,0 +1,109 @@
+------------------------------------------------------------------------
+
+Alteração - Lucas Galindo - dia: 10/10/2026
+
+O que foi alterado:
+Tabela cliente (ids 1 a 42): corrigidos estado_id e cidade para que formem pares coerentes (ex.: Ribeirão Preto passa de Acre para São Paulo). 13 cidades foram trocadas por uma do estado já cadastrado, porque o estado correto não existe no catálogo (ex.: Wichita -> Chicago). Nenhuma outra tabela ou coluna foi alterada.
+
+Porque:
+Cidade e estado não combinavam. O trigger trg_cliente_valida_estado_pais só valida estado x país, então o erro passava despercebido e apareceria nos mapas do Power BI. Script idempotente e com transação (COMMIT só após conferência).
+
+CODIGO:
+
+USE agromaq_industrial;
+SET SQL_SAFE_UPDATES = 0;
+
+-- 1) PRÉ-CHECAGEM
+SELECT c.id_cliente, c.nome, p.nome AS pais, e.nome AS estado, c.cidade
+FROM cliente c
+JOIN pais p ON p.id_pais = c.pais_id
+LEFT JOIN estado_provincia e ON e.id_estado = c.estado_id
+ORDER BY c.id_cliente;
+
+-- 2) CORREÇÃO
+START TRANSACTION;
+
+DROP TEMPORARY TABLE IF EXISTS tmp_cliente_fix;
+CREATE TEMPORARY TABLE tmp_cliente_fix (
+    id_cliente INT UNSIGNED PRIMARY KEY,
+    pais_id    INT UNSIGNED NOT NULL,
+    estado_id  INT UNSIGNED NOT NULL,
+    cidade     VARCHAR(100) NOT NULL
+);
+
+INSERT INTO tmp_cliente_fix (id_cliente, pais_id, estado_id, cidade) VALUES
+-- Brasil
+(1, 1, 25, 'Ribeirao Preto'),
+(2, 1, 16, 'Londrina'),
+(3, 1, 16, 'Cascavel'),
+(4, 1, 11, 'Rondonopolis'),
+(5, 1, 13, 'Uberlandia'),
+(6, 1, 25, 'Ribeirao Preto'),
+(7, 1, 16, 'Londrina'),
+-- Estados Unidos
+(8,  2, 30, 'Des Moines'),
+(9,  2, 31, 'Springfield'),
+(10, 2, 28, 'Fresno'),
+(11, 2, 31, 'Chicago'),
+(12, 2, 32, 'Miami'),
+(13, 2, 30, 'Des Moines'),
+(14, 2, 31, 'Springfield'),
+-- Chile
+(15, 3, 33, 'Santiago'),
+(16, 3, 34, 'Valparaiso'),
+(17, 3, 35, 'Concepcion'),
+(18, 3, 33, 'Maipu'),
+(19, 3, 34, 'Vina del Mar'),
+(20, 3, 33, 'Santiago'),
+(21, 3, 33, 'Puente Alto'),
+-- México
+(22, 4, 37, 'Guadalajara'),
+(23, 4, 38, 'Monterrey'),
+(24, 4, 38, 'Monterrey'),
+(25, 4, 36, 'Cidade do Mexico'),
+(26, 4, 37, 'Guadalajara'),
+(27, 4, 37, 'Guadalajara'),
+(28, 4, 38, 'Monterrey'),
+-- África do Sul
+(29, 5, 39, 'Johannesburgo'),
+(30, 5, 39, 'Pretoria'),
+(31, 5, 41, 'Durban'),
+(32, 5, 40, 'Cidade do Cabo'),
+(33, 5, 40, 'Stellenbosch'),
+(34, 5, 39, 'Johannesburgo'),
+(35, 5, 39, 'Pretoria'),
+-- China
+(36, 6, 43, 'Xangai'),
+(37, 6, 42, 'Guangzhou'),
+(38, 6, 42, 'Shenzhen'),
+(39, 6, 45, 'Nanjing'),
+(40, 6, 44, 'Pequim'),
+(41, 6, 43, 'Xangai'),
+(42, 6, 42, 'Guangzhou');
+
+UPDATE cliente c
+JOIN tmp_cliente_fix f
+  ON f.id_cliente = c.id_cliente AND f.pais_id = c.pais_id
+SET c.estado_id = f.estado_id,
+    c.cidade    = f.cidade
+WHERE c.id_cliente BETWEEN 1 AND 42;
+
+-- 3) CONFERÊNCIA
+SELECT p.nome AS pais, e.nome AS estado, c.cidade, c.nome AS cliente
+FROM cliente c
+JOIN pais p ON p.id_pais = c.pais_id
+JOIN estado_provincia e ON e.id_estado = c.estado_id
+ORDER BY p.nome, e.nome, c.cidade;
+
+SELECT COUNT(*) AS violacoes_estado_pais   -- esperado: 0
+FROM cliente c
+JOIN estado_provincia e ON e.id_estado = c.estado_id
+WHERE e.pais_id <> c.pais_id;
+
+-- 4) CONFIRMAR (se algo estiver errado: ROLLBACK;)
+COMMIT;
+DROP TEMPORARY TABLE IF EXISTS tmp_cliente_fix;
+SET SQL_SAFE_UPDATES = 1;
+
+
+------------------------------------------------------------------------
