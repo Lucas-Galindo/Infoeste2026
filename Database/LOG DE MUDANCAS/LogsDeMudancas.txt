@@ -1,5 +1,75 @@
 ------------------------------------------------------------------------
 
+Alteração - Lucas Galindo - dia: 21/10/2026
+
+O que foi alterado:
+Tabela cliente (ids 1 a 42): corrigidos estado_id e cidade para que formem pares coerentes. 23 clientes tiveram o estado trocado (ex.: Ribeirao Preto passa de Acre para Sao Paulo; Des Moines passa de California para Iowa) e 11 clientes tiveram a cidade trocada por uma do estado já cadastrado, porque o estado correto não existe no catálogo (ex.: Wichita -> Peoria, em Illinois). 8 clientes já estavam corretos e não mudaram (ids 15, 17, 29, 31, 35, 38, 39 e 41). Nenhuma outra tabela ou coluna foi alterada.
+
+Porque:
+Cidade e estado não combinavam. O trigger trg_cliente_valida_estado_pais_ins/_upd só valida estado x país, então o erro passava despercebido e apareceria errado em mapas do Power BI. Script em arquivo separado (05_ajustes_clientes.sql) para não precisar refazer o 03_populacao_base.sql. Todos os UPDATEs usam id_cliente no WHERE (compatível com Safe Updates) e podem ser reexecutados sem efeito colateral.
+
+CODIGO:
+
+USE agromaq_industrial;
+
+-- BRASIL (corrige o estado)
+UPDATE cliente SET estado_id = 25 WHERE id_cliente IN (1, 6);
+UPDATE cliente SET estado_id = 16 WHERE id_cliente IN (2, 3, 7);
+UPDATE cliente SET estado_id = 11 WHERE id_cliente = 4;
+UPDATE cliente SET estado_id = 13 WHERE id_cliente = 5;
+
+-- ESTADOS UNIDOS
+UPDATE cliente SET estado_id = 30 WHERE id_cliente IN (8, 13);
+UPDATE cliente SET estado_id = 31 WHERE id_cliente IN (9, 14);
+UPDATE cliente SET estado_id = 28 WHERE id_cliente = 10;
+UPDATE cliente SET cidade = 'Peoria'  WHERE id_cliente = 11;
+UPDATE cliente SET cidade = 'Orlando' WHERE id_cliente = 12;
+
+-- CHILE
+UPDATE cliente SET cidade = 'Valparaiso' WHERE id_cliente = 16;
+UPDATE cliente SET cidade = 'Santiago'   WHERE id_cliente IN (18, 21);
+UPDATE cliente SET estado_id = 35 WHERE id_cliente = 19;
+UPDATE cliente SET estado_id = 33 WHERE id_cliente = 20;
+
+-- MEXICO
+UPDATE cliente SET estado_id = 37 WHERE id_cliente IN (22, 27);
+UPDATE cliente SET estado_id = 38 WHERE id_cliente IN (23, 28);
+UPDATE cliente SET cidade = 'Monterrey'        WHERE id_cliente = 24;
+UPDATE cliente SET cidade = 'Ciudad de Mexico' WHERE id_cliente = 25;
+UPDATE cliente SET cidade = 'Guadalajara'      WHERE id_cliente = 26;
+
+-- AFRICA DO SUL
+UPDATE cliente SET estado_id = 39 WHERE id_cliente IN (30, 34);
+UPDATE cliente SET cidade = 'Johannesburgo'  WHERE id_cliente = 32;
+UPDATE cliente SET cidade = 'Cidade do Cabo' WHERE id_cliente = 33;
+
+-- CHINA
+UPDATE cliente SET estado_id = 43 WHERE id_cliente = 36;
+UPDATE cliente SET estado_id = 42 WHERE id_cliente IN (37, 42);
+UPDATE cliente SET cidade = 'Shenzhen' WHERE id_cliente = 40;
+
+-- CONFERENCIA
+SELECT c.id_cliente, c.nome, c.cidade, e.nome AS estado, p.nome AS pais
+FROM cliente c
+JOIN pais p ON p.id_pais = c.pais_id
+LEFT JOIN estado_provincia e ON e.id_estado = c.estado_id
+ORDER BY c.id_cliente;
+
+------------------------------------------------------------------------
+
+Alteração - Lucas Galindo - dia: 21/10/2026
+
+O que foi alterado:
+Arquivo 04_consultas_validacao.sql reescrito (nenhuma tabela ou dado alterado, apenas consultas SELECT). Mudanças: (1) consulta 1 agora compara a contagem de cada tabela com o valor esperado e mostra OK/DIVERGENTE; (2) todas as consultas passaram a trazer o resultado esperado em comentário; (3) corrigidos erro de digitação ("forneciivel") e o nome do trigger citado na consulta 14 (trg_cliente_valida_estado_pais_ins/_upd); (4) consulta 15 passou a validar também a unicidade de sensor.codigo; (5) novas consultas 17 a 23: itens por tipo, item sem subtipo, BOM com componente de categoria incompatível, linha de produção com setor e categoria em unidades diferentes, máquinas sem sensor, fornecedores sem itens, admissões futuras, listagem cidade x estado dos clientes e confirmação de que as tabelas operacionais estão vazias.
+
+Porque:
+O arquivo antigo só informava "esperado" em algumas consultas e não cobria regras importantes do schema (subtipos de item, categoria dos componentes na BOM, unidade da linha). Também havia números errados na minha conferência inicial (item = 152 e cliente = 42, e não 132 e 40), já corrigidos na consulta 1. As consultas permitem validar a carga inicial de forma objetiva: tudo OK na consulta 1 e 0 nas consultas de violação (10, 14, 17b, 18, 19, 20, 21 e 23).
+
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+
 Alteração - Lucas Galindo - dia: 10/10/2026
 
 O que foi alterado:
