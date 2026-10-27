@@ -1,0 +1,41 @@
+﻿id_linha;setor_id;categoria_id;nome;capacidade_produtiva;status
+1;1;1;Linha de Corte - Trator;31,83;ATIVA
+2;2;1;Linha de Usinagem - Trator;42,07;ATIVA
+3;3;1;Linha de Soldagem - Trator;40,18;ATIVA
+4;4;1;Linha de Pintura - Trator;36,13;ATIVA
+5;5;1;Pre-Montagem Motor - Trator;37,75;ATIVA
+6;5;1;Pre-Montagem Cabine - Trator;44,06;ATIVA
+7;5;1;Linha de Montagem Final 1 - Trator;30,12;ATIVA
+8;5;1;Linha de Montagem Final 2 - Trator;30,33;ATIVA
+9;14;1;Linha de Testes - Trator;36,13;ATIVA
+10;6;1;Linha de Embalagem e Expedicao - Trator;37,29;ATIVA
+11;1;2;Linha de Corte - Colhedora;12,95;ATIVA
+12;2;2;Linha de Usinagem - Colhedora;11,50;ATIVA
+13;3;2;Linha de Soldagem - Colhedora;14,13;ATIVA
+14;4;2;Linha de Pintura - Colhedora;12,26;ATIVA
+15;5;2;Pre-Montagem Motor - Colhedora;14,49;ATIVA
+16;5;2;Pre-Montagem Cabine - Colhedora;14,95;ATIVA
+17;5;2;Linha de Montagem Final 1 - Colhedora;12,16;ATIVA
+18;5;2;Linha de Montagem Final 2 - Colhedora;15,04;ATIVA
+19;14;2;Linha de Testes - Colhedora;12,28;ATIVA
+20;6;2;Linha de Embalagem e Expedicao - Colhedora;10,55;ATIVA
+21;21;3;Linha de Corte - Plantadora;49,23;ATIVA
+22;22;3;Linha de Usinagem - Plantadora;41,00;ATIVA
+23;23;3;Linha de Soldagem - Plantadora;47,04;ATIVA
+24;24;3;Linha de Pintura - Plantadora;48,80;ATIVA
+25;25;3;Pre-Montagem Motor - Plantadora;37,55;ATIVA
+26;25;3;Pre-Montagem Cabine - Plantadora;47,55;ATIVA
+27;25;3;Linha de Montagem Final 1 - Plantadora;41,69;ATIVA
+28;25;3;Linha de Montagem Final 2 - Plantadora;36,78;ATIVA
+29;34;3;Linha de Testes - Plantadora;40,80;ATIVA
+30;26;3;Linha de Embalagem e Expedicao - Plantadora;46,27;ATIVA
+31;21;4;Linha de Corte - Pulverizador;32,10;ATIVA
+32;22;4;Linha de Usinagem - Pulverizador;33,88;ATIVA
+33;23;4;Linha de Soldagem - Pulverizador;43,63;ATIVA
+34;24;4;Linha de Pintura - Pulverizador;29,41;ATIVA
+35;25;4;Pre-Montagem Motor - Pulverizador;30,64;ATIVA
+36;25;4;Pre-Montagem Cabine - Pulverizador;34,70;ATIVA
+37;25;4;Linha de Montagem Final 1 - Pulverizador;30,67;ATIVA
+38;25;4;Linha de Montagem Final 2 - Pulverizador;31,74;ATIVA
+39;34;4;Linha de Testes - Pulverizador;35,26;ATIVA
+40;26;4;Linha de Embalagem e Expedicao - Pulverizador;33,79;ATIVA

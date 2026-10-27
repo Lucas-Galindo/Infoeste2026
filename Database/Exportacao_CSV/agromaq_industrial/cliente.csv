@@ -1,0 +1,43 @@
+﻿id_cliente;nome;pais_id;estado_id;cidade;status
+1;Agropecuaria Sul Ltda;1;25;Ribeirao Preto;ATIVO
+2;Comercial Agricola Norte S.A.;1;16;Londrina;ATIVO
+3;Distribuidora Rural Nova Terra Ltda;1;16;Cascavel;ATIVO
+4;Fazenda Atlantico Agronegocios Ltda;1;11;Rondonopolis;ATIVO
+5;Cooperativa Agricola Master;1;13;Uberlandia;ATIVO
+6;Maquinas Agricolas Nova Terra Ltda;1;25;Ribeirao Preto;ATIVO
+7;AgroComercio Estrela Ltda;1;16;Londrina;ATIVO
+8;Global Farm Equipment Inc;2;30;Des Moines;ATIVO
+9;Pampa Agri Distributors LLC;2;31;Springfield;ATIVO
+10;Midwest Cerrado Machinery Corp;2;28;Fresno;ATIVO
+11;Fronteira Agricultural Supply Co;2;31;Peoria;ATIVO
+12;Continental Harvest Equipment Inc;2;32;Orlando;ATIVO
+13;Premium AgriTrade LLC;2;30;Des Moines;ATIVO
+14;Atlantico Farming Solutions Inc;2;31;Springfield;ATIVO
+15;Comercializadora Agricola Premium SpA;3;33;Santiago;ATIVO
+16;Distribuidora Rural Uniao Ltda;3;34;Valparaiso;ATIVO
+17;Maquinaria Agricola Uniao S.A.;3;35;Concepcion;ATIVO
+18;Agroindustrial Vitoria Ltda;3;33;Santiago;ATIVO
+19;AgroSur Vale Verde SpA;3;35;Chillan;ATIVO
+20;Cerrado Equipos Agricolas Ltda;3;33;Santiago;ATIVO
+21;Cooperativa AlianÃ§a Ltda;3;33;Santiago;ATIVO
+22;Grupo Agroindustrial Premium S.A.;4;37;Guadalajara;ATIVO
+23;Maquinaria Agricola Nova Terra S.A. de C.V.;4;38;Monterrey;ATIVO
+24;Distribuidora Rural Global S.A.;4;38;Monterrey;ATIVO
+25;AgroMex Vitoria S.A. de C.V.;4;36;Ciudad de Mexico;ATIVO
+26;Comercializadora Estrela S.A.;4;37;Guadalajara;ATIVO
+27;Atlantico Equipos del Campo S.A.;4;37;Guadalajara;ATIVO
+28;Agropecuaria Vitoria S.A. de C.V.;4;38;Monterrey;ATIVO
+29;Continental Agri Machinery (Pty) Ltd;5;39;Johannesburgo;ATIVO
+30;African Fronteira Farming Equipment Ltd;5;39;Pretoria;ATIVO
+31;Premium AgriTrade (Pty) Ltd;5;41;Durban;ATIVO
+32;AlianÃ§a Harvest Solutions Ltd;5;39;Johannesburgo;ATIVO
+33;Vitoria Rural Supplies (Pty) Ltd;5;40;Cidade do Cabo;ATIVO
+34;Sul Farm Distributors Ltd;5;39;Johannesburgo;ATIVO
+35;Pampa Agricultural Co Ltd;5;39;Pretoria;ATIVO
+36;Shanghai Vitoria Agri Trading Co;6;43;Xangai;ATIVO
+37;AlianÃ§a Agricultural Machinery Co Ltd;6;42;Guangzhou;ATIVO
+38;Guangdong Global Farm Equipment Co;6;44;Pequim;ATIVO
+39;Premium Agri Import Export Co;6;45;Nanjing;ATIVO
+40;Beijing Global Machinery Trading Co;6;42;Shenzhen;ATIVO
+41;Global Rural Equipment Co Ltd;6;43;Xangai;ATIVO
+42;Central AgroTech Co Ltd;6;42;Guangzhou;ATIVO

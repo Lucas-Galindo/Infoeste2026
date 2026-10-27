@@ -1,0 +1,11 @@
+﻿id_tipo_mov;nome;natureza
+1;Entrada Compra;ENTRADA
+2;Entrada Producao;ENTRADA
+3;Entrada Devolucao Cliente;ENTRADA
+4;Saida Producao;SAIDA
+5;Saida Venda;SAIDA
+6;Saida Devolucao Fornecedor;SAIDA
+7;Ajuste Positivo;AJUSTE
+8;Ajuste Negativo;AJUSTE
+9;Transferencia Entrada;ENTRADA
+10;Transferencia Saida;SAIDA

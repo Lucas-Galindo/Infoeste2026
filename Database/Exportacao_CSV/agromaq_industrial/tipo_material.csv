@@ -1,0 +1,43 @@
+﻿id_tipo_material;nome
+1;Aco Estrutural
+2;Chapa de Aco Carbono
+3;Chapa de Aco Inox
+4;Aco SAE 1020
+5;Aco SAE 1045
+6;Aco Mola
+7;Ferro Fundido
+8;Aluminio 6061
+9;Aluminio 7075
+10;Chapa de Aluminio
+11;Cobre Eletrolitico
+12;Fio de Cobre
+13;Borracha EPDM
+14;Borracha NBR
+15;Borracha Natural
+16;Plastico ABS
+17;Plastico PVC
+18;Poliuretano
+19;Polipropileno
+20;Tinta Poliuretano
+21;Tinta Epoxi
+22;Primer Industrial
+23;Verniz Automotivo
+24;Thinner
+25;Componente Eletronico Basico
+26;Componente Hidraulico Basico
+27;Vidro Temperado
+28;Vidro Laminado
+29;Espuma de Isolamento
+30;Material de Vedacao
+31;Adesivo Industrial
+32;Oleo Hidraulico
+33;Graxa Lubrificante
+34;Eletrodo de Solda
+35;Arame de Solda MIG
+36;Parafuso Bruto
+37;Mola de Aco
+38;Rolamento Bruto
+39;Couro Sintetico
+40;Tecido Automotivo
+41;Fibra de Vidro
+42;Zinco para Galvanizacao

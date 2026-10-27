@@ -1,0 +1,21 @@
+﻿id_fornecedor;nome;cnpj_ficticio;cidade;estado_sigla;status
+1;Acos do Sul Industria e Comercio Ltda;10.100.200/0001-10;Sao Paulo;SP;ATIVO
+2;Aluminios Prudente S.A.;11.107.213/0001-11;Presidente Prudente;SP;ATIVO
+3;Borrachas Tres Lagoas Ltda;12.114.226/0001-12;Tres Lagoas;MS;ATIVO
+4;Hidraulica Master Componentes Ltda;13.121.239/0001-13;Caxias do Sul;RS;ATIVO
+5;EletroPecas Industrial S.A.;14.128.252/0001-14;Campinas;SP;ATIVO
+6;Motores Potencia Diesel Ltda;15.135.265/0001-15;Curitiba;PR;ATIVO
+7;Pneus AgroForte S.A.;16.142.278/0001-16;Santo Andre;SP;ATIVO
+8;Vidros Templados Brasil Ltda;17.149.291/0001-17;Sorocaba;SP;ATIVO
+9;Baterias PowerMax Industria Ltda;18.156.304/0001-18;Joinville;SC;ATIVO
+10;Fundicao Sao Paulo Ltda;19.163.317/0001-19;Guarulhos;SP;ATIVO
+11;Tintas Industriais ColorMax S.A.;20.170.330/0001-20;Diadema;SP;ATIVO
+12;Componentes Eletronicos TechBR Ltda;21.177.343/0001-21;Campinas;SP;ATIVO
+13;Radiadores TermoFrio Ltda;22.184.356/0001-22;Belo Horizonte;MG;ATIVO
+14;Filtros PuroAr Industrial Ltda;23.191.369/0001-23;Contagem;MG;ATIVO
+15;Rolamentos Precisao S.A.;24.198.382/0001-24;Porto Alegre;RS;ATIVO
+16;Correias FlexBelt Industria Ltda;25.205.395/0001-25;Jundiai;SP;ATIVO
+17;Freios SegurFreio Componentes Ltda;26.212.408/0001-26;Osasco;SP;ATIVO
+18;Valvulas HidroControl S.A.;27.219.421/0001-27;Ribeirao Preto;SP;ATIVO
+19;Mangueiras FlexTech Industrial Ltda;28.226.434/0001-28;Piracicaba;SP;ATIVO
+20;Bancos e Estofados Conforto Industrial Ltda;29.233.447/0001-29;Franca;SP;ATIVO

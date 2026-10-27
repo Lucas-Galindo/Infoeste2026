@@ -1,0 +1,8 @@
+﻿id_tipo_perda;nome
+1;Perda de materia-prima
+2;Perda durante fabricacao
+3;Perda durante montagem
+4;Produto rejeitado
+5;Componente danificado
+6;Perda por processo
+7;Outras perdas produtivas

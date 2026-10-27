@@ -1,0 +1,121 @@
+﻿id_maquina;linha_id;codigo;nome;tipo;fabricante;modelo;capacidade;status
+1;1;MAQ0001;Maquina de Corte a Laser;Maquina de Corte a Laser;RoboTech Automacao Industrial;MAQ-525;40,51;ATIVA
+2;1;MAQ0002;Guilhotina CNC;Guilhotina CNC;RoboTech Automacao Industrial;GUI-498;453,37;ATIVA
+3;1;MAQ0003;Puncionadeira CNC;Puncionadeira CNC;PrecisionMach Maquinas S.A.;PUN-812;19,57;ATIVA
+4;2;MAQ0004;Torno CNC;Torno CNC;PrecisionMach Maquinas S.A.;TOR-489;243,72;ATIVA
+5;2;MAQ0005;Fresadora CNC;Fresadora CNC;Industrial Master Equipamentos;FRE-405;379,20;ATIVA
+6;2;MAQ0006;Furadeira CNC;Furadeira CNC;RoboTech Automacao Industrial;FUR-651;376,28;ATIVA
+7;3;MAQ0007;Robo de Solda MIG 1;Robo de Solda MIG 1;PrecisionMach Maquinas S.A.;ROB-919;305,59;ATIVA
+8;3;MAQ0008;Robo de Solda MIG 2;Robo de Solda MIG 2;TechFor Equipamentos Ltda;ROB-599;117,52;ATIVA
+9;3;MAQ0009;Robo de Solda TIG;Robo de Solda TIG;RoboTech Automacao Industrial;ROB-597;24,22;ATIVA
+10;4;MAQ0010;Cabine de Pintura Eletrostatica;Cabine de Pintura Eletrostatica;Industrial Master Equipamentos;CAB-784;342,78;ATIVA
+11;4;MAQ0011;Estufa de Secagem;Estufa de Secagem;RoboTech Automacao Industrial;EST-841;90,87;ATIVA
+12;4;MAQ0012;Cabine de Pintura Manual;Cabine de Pintura Manual;RoboTech Automacao Industrial;CAB-230;490,55;ATIVA
+13;5;MAQ0013;Torquimetro Pneumatico;Torquimetro Pneumatico;PrecisionMach Maquinas S.A.;TOR-127;454,40;ATIVA
+14;5;MAQ0014;Elevador Hidraulico;Elevador Hidraulico;PrecisionMach Maquinas S.A.;ELE-677;334,87;ATIVA
+15;5;MAQ0015;Ponte Rolante 5t;Ponte Rolante 5t;MetalTech Maquinas Industriais;PON-758;220,02;ATIVA
+16;6;MAQ0016;Bancada de Montagem de Cabine;Bancada de Montagem de Cabine;RoboTech Automacao Industrial;BAN-286;34,64;ATIVA
+17;6;MAQ0017;Elevador de Cabine;Elevador de Cabine;RoboTech Automacao Industrial;ELE-435;113,71;ATIVA
+18;6;MAQ0018;Ponte Rolante 3t;Ponte Rolante 3t;Industrial Master Equipamentos;PON-445;383,00;ATIVA
+19;7;MAQ0019;Esteira Transportadora;Esteira Transportadora;RoboTech Automacao Industrial;EST-384;378,48;ATIVA
+20;7;MAQ0020;Torquimetro Pneumatico;Torquimetro Pneumatico;RoboTech Automacao Industrial;TOR-358;419,11;ATIVA
+21;7;MAQ0021;Ponte Rolante 10t;Ponte Rolante 10t;RoboTech Automacao Industrial;PON-119;377,02;ATIVA
+22;8;MAQ0022;Esteira Transportadora;Esteira Transportadora;MetalTech Maquinas Industriais;EST-458;119,87;ATIVA
+23;8;MAQ0023;Torquimetro Pneumatico;Torquimetro Pneumatico;MetalTech Maquinas Industriais;TOR-899;479,07;ATIVA
+24;8;MAQ0024;Ponte Rolante 10t;Ponte Rolante 10t;MetalTech Maquinas Industriais;PON-872;25,20;ATIVA
+25;9;MAQ0025;Bancada de Teste Hidraulico;Bancada de Teste Hidraulico;TechFor Equipamentos Ltda;BAN-304;421,22;ATIVA
+26;9;MAQ0026;Bancada de Teste Eletrico;Bancada de Teste Eletrico;PrecisionMach Maquinas S.A.;BAN-256;126,89;ATIVA
+27;9;MAQ0027;Dinamometro;Dinamometro;RoboTech Automacao Industrial;DIN-785;66,05;ATIVA
+28;10;MAQ0028;Maquina de Embalagem;Maquina de Embalagem;TechFor Equipamentos Ltda;MAQ-576;352,74;ATIVA
+29;10;MAQ0029;Empilhadeira Industrial;Empilhadeira Industrial;Industrial Master Equipamentos;EMP-271;306,89;ATIVA
+30;10;MAQ0030;Ponte Rolante de Expedicao;Ponte Rolante de Expedicao;Global Industrial Machines Ltda;PON-835;66,12;ATIVA
+31;11;MAQ0031;Maquina de Corte a Laser;Maquina de Corte a Laser;TechFor Equipamentos Ltda;MAQ-418;62,97;ATIVA
+32;11;MAQ0032;Guilhotina CNC;Guilhotina CNC;MetalTech Maquinas Industriais;GUI-419;292,14;ATIVA
+33;11;MAQ0033;Puncionadeira CNC;Puncionadeira CNC;RoboTech Automacao Industrial;PUN-506;471,32;ATIVA
+34;12;MAQ0034;Torno CNC;Torno CNC;TechFor Equipamentos Ltda;TOR-177;300,13;ATIVA
+35;12;MAQ0035;Fresadora CNC;Fresadora CNC;Global Industrial Machines Ltda;FRE-348;59,93;ATIVA
+36;12;MAQ0036;Furadeira CNC;Furadeira CNC;Industrial Master Equipamentos;FUR-970;345,29;ATIVA
+37;13;MAQ0037;Robo de Solda MIG 1;Robo de Solda MIG 1;MetalTech Maquinas Industriais;ROB-915;492,08;ATIVA
+38;13;MAQ0038;Robo de Solda MIG 2;Robo de Solda MIG 2;MetalTech Maquinas Industriais;ROB-455;271,05;ATIVA
+39;13;MAQ0039;Robo de Solda TIG;Robo de Solda TIG;Global Industrial Machines Ltda;ROB-479;43,79;ATIVA
+40;14;MAQ0040;Cabine de Pintura Eletrostatica;Cabine de Pintura Eletrostatica;Global Industrial Machines Ltda;CAB-449;16,20;ATIVA
+41;14;MAQ0041;Estufa de Secagem;Estufa de Secagem;RoboTech Automacao Industrial;EST-942;250,20;ATIVA
+42;14;MAQ0042;Cabine de Pintura Manual;Cabine de Pintura Manual;RoboTech Automacao Industrial;CAB-470;321,44;ATIVA
+43;15;MAQ0043;Torquimetro Pneumatico;Torquimetro Pneumatico;RoboTech Automacao Industrial;TOR-824;84,97;ATIVA
+44;15;MAQ0044;Elevador Hidraulico;Elevador Hidraulico;TechFor Equipamentos Ltda;ELE-851;265,66;ATIVA
+45;15;MAQ0045;Ponte Rolante 5t;Ponte Rolante 5t;Global Industrial Machines Ltda;PON-376;311,80;ATIVA
+46;16;MAQ0046;Bancada de Montagem de Cabine;Bancada de Montagem de Cabine;PrecisionMach Maquinas S.A.;BAN-893;246,91;ATIVA
+47;16;MAQ0047;Elevador de Cabine;Elevador de Cabine;RoboTech Automacao Industrial;ELE-945;368,20;ATIVA
+48;16;MAQ0048;Ponte Rolante 3t;Ponte Rolante 3t;Industrial Master Equipamentos;PON-430;427,34;ATIVA
+49;17;MAQ0049;Esteira Transportadora;Esteira Transportadora;MetalTech Maquinas Industriais;EST-385;442,00;ATIVA
+50;17;MAQ0050;Torquimetro Pneumatico;Torquimetro Pneumatico;TechFor Equipamentos Ltda;TOR-868;237,71;ATIVA
+51;17;MAQ0051;Ponte Rolante 10t;Ponte Rolante 10t;PrecisionMach Maquinas S.A.;PON-784;195,70;ATIVA
+52;18;MAQ0052;Esteira Transportadora;Esteira Transportadora;MetalTech Maquinas Industriais;EST-606;426,97;ATIVA
+53;18;MAQ0053;Torquimetro Pneumatico;Torquimetro Pneumatico;TechFor Equipamentos Ltda;TOR-599;113,94;ATIVA
+54;18;MAQ0054;Ponte Rolante 10t;Ponte Rolante 10t;Industrial Master Equipamentos;PON-448;147,03;ATIVA
+55;19;MAQ0055;Bancada de Teste Hidraulico;Bancada de Teste Hidraulico;PrecisionMach Maquinas S.A.;BAN-818;441,25;ATIVA
+56;19;MAQ0056;Bancada de Teste Eletrico;Bancada de Teste Eletrico;PrecisionMach Maquinas S.A.;BAN-110;263,15;ATIVA
+57;19;MAQ0057;Dinamometro;Dinamometro;TechFor Equipamentos Ltda;DIN-187;128,26;ATIVA
+58;20;MAQ0058;Maquina de Embalagem;Maquina de Embalagem;RoboTech Automacao Industrial;MAQ-600;282,04;ATIVA
+59;20;MAQ0059;Empilhadeira Industrial;Empilhadeira Industrial;TechFor Equipamentos Ltda;EMP-807;243,29;ATIVA
+60;20;MAQ0060;Ponte Rolante de Expedicao;Ponte Rolante de Expedicao;Global Industrial Machines Ltda;PON-602;229,61;ATIVA
+61;21;MAQ0061;Maquina de Corte a Laser;Maquina de Corte a Laser;MetalTech Maquinas Industriais;MAQ-195;154,18;ATIVA
+62;21;MAQ0062;Guilhotina CNC;Guilhotina CNC;RoboTech Automacao Industrial;GUI-808;129,22;ATIVA
+63;21;MAQ0063;Puncionadeira CNC;Puncionadeira CNC;Global Industrial Machines Ltda;PUN-695;190,82;ATIVA
+64;22;MAQ0064;Torno CNC;Torno CNC;PrecisionMach Maquinas S.A.;TOR-643;178,44;ATIVA
+65;22;MAQ0065;Fresadora CNC;Fresadora CNC;Global Industrial Machines Ltda;FRE-663;172,09;ATIVA
+66;22;MAQ0066;Furadeira CNC;Furadeira CNC;Global Industrial Machines Ltda;FUR-564;142,75;ATIVA
+67;23;MAQ0067;Robo de Solda MIG 1;Robo de Solda MIG 1;Industrial Master Equipamentos;ROB-336;69,12;ATIVA
+68;23;MAQ0068;Robo de Solda MIG 2;Robo de Solda MIG 2;TechFor Equipamentos Ltda;ROB-423;68,58;ATIVA
+69;23;MAQ0069;Robo de Solda TIG;Robo de Solda TIG;PrecisionMach Maquinas S.A.;ROB-880;348,18;ATIVA
+70;24;MAQ0070;Cabine de Pintura Eletrostatica;Cabine de Pintura Eletrostatica;TechFor Equipamentos Ltda;CAB-321;371,92;ATIVA
+71;24;MAQ0071;Estufa de Secagem;Estufa de Secagem;Industrial Master Equipamentos;EST-841;298,90;ATIVA
+72;24;MAQ0072;Cabine de Pintura Manual;Cabine de Pintura Manual;PrecisionMach Maquinas S.A.;CAB-711;148,67;ATIVA
+73;25;MAQ0073;Torquimetro Pneumatico;Torquimetro Pneumatico;MetalTech Maquinas Industriais;TOR-952;105,12;ATIVA
+74;25;MAQ0074;Elevador Hidraulico;Elevador Hidraulico;TechFor Equipamentos Ltda;ELE-469;97,93;ATIVA
+75;25;MAQ0075;Ponte Rolante 5t;Ponte Rolante 5t;MetalTech Maquinas Industriais;PON-825;271,73;ATIVA
+76;26;MAQ0076;Bancada de Montagem de Cabine;Bancada de Montagem de Cabine;Industrial Master Equipamentos;BAN-146;487,40;ATIVA
+77;26;MAQ0077;Elevador de Cabine;Elevador de Cabine;PrecisionMach Maquinas S.A.;ELE-399;351,73;ATIVA
+78;26;MAQ0078;Ponte Rolante 3t;Ponte Rolante 3t;TechFor Equipamentos Ltda;PON-753;435,55;ATIVA
+79;27;MAQ0079;Esteira Transportadora;Esteira Transportadora;RoboTech Automacao Industrial;EST-205;437,63;ATIVA
+80;27;MAQ0080;Torquimetro Pneumatico;Torquimetro Pneumatico;PrecisionMach Maquinas S.A.;TOR-391;240,00;ATIVA
+81;27;MAQ0081;Ponte Rolante 10t;Ponte Rolante 10t;RoboTech Automacao Industrial;PON-448;100,34;ATIVA
+82;28;MAQ0082;Esteira Transportadora;Esteira Transportadora;MetalTech Maquinas Industriais;EST-358;471,12;ATIVA
+83;28;MAQ0083;Torquimetro Pneumatico;Torquimetro Pneumatico;RoboTech Automacao Industrial;TOR-216;412,84;ATIVA
+84;28;MAQ0084;Ponte Rolante 10t;Ponte Rolante 10t;RoboTech Automacao Industrial;PON-603;46,30;ATIVA
+85;29;MAQ0085;Bancada de Teste Hidraulico;Bancada de Teste Hidraulico;Global Industrial Machines Ltda;BAN-802;36,27;ATIVA
+86;29;MAQ0086;Bancada de Teste Eletrico;Bancada de Teste Eletrico;TechFor Equipamentos Ltda;BAN-930;285,79;ATIVA
+87;29;MAQ0087;Dinamometro;Dinamometro;Industrial Master Equipamentos;DIN-187;497,02;ATIVA
+88;30;MAQ0088;Maquina de Embalagem;Maquina de Embalagem;MetalTech Maquinas Industriais;MAQ-671;384,58;ATIVA
+89;30;MAQ0089;Empilhadeira Industrial;Empilhadeira Industrial;PrecisionMach Maquinas S.A.;EMP-710;397,46;ATIVA
+90;30;MAQ0090;Ponte Rolante de Expedicao;Ponte Rolante de Expedicao;TechFor Equipamentos Ltda;PON-894;266,06;ATIVA
+91;31;MAQ0091;Maquina de Corte a Laser;Maquina de Corte a Laser;RoboTech Automacao Industrial;MAQ-553;155,70;ATIVA
+92;31;MAQ0092;Guilhotina CNC;Guilhotina CNC;PrecisionMach Maquinas S.A.;GUI-539;159,64;ATIVA
+93;31;MAQ0093;Puncionadeira CNC;Puncionadeira CNC;PrecisionMach Maquinas S.A.;PUN-161;308,72;ATIVA
+94;32;MAQ0094;Torno CNC;Torno CNC;Global Industrial Machines Ltda;TOR-201;474,32;ATIVA
+95;32;MAQ0095;Fresadora CNC;Fresadora CNC;TechFor Equipamentos Ltda;FRE-740;113,40;ATIVA
+96;32;MAQ0096;Furadeira CNC;Furadeira CNC;Global Industrial Machines Ltda;FUR-183;86,96;ATIVA
+97;33;MAQ0097;Robo de Solda MIG 1;Robo de Solda MIG 1;TechFor Equipamentos Ltda;ROB-665;46,78;ATIVA
+98;33;MAQ0098;Robo de Solda MIG 2;Robo de Solda MIG 2;MetalTech Maquinas Industriais;ROB-518;230,75;ATIVA
+99;33;MAQ0099;Robo de Solda TIG;Robo de Solda TIG;PrecisionMach Maquinas S.A.;ROB-581;152,72;ATIVA
+100;34;MAQ0100;Cabine de Pintura Eletrostatica;Cabine de Pintura Eletrostatica;TechFor Equipamentos Ltda;CAB-395;356,41;ATIVA
+101;34;MAQ0101;Estufa de Secagem;Estufa de Secagem;Global Industrial Machines Ltda;EST-980;232,48;ATIVA
+102;34;MAQ0102;Cabine de Pintura Manual;Cabine de Pintura Manual;Global Industrial Machines Ltda;CAB-339;462,72;ATIVA
+103;35;MAQ0103;Torquimetro Pneumatico;Torquimetro Pneumatico;Global Industrial Machines Ltda;TOR-703;333,98;ATIVA
+104;35;MAQ0104;Elevador Hidraulico;Elevador Hidraulico;TechFor Equipamentos Ltda;ELE-535;66,24;ATIVA
+105;35;MAQ0105;Ponte Rolante 5t;Ponte Rolante 5t;TechFor Equipamentos Ltda;PON-763;83,00;ATIVA
+106;36;MAQ0106;Bancada de Montagem de Cabine;Bancada de Montagem de Cabine;Industrial Master Equipamentos;BAN-946;79,70;ATIVA
+107;36;MAQ0107;Elevador de Cabine;Elevador de Cabine;MetalTech Maquinas Industriais;ELE-269;398,39;ATIVA
+108;36;MAQ0108;Ponte Rolante 3t;Ponte Rolante 3t;PrecisionMach Maquinas S.A.;PON-866;413,88;ATIVA
+109;37;MAQ0109;Esteira Transportadora;Esteira Transportadora;Industrial Master Equipamentos;EST-549;70,93;ATIVA
+110;37;MAQ0110;Torquimetro Pneumatico;Torquimetro Pneumatico;Global Industrial Machines Ltda;TOR-411;352,87;ATIVA
+111;37;MAQ0111;Ponte Rolante 10t;Ponte Rolante 10t;Industrial Master Equipamentos;PON-612;274,59;ATIVA
+112;38;MAQ0112;Esteira Transportadora;Esteira Transportadora;RoboTech Automacao Industrial;EST-182;303,04;ATIVA
+113;38;MAQ0113;Torquimetro Pneumatico;Torquimetro Pneumatico;RoboTech Automacao Industrial;TOR-852;167,94;ATIVA
+114;38;MAQ0114;Ponte Rolante 10t;Ponte Rolante 10t;Industrial Master Equipamentos;PON-126;54,75;ATIVA
+115;39;MAQ0115;Bancada de Teste Hidraulico;Bancada de Teste Hidraulico;Global Industrial Machines Ltda;BAN-956;431,65;ATIVA
+116;39;MAQ0116;Bancada de Teste Eletrico;Bancada de Teste Eletrico;PrecisionMach Maquinas S.A.;BAN-121;499,79;ATIVA
+117;39;MAQ0117;Dinamometro;Dinamometro;Global Industrial Machines Ltda;DIN-941;142,06;ATIVA
+118;40;MAQ0118;Maquina de Embalagem;Maquina de Embalagem;MetalTech Maquinas Industriais;MAQ-881;380,57;ATIVA
+119;40;MAQ0119;Empilhadeira Industrial;Empilhadeira Industrial;RoboTech Automacao Industrial;EMP-631;329,24;ATIVA
+120;40;MAQ0120;Ponte Rolante de Expedicao;Ponte Rolante de Expedicao;Industrial Master Equipamentos;PON-285;498,50;ATIVA

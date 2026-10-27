@@ -3,6 +3,9 @@
 set -e
 cd "$(dirname "$0")"
 MYSQL="${MYSQL:-mysql -uroot}"
+# Ajuste opcional de cidade x estado dos clientes (Database/05_ajustes_clientes.sql).
+# Rode apos o 03_populacao_base.sql. Uso: AJUSTES_CLIENTES="caminho/05_ajustes_clientes.sql" bash run_pipeline.sh
+if [ -n "${AJUSTES_CLIENTES:-}" ]; then $MYSQL < "$AJUSTES_CLIENTES"; fi
 $MYSQL < 03b_populacao_producao.sql
 $MYSQL < 01_criar_staging.sql
 $MYSQL --local-infile=1 < 02_carregar_csv.sql

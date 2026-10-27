@@ -1,0 +1,52 @@
+﻿id_unidade_medida;sigla;descricao
+1;kg;Quilograma
+2;g;Grama
+3;mg;Miligrama
+4;t;Tonelada
+5;m;Metro
+6;cm;Centimetro
+7;mm;Milimetro
+8;km;Quilometro
+9;l;Litro
+10;ml;Mililitro
+11;un;Unidade
+12;pc;Peca
+13;cx;Caixa
+14;par;Par
+15;kit;Kit
+16;dz;Duzia
+17;cento;Cento
+18;gC;Grau Celsius
+19;gF;Grau Fahrenheit
+20;rpm;Rotacoes por Minuto
+21;hz;Hertz
+22;bar;Bar
+23;psi;Libra por Polegada Quadrada
+24;kpa;Quilopascal
+25;mpa;Megapascal
+26;kwh;Quilowatt-hora
+27;w;Watt
+28;v;Volt
+29;amp;Ampere
+30;ohm;Ohm
+31;m2;Metro Quadrado
+32;m3;Metro Cubico
+33;newton;Newton
+34;nm;Newton-metro
+35;s;Segundo
+36;min;Minuto
+37;h;Hora
+38;pct;Percentual
+39;ppm;Partes por Milhao
+40;ma;Miliampere
+41;mv;Milivolt
+42;lux;Lux
+43;db;Decibel
+44;rolo;Rolo
+45;bobina;Bobina
+46;folha;Folha
+47;jogo;Jogo
+48;mms;Milimetro por Segundo
+49;ms;Metro por Segundo
+50;mmin;Metro por Minuto
+51;lmin;Litro por Minuto

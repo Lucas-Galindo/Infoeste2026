@@ -1,0 +1,21 @@
+﻿item_id;categoria_id;descricao;capacidade_produtiva;preco_referencia;status
+133;1;Trator agricola de 180 cv equivalentes, uso geral em propriedades de grande porte.;40,00;480000,00;ATIVO
+134;1;Trator agricola de 220 cv equivalentes, uso geral em propriedades de grande porte.;35,00;560000,00;ATIVO
+135;1;Trator agricola de 260 cv equivalentes, uso geral em propriedades de grande porte.;30,00;650000,00;ATIVO
+136;1;Trator agricola de 300 cv equivalentes, uso geral em propriedades de grande porte.;25,00;780000,00;ATIVO
+137;1;Trator agricola de 340 cv equivalentes, uso geral em propriedades de grande porte.;20,00;920000,00;ATIVO
+138;2;Colhedora automotriz de graos, plataforma de colheita de alta capacidade.;15,00;1250000,00;ATIVO
+139;2;Colhedora automotriz de graos, plataforma de colheita de alta capacidade.;12,00;1550000,00;ATIVO
+140;2;Colhedora automotriz de graos, plataforma de colheita de alta capacidade.;10,00;1900000,00;ATIVO
+141;2;Colhedora automotriz de graos, plataforma de colheita de alta capacidade.;8,00;2350000,00;ATIVO
+142;2;Colhedora automotriz de graos, plataforma de colheita de alta capacidade.;6,00;2800000,00;ATIVO
+143;3;Plantadora de precisao com 08 linhas de plantio.;50,00;280000,00;ATIVO
+144;3;Plantadora de precisao com 12 linhas de plantio.;45,00;350000,00;ATIVO
+145;3;Plantadora de precisao com 16 linhas de plantio.;40,00;430000,00;ATIVO
+146;3;Plantadora de precisao com 20 linhas de plantio.;35,00;520000,00;ATIVO
+147;3;Plantadora de precisao com 24 linhas de plantio.;30,00;620000,00;ATIVO
+148;4;Pulverizador agricola com tanque de 600 litros.;45,00;320000,00;ATIVO
+149;4;Pulverizador agricola com tanque de 1000 litros.;40,00;420000,00;ATIVO
+150;4;Pulverizador agricola com tanque de 1500 litros.;35,00;540000,00;ATIVO
+151;4;Pulverizador agricola com tanque de 2000 litros.;30,00;660000,00;ATIVO
+152;4;Pulverizador agricola com tanque de 3000 litros.;25,00;790000,00;ATIVO

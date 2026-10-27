@@ -1,0 +1,42 @@
+﻿id_etapa;nome
+1;Corte a Laser
+2;Corte a Plasma
+3;Corte Guilhotina
+4;Dobra
+5;Usinagem CNC
+6;Usinagem Convencional
+7;Furacao
+8;Rosqueamento
+9;Solda MIG
+10;Solda TIG
+11;Solda a Ponto
+12;Esmerilhamento
+13;Jateamento
+14;Fosfatizacao
+15;Pintura Primer
+16;Pintura Base
+17;Pintura Verniz
+18;Cura de Pintura
+19;Montagem Mecanica
+20;Montagem Eletrica
+21;Montagem Hidraulica
+22;Instalacao do Motor
+23;Instalacao da Transmissao
+24;Instalacao do Eixo Dianteiro
+25;Instalacao do Eixo Traseiro
+26;Montagem da Cabine
+27;Instalacao de Vidros
+28;Instalacao de Bancos
+29;Instalacao de Pneus
+30;Calibracao
+31;Alinhamento
+32;Teste Hidraulico
+33;Teste Eletrico
+34;Teste Funcional
+35;Inspecao Dimensional
+36;Inspecao Visual
+37;Inspecao de Soldagem
+38;Inspecao de Pintura
+39;Inspecao Final
+40;Embalagem
+41;Expedicao

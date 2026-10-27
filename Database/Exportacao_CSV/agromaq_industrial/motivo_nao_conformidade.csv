@@ -1,0 +1,42 @@
+﻿id_motivo;nome
+1;Falha dimensional
+2;Falha de pintura - bolha
+3;Falha de pintura - escorrimento
+4;Falha de pintura - cor incorreta
+5;Falha eletrica - curto-circuito
+6;Falha eletrica - mau contato
+7;Falha eletrica - componente queimado
+8;Vazamento hidraulico - conexao
+9;Vazamento hidraulico - vedacao
+10;Vazamento hidraulico - mangueira
+11;Problema de soldagem - porosidade
+12;Problema de soldagem - trinca
+13;Problema de soldagem - penetracao insuficiente
+14;Componente incorreto
+15;Defeito de montagem - folga excessiva
+16;Defeito de montagem - aperto insuficiente
+17;Defeito de montagem - peca invertida
+18;Ruido excessivo
+19;Vibracao excessiva
+20;Desalinhamento
+21;Corrosao prematura
+22;Etiquetagem incorreta
+23;Embalagem danificada
+24;Falta de componente
+25;Excesso de rebarba
+26;Acabamento superficial inadequado
+27;Dimensao fora de tolerancia
+28;Cor fora de padrao
+29;Funcionamento intermitente
+30;Vazamento pneumatico
+31;Fixacao inadequada
+32;Cabo rompido
+33;Sensor com defeito
+34;Configuracao incorreta
+35;Trinca estrutural
+36;Empenamento
+37;Oxidacao
+38;Sujeira ou contaminacao
+39;Falha no torque de aperto
+40;Interferencia mecanica
+41;Ajuste fora de especificacao

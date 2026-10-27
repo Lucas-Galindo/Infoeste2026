@@ -1,6 +1,6 @@
 # Pacote de scripts · Além do Código (Infoeste 2026)
 
-Três pastas, cada uma com um propósito.
+Três pastas, cada uma com um propósito. As medidas DAX e o roteiro do Power BI ficam em `Documentos/PowerBI/`.
 
 | Pasta | Para quem | O que é |
 |:--|:--|:--|
@@ -58,7 +58,7 @@ As 1.920 duplicadas pelo texto são 1.911 plantadas mais 9 coincidências entre 
 
 ## Decisões que você precisa confirmar
 
-1. **`fato_producao`: uma linha por ordem de produção concluída.** O slide D3 fala em "matriz máquina × motivo", mas o banco operacional **não liga ordem de produção nem perda a uma máquina** (só à linha). Por isso a fato traz `sk_linha` e `motivo_principal` (o motivo com mais peças rejeitadas na ordem), e a matriz fica **setor (ou linha) × motivo**. Sugestão: trocar "máquina" por "linha" no slide D3 (posso ajustar).
+1. **`fato_producao`: uma linha por ordem de produção concluída.** O slide D3 fala em "matriz máquina × motivo", mas o banco operacional **não liga ordem de produção nem perda a uma máquina** (só à linha). Por isso a fato traz `sk_linha` e `motivo_principal` (o motivo com mais peças rejeitadas na ordem), e a matriz fica **setor (ou linha) × motivo**. **Ajustado:** o slide D3 agora diz "matriz setor × motivo".
 2. **Ordens de produção e perdas foram geradas** (960 ordens, 05/01 a 29/03/2026): as tabelas chegam vazias do `03_populacao_base.sql`. Sem elas, não há `fato_producao`, nem páginas 1 e 3 do dashboard, nem `Total produzido` no X1.
 3. **Banco `agromaq_dw`** guarda staging, quarentena, tratada, dimensões e fatos (os mesmos nomes do laboratório dos guias). Se preferir dois bancos, é só separar os `USE`.
 4. **`faixa` normal por tipo de sensor** não existe no banco operacional: está em `cfg_faixa_sensor` (valores fictícios, editáveis). `Status Operacional` (0 ou 1) nunca sai da faixa.

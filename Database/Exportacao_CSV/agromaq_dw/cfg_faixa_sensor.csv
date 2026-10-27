@@ -1,0 +1,16 @@
+﻿tipo_sensor;faixa_min;faixa_max
+Consumo Energetico;10,00;60,00
+Corrente Eletrica;20,00;70,00
+Espessura de Tinta;60,00;110,00
+Posicao Linear;0,00;500,00
+Pressao Hidraulica;150,00;220,00
+Quantidade Produzida;0,00;12,00
+Status Operacional;0,00;1,00
+Temperatura Forno Pintura;160,00;200,00
+Temperatura Motor;50,00;95,00
+Tempo de Ciclo;30,00;60,00
+Torque;250,00;400,00
+Umidade Tinta;40,00;70,00
+Velocidade Angular;1200,00;1800,00
+Velocidade de Corte;90,00;150,00
+Vibracao Geral;0,00;7,10

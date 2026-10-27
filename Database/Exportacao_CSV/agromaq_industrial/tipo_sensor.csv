@@ -1,0 +1,41 @@
+﻿id_tipo_sensor;unidade_medida_id;nome
+1;18;Temperatura Motor
+2;18;Temperatura Hidraulico
+3;18;Temperatura Ambiente
+4;18;Temperatura Forno Pintura
+5;18;Temperatura Rolamento
+6;48;Vibracao Eixo X
+7;48;Vibracao Eixo Y
+8;48;Vibracao Geral
+9;22;Pressao Hidraulica
+10;22;Pressao Pneumatica
+11;22;Pressao Oleo
+12;24;Pressao Atmosferica
+13;20;Velocidade Angular
+14;49;Velocidade Linear
+15;50;Velocidade de Corte
+16;20;Velocidade do Ventilador
+17;26;Consumo Energetico
+18;29;Corrente Eletrica
+19;28;Tensao Eletrica
+20;27;Potencia Eletrica
+21;38;Nivel de Oleo
+22;38;Nivel de Combustivel
+23;38;Nivel de Tinta
+24;38;Umidade Ambiente
+25;38;Umidade Tinta
+26;43;Ruido
+27;7;Posicao Linear
+28;7;Deslocamento
+29;34;Torque
+30;11;Contagem de Ciclos
+31;35;Tempo de Ciclo
+32;11;Quantidade Produzida
+33;11;Status Operacional
+34;51;Fluxo Hidraulico
+35;7;Espessura de Tinta
+36;1;Densidade de Tinta
+37;21;Frequencia de Vibracao
+38;30;Resistencia Eletrica
+39;42;Luminosidade
+40;48;Nivel de Vibracao Estrutural

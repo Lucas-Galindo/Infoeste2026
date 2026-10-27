@@ -1,0 +1,41 @@
+﻿id_setor;unidade_id;nome;status
+1;1;Corte;ATIVO
+2;1;Usinagem;ATIVO
+3;1;Soldagem;ATIVO
+4;1;Pintura;ATIVO
+5;1;Montagem;ATIVO
+6;1;Expedicao;ATIVO
+7;1;Almoxarifado;ATIVO
+8;1;Logistica;ATIVO
+9;1;Compras;ATIVO
+10;1;Suprimentos;ATIVO
+11;1;PCP;ATIVO
+12;1;Engenharia de Producao;ATIVO
+13;1;Engenharia de Qualidade;ATIVO
+14;1;Controle de Qualidade;ATIVO
+15;1;Desenvolvimento de Produto;ATIVO
+16;1;Manutencao Industrial;ATIVO
+17;1;Tecnologia da Informacao;ATIVO
+18;1;Recursos Humanos;ATIVO
+19;1;Seguranca do Trabalho;ATIVO
+20;1;Administracao e Financeiro;ATIVO
+21;2;Corte;ATIVO
+22;2;Usinagem;ATIVO
+23;2;Soldagem;ATIVO
+24;2;Pintura;ATIVO
+25;2;Montagem;ATIVO
+26;2;Expedicao;ATIVO
+27;2;Almoxarifado;ATIVO
+28;2;Logistica;ATIVO
+29;2;Compras;ATIVO
+30;2;Suprimentos;ATIVO
+31;2;PCP;ATIVO
+32;2;Engenharia de Producao;ATIVO
+33;2;Engenharia de Qualidade;ATIVO
+34;2;Controle de Qualidade;ATIVO
+35;2;Desenvolvimento de Produto;ATIVO
+36;2;Manutencao Industrial;ATIVO
+37;2;Tecnologia da Informacao;ATIVO
+38;2;Recursos Humanos;ATIVO
+39;2;Seguranca do Trabalho;ATIVO
+40;2;Administracao e Financeiro;ATIVO

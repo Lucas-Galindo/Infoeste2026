@@ -36,7 +36,7 @@ JOIN agromaq_industrial.linha_producao l     ON l.id_linha           = m.linha_i
 JOIN agromaq_industrial.setor st             ON st.id_setor          = l.setor_id
 JOIN agromaq_industrial.categoria_produto c  ON c.id_categoria       = l.categoria_id
 JOIN agromaq_industrial.unidade u            ON u.id_unidade         = c.unidade_id
-LEFT JOIN cfg_faixa_sensor f                 ON f.tipo_sensor        = ts.nome
+LEFT JOIN cfg_faixa_sensor f                 ON f.tipo_sensor        = ts.nome COLLATE utf8mb4_unicode_ci
 ON DUPLICATE KEY UPDATE codigo_sensor = VALUES(codigo_sensor), tipo_sensor = VALUES(tipo_sensor),
                         unidade_medida = VALUES(unidade_medida), codigo_maquina = VALUES(codigo_maquina),
                         nome_maquina = VALUES(nome_maquina), nome_linha = VALUES(nome_linha),

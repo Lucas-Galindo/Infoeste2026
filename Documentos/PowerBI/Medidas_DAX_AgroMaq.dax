@@ -1,0 +1,154 @@
+// =====================================================================
+// Medidas DAX · Dia 2 · Além do Código (Infoeste 2026)
+// Instrutores: Lucas Galindo e Lucas Araujo
+//
+// Banco: agromaq_dw (modelo estrela). Todas as medidas moram na tabela _Medidas,
+// em duas pastas de exibição: "Sensores" e "Produção".
+//
+// Como usar: no Power BI Desktop, selecione a tabela _Medidas > Nova medida,
+// cole UMA medida por vez (do nome até o fim da fórmula) e ajuste o formato
+// indicado no comentário. Os números esperados vêm do SQL do DW
+// (09_valores_esperados_dax.sql); se o Power BI mostrar outro valor, o defeito
+// está na medida ou no modelo, não no dado.
+// =====================================================================
+
+
+// ---------------------------------------------------------------------
+// PASTA: Sensores   (fato_leitura_sensor · 1 linha por sensor por hora)
+// ---------------------------------------------------------------------
+
+// X1 · base de tudo. Formato: número inteiro, separador de milhar.
+// Esperado: 209.804 no total · fev 97.396 · mar 112.408
+Leituras =
+COUNTROWS ( fato_leitura_sensor )
+
+
+// X1 · CALCULATE muda o contexto: só as linhas com fora_faixa = 1.
+// Formato: número inteiro.
+// Esperado: 37 no total · fev 16 · mar 21 · Noite 32, Tarde 3, Manhã 2
+// Atenção: quando não há leitura fora, o resultado é VAZIO (não zero).
+Leituras fora da faixa =
+CALCULATE (
+    [Leituras],
+    fato_leitura_sensor[fora_faixa] = 1
+)
+
+
+// X1 · DIVIDE é a divisão segura (não quebra quando o denominador é zero).
+// Formato: porcentagem com 3 casas.
+// Esperado: 0,018% no total · Noite 0,046% · Tarde 0,004% · Manhã 0,003%
+% fora da faixa =
+DIVIDE ( [Leituras fora da faixa], [Leituras] )
+
+
+// Apoio para a linha do tempo da D2. Só faz sentido com UM tipo de sensor
+// filtrado (não se tira média de °C com rpm). Formato: decimal, 2 casas.
+Valor médio =
+AVERAGE ( fato_leitura_sensor[valor] )
+
+
+// Apoio para a linha de referência da D2 (limite superior da faixa normal).
+// Só faz sentido com UM tipo de sensor filtrado. Esperado (Temperatura Motor): 95
+Limite máximo da faixa =
+MAX ( dim_sensor[faixa_max] )
+
+
+// Inteligência de tempo: o mesmo cálculo, um mês para trás.
+// Exige dim_tempo marcada como tabela de datas (coluna data).
+// Esperado na matriz por mês: mar 16 · fev vazio (não há leituras em janeiro)
+Fora da faixa mês anterior =
+CALCULATE (
+    [Leituras fora da faixa],
+    DATEADD ( dim_tempo[data], -1, MONTH )
+)
+
+
+// X1 · a quinta medida. Três cuidados, um por linha do IF:
+//   1. só existe com UM mês no contexto (num cartão sem filtro, fica vazio);
+//   2. se o mês anterior não tem leitura nenhuma, não há o que comparar;
+//   3. "+ 0" transforma vazio em zero, para a subtração não sumir.
+// Formato: número inteiro com sinal (+0;-0;0).
+// Esperado: mar +5 · fev vazio
+Variação vs mês anterior =
+VAR LeiturasMesAnterior =
+    CALCULATE ( [Leituras], DATEADD ( dim_tempo[data], -1, MONTH ) )
+VAR Atual = [Leituras fora da faixa] + 0
+VAR Anterior = [Fora da faixa mês anterior] + 0
+RETURN
+    IF (
+        HASONEVALUE ( dim_tempo[mes] ) && NOT ISBLANK ( LeiturasMesAnterior ),
+        Atual - Anterior
+    )
+
+
+// ---------------------------------------------------------------------
+// PASTA: Produção   (fato_producao · 1 linha por ordem de produção concluída)
+// ---------------------------------------------------------------------
+
+// X1 · Formato: número inteiro, separador de milhar.
+// Esperado: 79.702 · jan 24.740 · fev 26.903 · mar 28.059
+//           Presidente Prudente 31.201 · Três Lagoas 48.501
+Total produzido =
+SUM ( fato_producao[quantidade_produzida] )
+
+
+// Formato: número inteiro. Esperado: 1.852 · jan 542 · fev 570 · mar 740
+Refugo =
+SUM ( fato_producao[quantidade_rejeitada] )
+
+
+// X1 · Formato: porcentagem com 2 casas.
+// Esperado: 2,32% · jan 2,19% · fev 2,12% · mar 2,64%
+//           Presidente Prudente 2,26% · Três Lagoas 2,37%
+//           Soldagem: jan 2,36% · fev 2,36% · mar 7,03%
+% de refugo =
+DIVIDE ( [Refugo], [Total produzido] )
+
+
+// Formato: número inteiro. Esperado: 960 · Soldagem em março: 34
+Ordens =
+COUNTROWS ( fato_producao )
+
+
+// Ordens que tiveram ao menos uma peça rejeitada. Esperado: 895 (65 sem refugo)
+Ordens com refugo =
+CALCULATE (
+    [Ordens],
+    fato_producao[quantidade_rejeitada] > 0
+)
+
+
+// Opcional · a mesma ideia do mês anterior, agora para produção.
+// Esperado na matriz por mês: fev +2.163 · mar +1.156 · jan vazio
+Variação produzido vs mês anterior =
+VAR Anterior =
+    CALCULATE ( [Total produzido], DATEADD ( dim_tempo[data], -1, MONTH ) )
+RETURN
+    IF (
+        HASONEVALUE ( dim_tempo[mes] ) && NOT ISBLANK ( Anterior ),
+        [Total produzido] - Anterior
+    )
+
+
+// =====================================================================
+// X2 · A MEDIDA COM DEFEITO (só para o instrutor colar na hora do X2)
+// =====================================================================
+// O defeito: ALL() remove TODOS os filtros do denominador. A medida divide
+// pelas 209.804 leituras sempre, então ela vira "fatia do total", não "taxa".
+//
+// Por que é uma boa armadilha: no cartão SEM filtro ela dá 0,018%, igual à
+// certa. O erro só aparece quando o aluno filtra:
+//                       certa      com defeito
+//   Noite               0,046%     0,015%
+//   Fevereiro           0,016%     0,008%
+//   Março               0,019%     0,010%
+//
+// O que a IA deve propor: tirar o CALCULATE/ALL do denominador, ou seja,
+// voltar para DIVIDE ( [Leituras fora da faixa], [Leituras] ).
+// A lição: conferir com o SQL em um contexto FILTRADO, não só no total.
+
+% fora da faixa (com defeito) =
+DIVIDE (
+    [Leituras fora da faixa],
+    CALCULATE ( [Leituras], ALL ( fato_leitura_sensor ) )
+)

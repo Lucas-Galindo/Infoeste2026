@@ -1,0 +1,5 @@
+﻿id_turno;nome;hora_inicio;hora_fim
+1;Manha;06:00:00;14:00:00
+2;Tarde;14:00:00;22:00:00
+3;Noite;22:00:00;06:00:00
+4;Administrativo;08:00:00;17:00:00

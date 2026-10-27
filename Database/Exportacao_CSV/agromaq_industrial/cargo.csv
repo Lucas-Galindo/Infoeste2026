@@ -1,0 +1,50 @@
+﻿id_cargo;nome
+1;Operador de Corte
+2;Operador de Usinagem
+3;Operador CNC
+4;Soldador
+5;Soldador Robotico
+6;Pintor Industrial
+7;Auxiliar de Pintura
+8;Montador Mecanico
+9;Montador Eletrico
+10;Montador Hidraulico
+11;Auxiliar de Producao
+12;Lider de Linha
+13;Supervisor de Producao
+14;Supervisor de Turno
+15;Gerente de Producao
+16;Diretor Industrial
+17;Inspetor de Qualidade
+18;Analista de Qualidade
+19;Engenheiro de Qualidade
+20;Coordenador de Qualidade
+21;Almoxarife
+22;Auxiliar de Almoxarifado
+23;Conferente de Estoque
+24;Analista de Logistica
+25;Coordenador de Logistica
+26;Motorista Operacional
+27;Operador de Empilhadeira
+28;Comprador
+29;Analista de Compras
+30;Analista de Suprimentos
+31;Analista de PCP
+32;Coordenador de PCP
+33;Engenheiro de Producao
+34;Engenheiro Mecanico
+35;Projetista
+36;Desenhista Tecnico
+37;Analista de Desenvolvimento de Produto
+38;Tecnico de Manutencao Industrial
+39;Engenheiro de Manutencao
+40;Analista de TI
+41;Analista de Recursos Humanos
+42;Assistente de RH
+43;Tecnico de Seguranca do Trabalho
+44;Analista Financeiro
+45;Assistente Administrativo
+46;Recepcionista
+47;Analista de Vendas
+48;Gerente Comercial
+49;Diretor Geral
