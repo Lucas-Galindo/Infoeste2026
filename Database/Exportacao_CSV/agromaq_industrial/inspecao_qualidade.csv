@@ -1,1 +1,961 @@
 ﻿id_inspecao;op_etapa_id;resultado;motivo_id;funcionario_id;data_hora;observacao
+1;7;REPROVADO;14;488;2026-01-05 06:24:00;3 un rejeitadas e 5 un para retrabalho
+2;14;APROVADO COM RESSALVA;28;77;2026-01-05 12:49:00;3 un rejeitadas e 2 un para retrabalho
+3;21;APROVADO COM RESSALVA;17;379;2026-01-05 11:49:00;2 un rejeitadas e 1 un para retrabalho
+4;22;REPROVADO;23;379;2026-01-03 05:57:00;2 un rejeitadas e 4 un para retrabalho
+5;30;APROVADO COM RESSALVA;6;479;2026-01-05 15:37:00;2 un rejeitadas e 2 un para retrabalho
+6;37;APROVADO COM RESSALVA;40;239;2026-01-05 09:04:00;1 un para retrabalho
+7;43;APROVADO COM RESSALVA;18;488;2026-01-05 11:36:00;2 un rejeitadas e 4 un para retrabalho
+8;49;APROVADO COM RESSALVA;9;377;2026-01-05 14:42:00;1 un rejeitadas e 1 un para retrabalho
+9;52;APROVADO COM RESSALVA;25;325;2026-01-06 16:56:00;3 un rejeitadas e 4 un para retrabalho
+10;56;APROVADO COM RESSALVA;16;377;2026-01-06 19:28:00;2 un rejeitadas e 4 un para retrabalho
+11;63;REPROVADO;4;283;2026-01-06 18:38:00;1 un rejeitadas e 2 un para retrabalho
+12;66;REPROVADO;25;181;2026-01-06 07:59:00;1 un rejeitadas e 1 un para retrabalho
+13;69;APROVADO COM RESSALVA;11;374;2026-01-05 06:37:00;4 un rejeitadas e 4 un para retrabalho
+14;75;APROVADO;;226;2026-01-07 10:34:00;
+15;82;APROVADO COM RESSALVA;16;379;2026-01-06 14:06:00;3 un rejeitadas e 1 un para retrabalho
+16;86;APROVADO COM RESSALVA;24;105;2026-01-05 16:54:00;3 un rejeitadas e 3 un para retrabalho
+17;93;APROVADO COM RESSALVA;2;314;2026-01-05 18:47:00;2 un rejeitadas e 2 un para retrabalho
+18;94;APROVADO COM RESSALVA;22;379;2026-01-05 04:28:00;3 un rejeitadas e 6 un para retrabalho
+19;99;APROVADO COM RESSALVA;11;343;2026-01-07 20:42:00;3 un rejeitadas e 5 un para retrabalho
+20;103;APROVADO COM RESSALVA;15;331;2026-01-08 06:47:00;3 un rejeitadas e 3 un para retrabalho
+21;107;APROVADO COM RESSALVA;1;484;2026-01-08 08:44:00;1 un rejeitadas e 1 un para retrabalho
+22;114;REPROVADO;4;469;2026-01-06 13:28:00;2 un rejeitadas e 3 un para retrabalho
+23;121;APROVADO COM RESSALVA;17;181;2026-01-08 12:04:00;1 un rejeitadas e 1 un para retrabalho
+24;124;APROVADO COM RESSALVA;11;260;2026-01-07 14:35:00;4 un rejeitadas e 3 un para retrabalho
+25;128;APROVADO COM RESSALVA;17;331;2026-01-06 13:55:00;3 un rejeitadas e 4 un para retrabalho
+26;131;APROVADO COM RESSALVA;25;454;2026-01-07 16:35:00;1 un rejeitadas e 4 un para retrabalho
+27;137;APROVADO COM RESSALVA;8;226;2026-01-08 21:53:00;1 un para retrabalho
+28;141;APROVADO COM RESSALVA;1;61;2026-01-07 19:48:00;1 un para retrabalho
+29;145;APROVADO COM RESSALVA;17;336;2026-01-07 07:16:00;1 un rejeitadas e 4 un para retrabalho
+30;152;APROVADO COM RESSALVA;4;8;2026-01-08 07:36:00;1 un rejeitadas e 1 un para retrabalho
+31;156;REPROVADO;24;226;2026-01-07 07:44:00;1 un rejeitadas e 2 un para retrabalho
+32;162;APROVADO COM RESSALVA;19;231;2026-01-09 09:54:00;2 un rejeitadas e 2 un para retrabalho
+33;169;APROVADO COM RESSALVA;24;9;2026-01-08 10:37:00;1 un rejeitadas e 4 un para retrabalho
+34;175;APROVADO COM RESSALVA;19;446;2026-01-09 10:34:00;1 un rejeitadas e 3 un para retrabalho
+35;178;APROVADO COM RESSALVA;11;231;2026-01-07 16:29:00;2 un rejeitadas e 2 un para retrabalho
+36;185;APROVADO COM RESSALVA;16;148;2026-01-08 14:14:00;1 un rejeitadas e 1 un para retrabalho
+37;192;APROVADO COM RESSALVA;24;374;2026-01-09 15:51:00;1 un rejeitadas e 1 un para retrabalho
+38;196;APROVADO;;232;2026-01-08 18:57:00;
+39;199;APROVADO COM RESSALVA;1;283;2026-01-08 17:31:00;1 un rejeitadas e 2 un para retrabalho
+40;203;APROVADO COM RESSALVA;17;243;2026-01-08 16:37:00;4 un rejeitadas e 5 un para retrabalho
+41;207;APROVADO COM RESSALVA;15;78;2026-01-08 21:53:00;2 un rejeitadas e 4 un para retrabalho
+42;214;APROVADO COM RESSALVA;24;283;2026-01-08 20:21:00;1 un rejeitadas e 2 un para retrabalho
+43;215;APROVADO COM RESSALVA;23;484;2026-01-07 08:18:00;1 un rejeitadas e 2 un para retrabalho
+44;221;APROVADO COM RESSALVA;24;479;2026-01-10 07:27:00;3 un rejeitadas e 1 un para retrabalho
+45;227;APROVADO COM RESSALVA;18;8;2026-01-09 11:46:00;2 un rejeitadas e 2 un para retrabalho
+46;234;APROVADO COM RESSALVA;4;336;2026-01-08 10:56:00;5 un rejeitadas e 3 un para retrabalho
+47;238;APROVADO COM RESSALVA;24;243;2026-01-10 10:54:00;1 un rejeitadas
+48;241;REPROVADO;1;210;2026-01-09 16:41:00;1 un rejeitadas e 1 un para retrabalho
+49;245;APROVADO COM RESSALVA;15;488;2026-01-08 16:58:00;2 un rejeitadas e 3 un para retrabalho
+50;246;APROVADO;;257;2026-01-07 16:46:00;
+51;255;APROVADO COM RESSALVA;15;454;2026-01-09 16:33:00;1 un rejeitadas e 2 un para retrabalho
+52;262;REPROVADO;17;231;2026-01-10 14:43:00;2 un rejeitadas e 4 un para retrabalho
+53;269;REPROVADO;15;331;2026-01-10 18:15:00;2 un rejeitadas e 3 un para retrabalho
+54;273;APROVADO COM RESSALVA;15;374;2026-01-09 07:02:00;3 un rejeitadas e 3 un para retrabalho
+55;277;APROVADO COM RESSALVA;1;469;2026-01-10 07:49:00;3 un rejeitadas e 3 un para retrabalho
+56;281;APROVADO COM RESSALVA;27;275;2026-01-09 09:44:00;1 un rejeitadas e 3 un para retrabalho
+57;285;APROVADO COM RESSALVA;24;243;2026-01-10 06:31:00;3 un rejeitadas e 7 un para retrabalho
+58;286;APROVADO COM RESSALVA;23;336;2026-01-08 23:35:00;1 un rejeitadas e 2 un para retrabalho
+59;295;APROVADO COM RESSALVA;15;181;2026-01-11 13:56:00;1 un rejeitadas e 5 un para retrabalho
+60;298;APROVADO COM RESSALVA;11;479;2026-01-09 11:38:00;2 un rejeitadas e 7 un para retrabalho
+61;301;APROVADO COM RESSALVA;12;283;2026-01-10 13:29:00;1 un rejeitadas e 2 un para retrabalho
+62;304;APROVADO COM RESSALVA;27;454;2026-01-10 17:00:00;2 un rejeitadas e 3 un para retrabalho
+63;305;APROVADO COM RESSALVA;23;148;2026-01-08 19:57:00;3 un rejeitadas e 4 un para retrabalho
+64;310;APROVADO COM RESSALVA;25;479;2026-01-10 17:24:00;1 un rejeitadas e 2 un para retrabalho
+65;313;APROVADO COM RESSALVA;13;374;2026-01-11 19:07:00;2 un rejeitadas e 4 un para retrabalho
+66;317;APROVADO COM RESSALVA;27;377;2026-01-11 21:49:00;1 un rejeitadas e 1 un para retrabalho
+67;324;APROVADO COM RESSALVA;16;356;2026-01-09 21:27:00;2 un rejeitadas e 2 un para retrabalho
+68;328;APROVADO COM RESSALVA;15;210;2026-01-09 19:56:00;1 un rejeitadas e 1 un para retrabalho
+69;332;APROVADO COM RESSALVA;26;374;2026-01-11 20:25:00;1 un rejeitadas e 3 un para retrabalho
+70;336;APROVADO COM RESSALVA;17;446;2026-01-10 07:16:00;2 un rejeitadas e 1 un para retrabalho
+71;340;APROVADO COM RESSALVA;1;8;2026-01-10 06:55:00;1 un rejeitadas e 1 un para retrabalho
+72;347;REPROVADO;24;275;2026-01-11 09:13:00;1 un rejeitadas e 1 un para retrabalho
+73;354;APROVADO COM RESSALVA;14;446;2026-01-10 09:26:00;1 un rejeitadas e 3 un para retrabalho
+74;357;APROVADO COM RESSALVA;13;210;2026-01-11 07:16:00;1 un rejeitadas e 2 un para retrabalho
+75;360;APROVADO COM RESSALVA;25;283;2026-01-10 10:30:00;1 un rejeitadas e 1 un para retrabalho
+76;367;APROVADO COM RESSALVA;28;283;2026-01-11 19:39:00;2 un rejeitadas e 4 un para retrabalho
+77;371;APROVADO COM RESSALVA;27;210;2026-01-11 20:39:00;1 un rejeitadas e 1 un para retrabalho
+78;372;APROVADO COM RESSALVA;22;37;2026-01-10 08:36:00;1 un rejeitadas
+79;377;APROVADO COM RESSALVA;1;325;2026-01-12 07:45:00;1 un rejeitadas e 1 un para retrabalho
+80;381;APROVADO COM RESSALVA;26;454;2026-01-13 08:51:00;1 un rejeitadas e 2 un para retrabalho
+81;385;APROVADO COM RESSALVA;14;479;2026-01-12 10:46:00;4 un rejeitadas e 6 un para retrabalho
+82;392;APROVADO COM RESSALVA;2;343;2026-01-11 14:34:00;4 un rejeitadas e 4 un para retrabalho
+83;399;REPROVADO;16;358;2026-01-12 18:17:00;3 un rejeitadas e 4 un para retrabalho
+84;403;APROVADO COM RESSALVA;24;374;2026-01-13 17:21:00;1 un rejeitadas e 3 un para retrabalho
+85;406;APROVADO COM RESSALVA;11;479;2026-01-13 20:29:00;3 un rejeitadas e 6 un para retrabalho
+86;410;APROVADO COM RESSALVA;15;243;2026-01-12 21:46:00;2 un rejeitadas e 6 un para retrabalho
+87;411;APROVADO COM RESSALVA;23;231;2026-01-11 01:38:00;2 un rejeitadas e 4 un para retrabalho
+88;417;APROVADO COM RESSALVA;16;239;2026-01-14 06:10:00;1 un para retrabalho
+89;424;APROVADO COM RESSALVA;24;454;2026-01-14 07:59:00;1 un rejeitadas e 4 un para retrabalho
+90;425;APROVADO COM RESSALVA;23;484;2026-01-11 09:51:00;1 un rejeitadas e 2 un para retrabalho
+91;434;APROVADO COM RESSALVA;28;446;2026-01-14 11:15:00;3 un rejeitadas e 5 un para retrabalho
+92;438;APROVADO COM RESSALVA;15;336;2026-01-13 17:08:00;2 un rejeitadas e 4 un para retrabalho
+93;445;APROVADO COM RESSALVA;24;181;2026-01-14 15:17:00;1 un para retrabalho
+94;452;APROVADO COM RESSALVA;4;231;2026-01-13 14:19:00;4 un rejeitadas e 2 un para retrabalho
+95;453;APROVADO COM RESSALVA;22;283;2026-01-11 22:53:00;1 un rejeitadas e 1 un para retrabalho
+96;456;APROVADO COM RESSALVA;23;374;2026-01-12 03:08:00;2 un rejeitadas e 1 un para retrabalho
+97;462;APROVADO COM RESSALVA;26;374;2026-01-14 20:32:00;2 un rejeitadas e 3 un para retrabalho
+98;463;APROVADO COM RESSALVA;23;257;2026-01-12 00:49:00;1 un rejeitadas e 2 un para retrabalho
+99;471;APROVADO COM RESSALVA;9;37;2026-01-12 19:20:00;1 un rejeitadas e 1 un para retrabalho
+100;475;APROVADO COM RESSALVA;24;226;2026-01-12 20:35:00;1 un rejeitadas e 1 un para retrabalho
+101;481;APROVADO COM RESSALVA;18;210;2026-01-15 06:28:00;2 un rejeitadas e 5 un para retrabalho
+102;488;APROVADO COM RESSALVA;4;260;2026-01-15 07:05:00;1 un rejeitadas
+103;495;APROVADO COM RESSALVA;3;290;2026-01-15 11:50:00;1 un rejeitadas e 3 un para retrabalho
+104;499;APROVADO COM RESSALVA;26;325;2026-01-13 14:56:00;3 un rejeitadas e 2 un para retrabalho
+105;506;APROVADO COM RESSALVA;15;8;2026-01-14 16:38:00;2 un rejeitadas e 4 un para retrabalho
+106;510;APROVADO COM RESSALVA;1;210;2026-01-14 13:52:00;1 un rejeitadas e 2 un para retrabalho
+107;517;APROVADO COM RESSALVA;17;179;2026-01-15 20:28:00;1 un rejeitadas e 1 un para retrabalho
+108;524;APROVADO COM RESSALVA;4;356;2026-01-15 17:46:00;4 un rejeitadas e 4 un para retrabalho
+109;527;APROVADO COM RESSALVA;25;488;2026-01-14 16:47:00;1 un rejeitadas e 1 un para retrabalho
+110;531;APROVADO COM RESSALVA;26;275;2026-01-13 18:56:00;1 un rejeitadas e 4 un para retrabalho
+111;532;APROVADO COM RESSALVA;23;206;2026-01-12 23:17:00;2 un rejeitadas e 2 un para retrabalho
+112;541;APROVADO COM RESSALVA;15;231;2026-01-14 19:12:00;1 un rejeitadas e 2 un para retrabalho
+113;545;APROVADO COM RESSALVA;15;314;2026-01-14 06:11:00;1 un rejeitadas e 1 un para retrabalho
+114;548;APROVADO COM RESSALVA;11;226;2026-01-14 07:59:00;1 un rejeitadas e 1 un para retrabalho
+115;552;APROVADO COM RESSALVA;16;234;2026-01-14 11:06:00;1 un rejeitadas e 3 un para retrabalho
+116;553;APROVADO COM RESSALVA;22;314;2026-01-13 17:44:00;3 un rejeitadas e 1 un para retrabalho
+117;558;APROVADO COM RESSALVA;1;37;2026-01-16 11:00:00;1 un rejeitadas e 2 un para retrabalho
+118;562;APROVADO COM RESSALVA;27;484;2026-01-15 17:51:00;1 un rejeitadas e 2 un para retrabalho
+119;566;APROVADO COM RESSALVA;15;243;2026-01-16 16:05:00;4 un rejeitadas e 3 un para retrabalho
+120;569;APROVADO COM RESSALVA;27;379;2026-01-16 18:38:00;2 un rejeitadas e 1 un para retrabalho
+121;576;APROVADO COM RESSALVA;16;446;2026-01-15 16:05:00;1 un rejeitadas e 3 un para retrabalho
+122;579;APROVADO COM RESSALVA;11;131;2026-01-14 21:40:00;2 un rejeitadas e 2 un para retrabalho
+123;582;APROVADO COM RESSALVA;13;469;2026-01-16 20:38:00;4 un rejeitadas e 7 un para retrabalho
+124;586;APROVADO COM RESSALVA;15;379;2026-01-14 20:41:00;2 un rejeitadas e 4 un para retrabalho
+125;593;APROVADO COM RESSALVA;24;379;2026-01-16 07:12:00;3 un rejeitadas e 4 un para retrabalho
+126;596;REPROVADO;11;105;2026-01-17 13:38:00;3 un rejeitadas e 4 un para retrabalho
+127;603;APROVADO COM RESSALVA;15;209;2026-01-16 09:20:00;1 un rejeitadas
+128;610;REPROVADO;28;469;2026-01-15 09:40:00;3 un rejeitadas e 3 un para retrabalho
+129;614;APROVADO COM RESSALVA;15;356;2026-01-16 13:30:00;1 un rejeitadas e 2 un para retrabalho
+130;617;APROVADO COM RESSALVA;1;358;2026-01-15 17:01:00;3 un rejeitadas e 6 un para retrabalho
+131;624;APROVADO COM RESSALVA;17;374;2026-01-16 20:56:00;1 un rejeitadas e 1 un para retrabalho
+132;627;APROVADO COM RESSALVA;1;131;2026-01-15 18:02:00;1 un rejeitadas e 1 un para retrabalho
+133;631;APROVADO COM RESSALVA;17;275;2026-01-18 07:13:00;1 un para retrabalho
+134;638;APROVADO COM RESSALVA;28;343;2026-01-16 06:56:00;2 un rejeitadas e 1 un para retrabalho
+135;644;APROVADO COM RESSALVA;18;325;2026-01-16 07:02:00;2 un rejeitadas e 3 un para retrabalho
+136;651;APROVADO COM RESSALVA;4;260;2026-01-16 12:07:00;2 un rejeitadas e 1 un para retrabalho
+137;654;APROVADO COM RESSALVA;11;239;2026-01-18 10:22:00;1 un rejeitadas e 1 un para retrabalho
+138;658;APROVADO COM RESSALVA;15;257;2026-01-16 10:35:00;1 un rejeitadas e 2 un para retrabalho
+139;664;APROVADO;;209;2026-01-16 10:34:00;
+140;670;APROVADO COM RESSALVA;9;239;2026-01-16 16:01:00;1 un rejeitadas e 1 un para retrabalho
+141;676;APROVADO COM RESSALVA;9;358;2026-01-16 15:39:00;2 un rejeitadas e 4 un para retrabalho
+142;680;APROVADO COM RESSALVA;24;446;2026-01-18 13:07:00;1 un rejeitadas e 1 un para retrabalho
+143;687;APROVADO COM RESSALVA;15;469;2026-01-17 14:42:00;1 un rejeitadas e 1 un para retrabalho
+144;694;APROVADO COM RESSALVA;24;283;2026-01-17 15:42:00;2 un rejeitadas e 2 un para retrabalho
+145;695;APROVADO COM RESSALVA;22;325;2026-01-16 04:00:00;1 un rejeitadas e 1 un para retrabalho
+146;701;APROVADO COM RESSALVA;1;77;2026-01-18 20:45:00;2 un rejeitadas e 2 un para retrabalho
+147;704;APROVADO COM RESSALVA;11;484;2026-01-18 19:27:00;4 un rejeitadas e 4 un para retrabalho
+148;711;APROVADO COM RESSALVA;24;260;2026-01-16 18:20:00;1 un rejeitadas e 1 un para retrabalho
+149;714;APROVADO COM RESSALVA;11;343;2026-01-16 20:35:00;3 un rejeitadas e 3 un para retrabalho
+150;720;APROVADO COM RESSALVA;18;479;2026-01-19 10:28:00;1 un rejeitadas e 1 un para retrabalho
+151;727;APROVADO COM RESSALVA;2;232;2026-01-19 09:44:00;1 un rejeitadas e 1 un para retrabalho
+152;728;REPROVADO;23;105;2026-01-16 13:44:00;1 un rejeitadas e 1 un para retrabalho
+153;737;APROVADO COM RESSALVA;16;469;2026-01-18 12:36:00;1 un rejeitadas e 1 un para retrabalho
+154;741;APROVADO COM RESSALVA;15;234;2026-01-18 13:57:00;2 un rejeitadas e 1 un para retrabalho
+155;744;APROVADO COM RESSALVA;27;21;2026-01-18 11:58:00;1 un para retrabalho
+156;748;APROVADO;;61;2026-01-17 14:50:00;
+157;754;APROVADO COM RESSALVA;9;454;2026-01-17 15:17:00;1 un rejeitadas e 2 un para retrabalho
+158;758;APROVADO COM RESSALVA;17;325;2026-01-17 17:54:00;2 un rejeitadas e 2 un para retrabalho
+159;761;APROVADO COM RESSALVA;1;206;2026-01-18 06:29:00;1 un rejeitadas e 2 un para retrabalho
+160;768;APROVADO COM RESSALVA;14;479;2026-01-19 10:44:00;2 un rejeitadas e 3 un para retrabalho
+161;775;REPROVADO;28;232;2026-01-19 11:50:00;1 un rejeitadas e 1 un para retrabalho
+162;778;APROVADO COM RESSALVA;11;8;2026-01-20 11:13:00;3 un rejeitadas e 3 un para retrabalho
+163;785;REPROVADO;15;488;2026-01-20 11:14:00;4 un rejeitadas e 4 un para retrabalho
+164;791;APROVADO COM RESSALVA;19;331;2026-01-18 08:48:00;2 un rejeitadas e 3 un para retrabalho
+165;798;APROVADO COM RESSALVA;16;469;2026-01-19 11:22:00;2 un rejeitadas e 3 un para retrabalho
+166;805;REPROVADO;17;234;2026-01-18 14:42:00;1 un rejeitadas e 1 un para retrabalho
+167;812;APROVADO COM RESSALVA;14;356;2026-01-19 12:07:00;1 un rejeitadas e 3 un para retrabalho
+168;815;APROVADO COM RESSALVA;11;479;2026-01-19 15:21:00;3 un rejeitadas e 4 un para retrabalho
+169;819;APROVADO COM RESSALVA;14;243;2026-01-19 14:09:00;1 un rejeitadas e 2 un para retrabalho
+170;826;APROVADO COM RESSALVA;15;377;2026-01-18 16:33:00;1 un rejeitadas e 2 un para retrabalho
+171;830;APROVADO COM RESSALVA;1;181;2026-01-19 13:35:00;1 un rejeitadas e 1 un para retrabalho
+172;831;APROVADO COM RESSALVA;23;84;2026-01-18 04:55:00;1 un rejeitadas e 1 un para retrabalho
+173;836;APROVADO COM RESSALVA;11;331;2026-01-19 16:44:00;2 un rejeitadas e 1 un para retrabalho
+174;840;APROVADO COM RESSALVA;15;331;2026-01-19 21:23:00;2 un rejeitadas e 3 un para retrabalho
+175;843;APROVADO COM RESSALVA;12;343;2026-01-19 19:34:00;5 un rejeitadas e 6 un para retrabalho
+176;846;APROVADO COM RESSALVA;27;84;2026-01-19 21:10:00;1 un rejeitadas e 1 un para retrabalho
+177;849;APROVADO COM RESSALVA;11;226;2026-01-21 08:43:00;1 un rejeitadas e 1 un para retrabalho
+178;853;APROVADO COM RESSALVA;17;243;2026-01-20 09:52:00;2 un rejeitadas e 5 un para retrabalho
+179;857;APROVADO COM RESSALVA;15;61;2026-01-20 10:29:00;1 un rejeitadas
+180;864;APROVADO COM RESSALVA;16;446;2026-01-21 12:57:00;2 un rejeitadas e 2 un para retrabalho
+181;868;APROVADO COM RESSALVA;15;484;2026-01-19 11:27:00;2 un rejeitadas e 4 un para retrabalho
+182;872;APROVADO COM RESSALVA;20;454;2026-01-21 14:49:00;2 un rejeitadas e 6 un para retrabalho
+183;875;APROVADO COM RESSALVA;1;336;2026-01-21 14:03:00;2 un rejeitadas e 3 un para retrabalho
+184;876;APROVADO COM RESSALVA;23;469;2026-01-18 19:20:00;1 un rejeitadas e 3 un para retrabalho
+185;879;APROVADO COM RESSALVA;23;21;2026-01-19 01:25:00;2 un rejeitadas e 3 un para retrabalho
+186;885;APROVADO COM RESSALVA;24;8;2026-01-20 18:44:00;1 un rejeitadas e 1 un para retrabalho
+187;888;APROVADO COM RESSALVA;25;148;2026-01-20 19:06:00;2 un rejeitadas e 1 un para retrabalho
+188;895;APROVADO COM RESSALVA;17;290;2026-01-20 11:35:00;1 un para retrabalho
+189;898;APROVADO COM RESSALVA;1;484;2026-01-20 13:47:00;4 un rejeitadas e 7 un para retrabalho
+190;904;REPROVADO;9;488;2026-01-21 15:24:00;3 un rejeitadas e 5 un para retrabalho
+191;911;REPROVADO;14;231;2026-01-22 14:44:00;1 un rejeitadas e 2 un para retrabalho
+192;918;APROVADO COM RESSALVA;4;469;2026-01-21 14:05:00;1 un rejeitadas e 2 un para retrabalho
+193;919;APROVADO COM RESSALVA;23;446;2026-01-19 18:59:00;2 un rejeitadas e 4 un para retrabalho
+194;925;APROVADO COM RESSALVA;24;181;2026-01-22 17:00:00;4 un rejeitadas e 7 un para retrabalho
+195;929;APROVADO COM RESSALVA;14;356;2026-01-22 17:58:00;1 un rejeitadas e 2 un para retrabalho
+196;935;APROVADO COM RESSALVA;18;8;2026-01-21 18:01:00;1 un rejeitadas e 1 un para retrabalho
+197;938;APROVADO COM RESSALVA;11;343;2026-01-20 21:02:00;1 un rejeitadas e 3 un para retrabalho
+198;944;APROVADO COM RESSALVA;9;454;2026-01-22 07:22:00;2 un rejeitadas e 2 un para retrabalho
+199;950;APROVADO COM RESSALVA;6;105;2026-01-23 06:10:00;3 un rejeitadas e 4 un para retrabalho
+200;954;APROVADO COM RESSALVA;20;343;2026-01-22 12:24:00;1 un rejeitadas e 2 un para retrabalho
+201;958;APROVADO;;209;2026-01-21 15:46:00;
+202;965;APROVADO COM RESSALVA;4;356;2026-01-21 16:37:00;4 un rejeitadas e 3 un para retrabalho
+203;969;APROVADO COM RESSALVA;14;314;2026-01-21 17:35:00;1 un rejeitadas e 1 un para retrabalho
+204;976;APROVADO COM RESSALVA;17;105;2026-01-21 18:23:00;1 un rejeitadas e 2 un para retrabalho
+205;979;APROVADO COM RESSALVA;27;77;2026-01-21 18:42:00;2 un rejeitadas e 2 un para retrabalho
+206;982;APROVADO COM RESSALVA;1;358;2026-01-22 21:41:00;1 un rejeitadas e 2 un para retrabalho
+207;986;APROVADO COM RESSALVA;14;331;2026-01-24 07:30:00;2 un rejeitadas e 1 un para retrabalho
+208;989;APROVADO COM RESSALVA;11;78;2026-01-22 06:16:00;1 un rejeitadas
+209;993;APROVADO COM RESSALVA;26;479;2026-01-23 11:53:00;3 un rejeitadas e 2 un para retrabalho
+210;997;APROVADO COM RESSALVA;20;358;2026-01-23 11:49:00;1 un rejeitadas e 2 un para retrabalho
+211;1004;APROVADO COM RESSALVA;4;377;2026-01-24 10:02:00;3 un rejeitadas e 1 un para retrabalho
+212;1011;APROVADO COM RESSALVA;24;260;2026-01-24 13:22:00;2 un rejeitadas e 2 un para retrabalho
+213;1015;APROVADO COM RESSALVA;17;139;2026-01-24 11:51:00;1 un rejeitadas e 1 un para retrabalho
+214;1019;APROVADO COM RESSALVA;27;290;2026-01-24 12:54:00;1 un rejeitadas e 4 un para retrabalho
+215;1025;APROVADO COM RESSALVA;9;314;2026-01-22 12:52:00;1 un rejeitadas e 1 un para retrabalho
+216;1031;APROVADO COM RESSALVA;9;257;2026-01-24 16:26:00;1 un rejeitadas e 1 un para retrabalho
+217;1038;APROVADO COM RESSALVA;17;181;2026-01-23 18:44:00;1 un rejeitadas e 1 un para retrabalho
+218;1039;APROVADO COM RESSALVA;23;484;2026-01-22 02:49:00;1 un rejeitadas e 1 un para retrabalho
+219;1045;APROVADO COM RESSALVA;24;379;2026-01-22 18:11:00;5 un rejeitadas e 2 un para retrabalho
+220;1046;APROVADO;;181;2026-01-22 14:41:00;
+221;1049;APROVADO COM RESSALVA;22;84;2026-01-22 21:23:00;1 un rejeitadas e 3 un para retrabalho
+222;1058;APROVADO COM RESSALVA;17;290;2026-01-25 10:38:00;1 un rejeitadas e 2 un para retrabalho
+223;1065;APROVADO COM RESSALVA;16;374;2026-01-25 09:31:00;2 un rejeitadas e 4 un para retrabalho
+224;1072;APROVADO COM RESSALVA;14;21;2026-01-23 19:47:00;1 un rejeitadas e 1 un para retrabalho
+225;1076;APROVADO COM RESSALVA;24;325;2026-01-23 20:00:00;3 un rejeitadas e 3 un para retrabalho
+226;1079;APROVADO COM RESSALVA;25;260;2026-01-24 19:04:00;1 un para retrabalho
+227;1082;APROVADO COM RESSALVA;11;226;2026-01-24 21:50:00;1 un rejeitadas e 2 un para retrabalho
+228;1089;APROVADO COM RESSALVA;16;314;2026-01-23 20:47:00;3 un rejeitadas e 3 un para retrabalho
+229;1096;APROVADO COM RESSALVA;2;231;2026-01-23 21:48:00;5 un rejeitadas e 3 un para retrabalho
+230;1103;APROVADO COM RESSALVA;3;484;2026-01-25 08:43:00;3 un rejeitadas e 3 un para retrabalho
+231;1107;APROVADO COM RESSALVA;15;358;2026-01-25 12:29:00;4 un rejeitadas e 4 un para retrabalho
+232;1108;APROVADO COM RESSALVA;22;484;2026-01-23 19:16:00;1 un rejeitadas e 5 un para retrabalho
+233;1117;APROVADO COM RESSALVA;14;469;2026-01-26 15:06:00;2 un rejeitadas e 3 un para retrabalho
+234;1124;APROVADO COM RESSALVA;28;243;2026-01-24 16:07:00;4 un rejeitadas e 5 un para retrabalho
+235;1131;APROVADO COM RESSALVA;17;377;2026-01-24 12:59:00;3 un rejeitadas e 4 un para retrabalho
+236;1137;APROVADO COM RESSALVA;9;139;2026-01-24 17:40:00;1 un rejeitadas e 1 un para retrabalho
+237;1141;APROVADO COM RESSALVA;24;131;2026-01-24 18:32:00;2 un rejeitadas e 2 un para retrabalho
+238;1145;APROVADO COM RESSALVA;27;127;2026-01-25 15:48:00;3 un rejeitadas e 6 un para retrabalho
+239;1149;REPROVADO;14;127;2026-01-25 07:14:00;2 un rejeitadas e 4 un para retrabalho
+240;1156;APROVADO COM RESSALVA;15;379;2026-01-26 08:25:00;2 un rejeitadas e 2 un para retrabalho
+241;1163;APROVADO COM RESSALVA;3;77;2026-01-26 14:40:00;4 un rejeitadas e 2 un para retrabalho
+242;1167;APROVADO COM RESSALVA;26;358;2026-01-27 15:35:00;2 un rejeitadas e 1 un para retrabalho
+243;1170;APROVADO COM RESSALVA;1;331;2026-01-25 12:26:00;1 un rejeitadas e 1 un para retrabalho
+244;1177;APROVADO COM RESSALVA;24;131;2026-01-25 14:31:00;1 un rejeitadas e 1 un para retrabalho
+245;1184;APROVADO COM RESSALVA;3;379;2026-01-26 18:59:00;5 un rejeitadas e 6 un para retrabalho
+246;1190;APROVADO COM RESSALVA;9;331;2026-01-27 19:29:00;2 un rejeitadas e 2 un para retrabalho
+247;1194;APROVADO COM RESSALVA;1;484;2026-01-27 21:08:00;1 un rejeitadas e 2 un para retrabalho
+248;1198;APROVADO COM RESSALVA;16;37;2026-01-26 21:10:00;3 un rejeitadas e 3 un para retrabalho
+249;1199;APROVADO COM RESSALVA;24;290;2026-01-25 09:21:00;1 un para retrabalho
+250;1202;REPROVADO;22;325;2026-01-25 16:53:00;3 un rejeitadas e 6 un para retrabalho
+251;1210;APROVADO COM RESSALVA;18;331;2026-01-27 11:24:00;1 un rejeitadas e 1 un para retrabalho
+252;1217;APROVADO COM RESSALVA;14;8;2026-01-26 11:00:00;1 un rejeitadas e 1 un para retrabalho
+253;1224;APROVADO COM RESSALVA;28;331;2026-01-27 12:49:00;2 un rejeitadas e 2 un para retrabalho
+254;1227;APROVADO COM RESSALVA;1;314;2026-01-27 15:33:00;1 un rejeitadas e 2 un para retrabalho
+255;1234;APROVADO COM RESSALVA;16;8;2026-01-26 17:19:00;2 un rejeitadas e 3 un para retrabalho
+256;1238;REPROVADO;15;331;2026-01-27 20:32:00;3 un rejeitadas e 4 un para retrabalho
+257;1241;APROVADO COM RESSALVA;11;148;2026-01-27 06:13:00;1 un rejeitadas e 1 un para retrabalho
+258;1248;APROVADO COM RESSALVA;3;32;2026-01-28 06:14:00;1 un rejeitadas e 1 un para retrabalho
+259;1254;APROVADO COM RESSALVA;19;469;2026-01-29 07:44:00;1 un rejeitadas e 2 un para retrabalho
+260;1258;APROVADO COM RESSALVA;1;260;2026-01-28 08:52:00;1 un rejeitadas
+261;1262;APROVADO COM RESSALVA;26;232;2026-01-27 13:01:00;1 un rejeitadas e 2 un para retrabalho
+262;1265;APROVADO COM RESSALVA;41;179;2026-01-28 12:21:00;1 un para retrabalho
+263;1272;APROVADO COM RESSALVA;14;454;2026-01-28 16:44:00;3 un rejeitadas e 1 un para retrabalho
+264;1279;APROVADO COM RESSALVA;3;479;2026-01-29 19:35:00;1 un rejeitadas e 2 un para retrabalho
+265;1282;APROVADO COM RESSALVA;12;127;2026-01-29 18:04:00;1 un rejeitadas e 2 un para retrabalho
+266;1288;APROVADO COM RESSALVA;18;206;2026-01-27 20:20:00;1 un rejeitadas e 1 un para retrabalho
+267;1289;APROVADO COM RESSALVA;22;231;2026-01-27 03:01:00;1 un rejeitadas e 1 un para retrabalho
+268;1298;APROVADO COM RESSALVA;2;446;2026-01-28 21:54:00;6 un rejeitadas e 5 un para retrabalho
+269;1302;APROVADO COM RESSALVA;24;234;2026-01-28 09:23:00;1 un rejeitadas e 2 un para retrabalho
+270;1305;APROVADO COM RESSALVA;11;469;2026-01-28 10:29:00;1 un rejeitadas e 3 un para retrabalho
+271;1309;APROVADO COM RESSALVA;16;358;2026-01-30 08:46:00;5 un rejeitadas e 3 un para retrabalho
+272;1313;APROVADO COM RESSALVA;15;377;2026-01-29 08:19:00;3 un rejeitadas e 2 un para retrabalho
+273;1320;APROVADO COM RESSALVA;17;488;2026-01-30 13:09:00;1 un rejeitadas e 1 un para retrabalho
+274;1323;APROVADO COM RESSALVA;1;331;2026-01-29 12:39:00;3 un rejeitadas e 2 un para retrabalho
+275;1324;APROVADO COM RESSALVA;23;131;2026-01-27 17:06:00;3 un rejeitadas e 3 un para retrabalho
+276;1327;APROVADO COM RESSALVA;23;336;2026-01-28 03:52:00;1 un rejeitadas e 1 un para retrabalho
+277;1333;APROVADO COM RESSALVA;15;78;2026-01-29 17:18:00;3 un rejeitadas e 4 un para retrabalho
+278;1337;REPROVADO;15;105;2026-01-28 21:48:00;1 un rejeitadas e 1 un para retrabalho
+279;1341;APROVADO COM RESSALVA;20;331;2026-01-30 21:23:00;3 un rejeitadas e 6 un para retrabalho
+280;1344;APROVADO COM RESSALVA;27;231;2026-01-31 07:23:00;2 un rejeitadas e 2 un para retrabalho
+281;1348;REPROVADO;14;290;2026-01-30 07:39:00;1 un rejeitadas e 1 un para retrabalho
+282;1354;APROVADO;;131;2026-01-30 07:10:00;
+283;1361;APROVADO COM RESSALVA;16;356;2026-01-30 06:29:00;2 un rejeitadas e 1 un para retrabalho
+284;1365;APROVADO COM RESSALVA;20;325;2026-01-31 06:29:00;2 un rejeitadas e 1 un para retrabalho
+285;1371;APROVADO COM RESSALVA;9;210;2026-01-30 10:14:00;1 un rejeitadas e 1 un para retrabalho
+286;1374;APROVADO COM RESSALVA;11;231;2026-01-31 13:56:00;4 un rejeitadas e 3 un para retrabalho
+287;1381;APROVADO COM RESSALVA;3;61;2026-01-31 11:56:00;1 un rejeitadas
+288;1382;APROVADO COM RESSALVA;23;377;2026-01-28 21:23:00;1 un rejeitadas e 1 un para retrabalho
+289;1387;APROVADO COM RESSALVA;1;356;2026-01-30 14:41:00;1 un rejeitadas e 4 un para retrabalho
+290;1394;APROVADO COM RESSALVA;24;343;2026-01-31 15:48:00;1 un rejeitadas e 1 un para retrabalho
+291;1401;APROVADO COM RESSALVA;39;232;2026-01-31 18:20:00;1 un para retrabalho
+292;1402;REPROVADO;22;446;2026-01-29 03:02:00;3 un rejeitadas e 5 un para retrabalho
+293;1407;APROVADO COM RESSALVA;12;484;2026-01-31 20:30:00;4 un rejeitadas e 3 un para retrabalho
+294;1414;APROVADO COM RESSALVA;28;37;2026-01-29 18:40:00;2 un rejeitadas e 1 un para retrabalho
+295;1418;REPROVADO;26;239;2026-01-31 21:32:00;2 un rejeitadas e 4 un para retrabalho
+296;1425;APROVADO COM RESSALVA;24;210;2026-01-30 20:27:00;3 un rejeitadas e 1 un para retrabalho
+297;1432;APROVADO COM RESSALVA;14;314;2026-01-30 07:43:00;2 un rejeitadas e 2 un para retrabalho
+298;1435;APROVADO COM RESSALVA;11;484;2026-01-30 10:08:00;3 un rejeitadas e 8 un para retrabalho
+299;1439;APROVADO COM RESSALVA;17;181;2026-02-01 13:29:00;1 un rejeitadas e 1 un para retrabalho
+300;1442;APROVADO COM RESSALVA;11;377;2026-01-31 15:04:00;4 un rejeitadas e 4 un para retrabalho
+301;1446;REPROVADO;26;21;2026-01-30 12:11:00;1 un rejeitadas e 2 un para retrabalho
+302;1449;APROVADO COM RESSALVA;27;127;2026-02-01 07:17:00;1 un rejeitadas e 2 un para retrabalho
+303;1453;APROVADO COM RESSALVA;15;179;2026-01-31 10:37:00;3 un rejeitadas e 6 un para retrabalho
+304;1456;APROVADO COM RESSALVA;27;314;2026-01-31 12:16:00;3 un rejeitadas e 4 un para retrabalho
+305;1460;APROVADO COM RESSALVA;24;454;2026-02-01 12:16:00;1 un rejeitadas e 1 un para retrabalho
+306;1463;APROVADO COM RESSALVA;11;260;2026-02-01 12:31:00;1 un rejeitadas e 1 un para retrabalho
+307;1470;APROVADO COM RESSALVA;17;283;2026-01-31 10:52:00;1 un rejeitadas
+308;1474;APROVADO COM RESSALVA;17;377;2026-02-01 15:00:00;1 un rejeitadas e 1 un para retrabalho
+309;1478;REPROVADO;24;336;2026-02-01 15:48:00;2 un rejeitadas e 4 un para retrabalho
+310;1485;APROVADO COM RESSALVA;24;234;2026-02-01 19:20:00;1 un rejeitadas e 1 un para retrabalho
+311;1489;APROVADO COM RESSALVA;15;377;2026-01-31 19:39:00;1 un rejeitadas e 2 un para retrabalho
+312;1493;APROVADO COM RESSALVA;15;358;2026-02-02 21:45:00;3 un rejeitadas e 1 un para retrabalho
+313;1500;APROVADO COM RESSALVA;24;469;2026-02-03 07:26:00;1 un rejeitadas e 1 un para retrabalho
+314;1503;APROVADO COM RESSALVA;1;77;2026-02-03 09:23:00;1 un rejeitadas e 4 un para retrabalho
+315;1507;APROVADO COM RESSALVA;1;210;2026-02-02 08:07:00;1 un rejeitadas e 1 un para retrabalho
+316;1511;APROVADO COM RESSALVA;17;314;2026-02-01 11:26:00;1 un rejeitadas e 4 un para retrabalho
+317;1518;APROVADO COM RESSALVA;17;243;2026-02-01 13:29:00;2 un rejeitadas e 2 un para retrabalho
+318;1519;APROVADO COM RESSALVA;22;61;2026-01-31 16:58:00;2 un rejeitadas e 5 un para retrabalho
+319;1527;APROVADO COM RESSALVA;6;479;2026-02-01 14:28:00;2 un rejeitadas e 5 un para retrabalho
+320;1534;APROVADO COM RESSALVA;17;179;2026-02-02 12:31:00;1 un rejeitadas e 1 un para retrabalho
+321;1538;APROVADO COM RESSALVA;15;210;2026-02-01 17:10:00;3 un rejeitadas e 2 un para retrabalho
+322;1541;APROVADO COM RESSALVA;41;209;2026-02-01 17:25:00;1 un para retrabalho
+323;1548;APROVADO COM RESSALVA;14;379;2026-02-02 17:25:00;2 un rejeitadas e 3 un para retrabalho
+324;1555;APROVADO COM RESSALVA;15;314;2026-02-01 13:41:00;2 un rejeitadas e 7 un para retrabalho
+325;1558;APROVADO COM RESSALVA;27;325;2026-02-03 16:00:00;6 un para retrabalho
+326;1562;REPROVADO;24;343;2026-02-03 21:23:00;3 un rejeitadas e 5 un para retrabalho
+327;1568;APROVADO COM RESSALVA;9;131;2026-02-01 18:34:00;1 un rejeitadas e 2 un para retrabalho
+328;1575;APROVADO COM RESSALVA;24;127;2026-02-01 21:00:00;1 un rejeitadas e 1 un para retrabalho
+329;1582;APROVADO COM RESSALVA;15;356;2026-02-03 07:24:00;1 un rejeitadas e 1 un para retrabalho
+330;1589;APROVADO COM RESSALVA;16;377;2026-02-02 08:53:00;2 un rejeitadas e 3 un para retrabalho
+331;1593;APROVADO COM RESSALVA;24;446;2026-02-02 09:10:00;2 un rejeitadas e 3 un para retrabalho
+332;1600;APROVADO COM RESSALVA;14;377;2026-02-04 08:09:00;1 un rejeitadas e 1 un para retrabalho
+333;1604;APROVADO COM RESSALVA;1;358;2026-02-02 08:15:00;3 un rejeitadas e 5 un para retrabalho
+334;1611;APROVADO COM RESSALVA;4;32;2026-02-02 11:20:00;3 un rejeitadas e 1 un para retrabalho
+335;1615;APROVADO COM RESSALVA;15;179;2026-02-02 13:02:00;2 un rejeitadas e 3 un para retrabalho
+336;1619;APROVADO COM RESSALVA;15;181;2026-02-02 13:21:00;1 un rejeitadas e 1 un para retrabalho
+337;1623;APROVADO COM RESSALVA;17;488;2026-02-03 11:36:00;3 un rejeitadas e 5 un para retrabalho
+338;1630;APROVADO COM RESSALVA;17;148;2026-02-03 13:27:00;1 un rejeitadas e 1 un para retrabalho
+339;1631;APROVADO COM RESSALVA;22;290;2026-02-02 03:49:00;3 un rejeitadas e 2 un para retrabalho
+340;1640;APROVADO COM RESSALVA;3;377;2026-02-02 18:11:00;2 un rejeitadas e 1 un para retrabalho
+341;1643;APROVADO;;32;2026-02-02 17:10:00;
+342;1649;APROVADO;;9;2026-02-03 19:46:00;
+343;1656;APROVADO COM RESSALVA;16;127;2026-02-02 19:09:00;2 un rejeitadas e 3 un para retrabalho
+344;1663;APROVADO COM RESSALVA;3;9;2026-02-02 20:01:00;3 un rejeitadas e 2 un para retrabalho
+345;1669;APROVADO COM RESSALVA;18;210;2026-02-04 21:21:00;1 un rejeitadas e 2 un para retrabalho
+346;1673;APROVADO COM RESSALVA;24;469;2026-02-04 21:19:00;4 un rejeitadas e 5 un para retrabalho
+347;1679;APROVADO COM RESSALVA;18;469;2026-02-05 09:56:00;3 un rejeitadas e 5 un para retrabalho
+348;1686;APROVADO COM RESSALVA;14;226;2026-02-03 06:16:00;1 un rejeitadas e 4 un para retrabalho
+349;1693;APROVADO COM RESSALVA;24;32;2026-02-03 07:44:00;1 un rejeitadas e 1 un para retrabalho
+350;1697;REPROVADO;26;32;2026-02-05 10:03:00;2 un rejeitadas e 3 un para retrabalho
+351;1700;APROVADO COM RESSALVA;1;454;2026-02-04 12:50:00;1 un rejeitadas e 1 un para retrabalho
+352;1701;APROVADO COM RESSALVA;22;336;2026-02-03 04:14:00;2 un rejeitadas e 4 un para retrabalho
+353;1710;APROVADO COM RESSALVA;15;275;2026-02-03 12:23:00;1 un rejeitadas e 2 un para retrabalho
+354;1714;APROVADO COM RESSALVA;16;469;2026-02-05 15:43:00;1 un rejeitadas e 1 un para retrabalho
+355;1718;APROVADO COM RESSALVA;27;331;2026-02-04 13:15:00;2 un rejeitadas e 3 un para retrabalho
+356;1722;APROVADO COM RESSALVA;1;239;2026-02-05 18:17:00;1 un rejeitadas e 3 un para retrabalho
+357;1725;APROVADO COM RESSALVA;27;210;2026-02-05 15:00:00;1 un rejeitadas e 2 un para retrabalho
+358;1728;APROVADO COM RESSALVA;11;210;2026-02-05 16:31:00;3 un rejeitadas e 3 un para retrabalho
+359;1732;APROVADO COM RESSALVA;16;210;2026-02-05 17:43:00;3 un rejeitadas e 5 un para retrabalho
+360;1739;APROVADO;;8;2026-02-05 20:25:00;
+361;1742;APROVADO COM RESSALVA;27;336;2026-02-04 07:01:00;5 un rejeitadas e 4 un para retrabalho
+362;1749;APROVADO COM RESSALVA;3;325;2026-02-04 06:50:00;2 un rejeitadas e 1 un para retrabalho
+363;1753;APROVADO COM RESSALVA;24;488;2026-02-04 10:59:00;2 un rejeitadas e 2 un para retrabalho
+364;1757;APROVADO COM RESSALVA;17;343;2026-02-04 12:18:00;2 un rejeitadas e 3 un para retrabalho
+365;1761;APROVADO COM RESSALVA;14;209;2026-02-06 11:07:00;1 un rejeitadas e 1 un para retrabalho
+366;1765;REPROVADO;15;234;2026-02-04 09:51:00;1 un rejeitadas e 1 un para retrabalho
+367;1768;APROVADO COM RESSALVA;1;77;2026-02-06 16:32:00;1 un rejeitadas e 1 un para retrabalho
+368;1769;APROVADO COM RESSALVA;23;336;2026-02-03 23:57:00;3 un rejeitadas e 3 un para retrabalho
+369;1778;APROVADO COM RESSALVA;24;454;2026-02-05 20:29:00;2 un rejeitadas e 1 un para retrabalho
+370;1784;APROVADO COM RESSALVA;9;239;2026-02-06 20:40:00;1 un rejeitadas e 3 un para retrabalho
+371;1791;APROVADO COM RESSALVA;2;469;2026-02-05 09:12:00;3 un rejeitadas e 2 un para retrabalho
+372;1798;APROVADO COM RESSALVA;17;488;2026-02-06 13:39:00;3 un rejeitadas e 5 un para retrabalho
+373;1801;APROVADO COM RESSALVA;11;377;2026-02-07 11:47:00;2 un rejeitadas e 3 un para retrabalho
+374;1804;APROVADO COM RESSALVA;12;488;2026-02-06 13:21:00;3 un rejeitadas e 6 un para retrabalho
+375;1807;APROVADO COM RESSALVA;11;260;2026-02-07 19:17:00;2 un rejeitadas e 5 un para retrabalho
+376;1813;APROVADO COM RESSALVA;18;377;2026-02-07 17:01:00;1 un rejeitadas e 2 un para retrabalho
+377;1816;APROVADO COM RESSALVA;11;127;2026-02-07 18:32:00;1 un rejeitadas e 1 un para retrabalho
+378;1819;APROVADO COM RESSALVA;27;314;2026-02-05 17:54:00;1 un rejeitadas e 4 un para retrabalho
+379;1820;APROVADO COM RESSALVA;22;77;2026-02-05 18:55:00;1 un rejeitadas e 1 un para retrabalho
+380;1828;APROVADO COM RESSALVA;6;356;2026-02-08 09:11:00;1 un rejeitadas e 4 un para retrabalho
+381;1832;APROVADO COM RESSALVA;27;325;2026-02-08 12:31:00;1 un rejeitadas e 2 un para retrabalho
+382;1839;APROVADO COM RESSALVA;3;234;2026-02-07 12:48:00;1 un rejeitadas e 1 un para retrabalho
+383;1843;APROVADO COM RESSALVA;27;479;2026-02-08 16:28:00;2 un rejeitadas e 2 un para retrabalho
+384;1847;APROVADO COM RESSALVA;17;127;2026-02-08 17:12:00;2 un rejeitadas e 2 un para retrabalho
+385;1848;APROVADO COM RESSALVA;22;9;2026-02-06 00:25:00;1 un para retrabalho
+386;1853;APROVADO COM RESSALVA;13;131;2026-02-06 17:35:00;1 un rejeitadas e 1 un para retrabalho
+387;1857;APROVADO COM RESSALVA;14;206;2026-02-07 16:06:00;2 un rejeitadas e 3 un para retrabalho
+388;1858;APROVADO COM RESSALVA;23;275;2026-02-06 00:50:00;1 un rejeitadas e 1 un para retrabalho
+389;1863;APROVADO COM RESSALVA;11;325;2026-02-06 21:21:00;2 un rejeitadas e 3 un para retrabalho
+390;1864;APROVADO COM RESSALVA;22;377;2026-02-06 08:06:00;1 un rejeitadas e 2 un para retrabalho
+391;1873;APROVADO COM RESSALVA;3;127;2026-02-08 07:42:00;1 un rejeitadas e 1 un para retrabalho
+392;1877;APROVADO;;226;2026-02-07 09:48:00;
+393;1884;APROVADO COM RESSALVA;15;206;2026-02-09 09:25:00;1 un rejeitadas e 1 un para retrabalho
+394;1890;APROVADO COM RESSALVA;9;283;2026-02-08 09:44:00;1 un rejeitadas e 1 un para retrabalho
+395;1893;APROVADO COM RESSALVA;11;446;2026-02-07 09:34:00;3 un rejeitadas e 2 un para retrabalho
+396;1900;APROVADO COM RESSALVA;24;84;2026-02-08 12:06:00;3 un rejeitadas e 2 un para retrabalho
+397;1907;APROVADO COM RESSALVA;14;239;2026-02-09 09:06:00;1 un rejeitadas e 1 un para retrabalho
+398;1914;APROVADO COM RESSALVA;4;377;2026-02-07 11:18:00;4 un rejeitadas e 7 un para retrabalho
+399;1921;APROVADO COM RESSALVA;15;356;2026-02-08 12:52:00;2 un rejeitadas e 2 un para retrabalho
+400;1925;APROVADO COM RESSALVA;20;290;2026-02-09 16:51:00;1 un rejeitadas e 4 un para retrabalho
+401;1932;APROVADO COM RESSALVA;16;484;2026-02-09 20:52:00;2 un rejeitadas e 4 un para retrabalho
+402;1938;APROVADO COM RESSALVA;9;343;2026-02-07 18:14:00;1 un rejeitadas e 6 un para retrabalho
+403;1942;APROVADO COM RESSALVA;25;8;2026-02-07 20:53:00;1 un para retrabalho
+404;1943;APROVADO COM RESSALVA;22;488;2026-02-07 12:03:00;1 un rejeitadas e 1 un para retrabalho
+405;1952;APROVADO COM RESSALVA;3;374;2026-02-09 10:04:00;2 un rejeitadas e 1 un para retrabalho
+406;1959;REPROVADO;28;469;2026-02-09 10:04:00;2 un rejeitadas e 4 un para retrabalho
+407;1962;APROVADO COM RESSALVA;25;84;2026-02-09 12:32:00;2 un rejeitadas e 5 un para retrabalho
+408;1968;APROVADO COM RESSALVA;6;446;2026-02-09 10:05:00;2 un rejeitadas e 3 un para retrabalho
+409;1969;APROVADO COM RESSALVA;23;446;2026-02-07 22:46:00;1 un rejeitadas e 3 un para retrabalho
+410;1978;APROVADO COM RESSALVA;24;257;2026-02-09 19:02:00;2 un rejeitadas e 4 un para retrabalho
+411;1981;REPROVADO;11;209;2026-02-10 18:20:00;1 un rejeitadas e 1 un para retrabalho
+412;1984;APROVADO COM RESSALVA;1;32;2026-02-09 06:44:00;1 un rejeitadas e 1 un para retrabalho
+413;1985;APROVADO COM RESSALVA;23;446;2026-02-08 21:50:00;1 un rejeitadas e 3 un para retrabalho
+414;1993;APROVADO COM RESSALVA;18;479;2026-02-10 08:49:00;1 un rejeitadas e 2 un para retrabalho
+415;1996;APROVADO COM RESSALVA;12;206;2026-02-10 12:34:00;2 un rejeitadas e 5 un para retrabalho
+416;2000;APROVADO COM RESSALVA;24;374;2026-02-11 13:47:00;4 un rejeitadas e 3 un para retrabalho
+417;2003;APROVADO COM RESSALVA;25;21;2026-02-11 13:13:00;1 un rejeitadas e 1 un para retrabalho
+418;2007;APROVADO COM RESSALVA;14;84;2026-02-11 16:38:00;1 un rejeitadas e 1 un para retrabalho
+419;2010;APROVADO COM RESSALVA;25;290;2026-02-09 15:57:00;1 un rejeitadas e 4 un para retrabalho
+420;2014;APROVADO COM RESSALVA;1;454;2026-02-09 20:26:00;1 un rejeitadas e 2 un para retrabalho
+421;2021;APROVADO COM RESSALVA;24;139;2026-02-10 15:59:00;1 un rejeitadas e 1 un para retrabalho
+422;2024;APROVADO COM RESSALVA;11;469;2026-02-09 20:41:00;2 un rejeitadas e 3 un para retrabalho
+423;2028;APROVADO COM RESSALVA;24;257;2026-02-11 21:45:00;2 un rejeitadas e 3 un para retrabalho
+424;2029;APROVADO COM RESSALVA;22;206;2026-02-09 02:17:00;3 un rejeitadas e 3 un para retrabalho
+425;2038;APROVADO COM RESSALVA;4;232;2026-02-10 06:52:00;1 un rejeitadas
+426;2039;APROVADO COM RESSALVA;23;488;2026-02-09 17:19:00;2 un rejeitadas e 2 un para retrabalho
+427;2045;APROVADO COM RESSALVA;16;356;2026-02-12 10:05:00;2 un rejeitadas e 2 un para retrabalho
+428;2046;APROVADO COM RESSALVA;22;343;2026-02-09 14:16:00;1 un rejeitadas e 4 un para retrabalho
+429;2055;APROVADO COM RESSALVA;28;479;2026-02-12 11:28:00;3 un rejeitadas e 5 un para retrabalho
+430;2059;APROVADO COM RESSALVA;14;181;2026-02-10 17:29:00;1 un rejeitadas e 1 un para retrabalho
+431;2063;APROVADO COM RESSALVA;26;446;2026-02-11 16:47:00;2 un rejeitadas e 1 un para retrabalho
+432;2070;APROVADO COM RESSALVA;16;325;2026-02-12 20:13:00;2 un rejeitadas e 3 un para retrabalho
+433;2071;APROVADO COM RESSALVA;24;275;2026-02-09 21:55:00;2 un para retrabalho
+434;2076;APROVADO COM RESSALVA;41;479;2026-02-11 07:24:00;3 un para retrabalho
+435;2082;APROVADO COM RESSALVA;6;61;2026-02-13 07:54:00;1 un rejeitadas e 2 un para retrabalho
+436;2086;APROVADO COM RESSALVA;24;484;2026-02-11 11:40:00;3 un rejeitadas e 4 un para retrabalho
+437;2092;APROVADO COM RESSALVA;9;343;2026-02-11 13:13:00;2 un rejeitadas e 2 un para retrabalho
+438;2095;REPROVADO;12;356;2026-02-13 13:30:00;3 un rejeitadas e 5 un para retrabalho
+439;2099;APROVADO COM RESSALVA;20;243;2026-02-13 09:45:00;1 un rejeitadas e 1 un para retrabalho
+440;2102;APROVADO COM RESSALVA;1;488;2026-02-13 12:49:00;4 un rejeitadas e 6 un para retrabalho
+441;2109;APROVADO COM RESSALVA;17;479;2026-02-11 12:29:00;2 un rejeitadas e 2 un para retrabalho
+442;2116;APROVADO;;61;2026-02-11 12:05:00;
+443;2119;APROVADO COM RESSALVA;1;446;2026-02-12 11:48:00;2 un rejeitadas e 3 un para retrabalho
+444;2126;APROVADO COM RESSALVA;24;37;2026-02-13 16:20:00;2 un rejeitadas e 4 un para retrabalho
+445;2132;APROVADO COM RESSALVA;18;231;2026-02-13 15:13:00;1 un rejeitadas e 1 un para retrabalho
+446;2135;APROVADO COM RESSALVA;11;231;2026-02-11 18:24:00;2 un rejeitadas e 3 un para retrabalho
+447;2141;APROVADO COM RESSALVA;6;356;2026-02-11 16:43:00;2 un rejeitadas e 3 un para retrabalho
+448;2145;APROVADO COM RESSALVA;20;358;2026-02-13 19:08:00;2 un rejeitadas e 3 un para retrabalho
+449;2149;APROVADO COM RESSALVA;17;210;2026-02-11 18:17:00;1 un rejeitadas e 1 un para retrabalho
+450;2156;APROVADO COM RESSALVA;17;377;2026-02-11 18:39:00;3 un rejeitadas e 4 un para retrabalho
+451;2163;APROVADO COM RESSALVA;4;234;2026-02-13 18:06:00;3 un rejeitadas e 3 un para retrabalho
+452;2167;APROVADO COM RESSALVA;20;139;2026-02-11 19:28:00;1 un rejeitadas e 1 un para retrabalho
+453;2174;APROVADO COM RESSALVA;3;226;2026-02-13 19:12:00;2 un rejeitadas e 2 un para retrabalho
+454;2177;APROVADO COM RESSALVA;27;343;2026-02-12 21:27:00;1 un rejeitadas e 3 un para retrabalho
+455;2180;APROVADO COM RESSALVA;13;374;2026-02-13 06:52:00;2 un rejeitadas e 3 un para retrabalho
+456;2184;APROVADO COM RESSALVA;26;290;2026-02-13 07:10:00;1 un rejeitadas e 4 un para retrabalho
+457;2188;APROVADO COM RESSALVA;15;21;2026-02-12 09:59:00;1 un rejeitadas e 1 un para retrabalho
+458;2195;APROVADO COM RESSALVA;14;488;2026-02-13 08:06:00;3 un rejeitadas e 6 un para retrabalho
+459;2202;APROVADO COM RESSALVA;16;379;2026-02-13 09:08:00;2 un rejeitadas e 2 un para retrabalho
+460;2209;APROVADO COM RESSALVA;17;210;2026-02-14 10:45:00;1 un rejeitadas e 2 un para retrabalho
+461;2216;APROVADO COM RESSALVA;24;343;2026-02-14 21:24:00;2 un rejeitadas e 1 un para retrabalho
+462;2220;APROVADO COM RESSALVA;14;469;2026-02-14 18:35:00;3 un rejeitadas e 2 un para retrabalho
+463;2227;APROVADO COM RESSALVA;2;374;2026-02-12 21:41:00;1 un rejeitadas
+464;2234;APROVADO COM RESSALVA;14;446;2026-02-12 21:52:00;3 un rejeitadas e 1 un para retrabalho
+465;2237;APROVADO COM RESSALVA;11;469;2026-02-13 06:26:00;6 un rejeitadas e 4 un para retrabalho
+466;2241;APROVADO COM RESSALVA;24;377;2026-02-13 07:47:00;2 un rejeitadas e 2 un para retrabalho
+467;2247;APROVADO COM RESSALVA;29;231;2026-02-14 10:10:00;1 un para retrabalho
+468;2251;APROVADO COM RESSALVA;24;84;2026-02-13 11:28:00;2 un rejeitadas e 5 un para retrabalho
+469;2252;APROVADO COM RESSALVA;22;77;2026-02-12 15:09:00;1 un rejeitadas e 1 un para retrabalho
+470;2258;APROVADO COM RESSALVA;17;290;2026-02-14 10:08:00;2 un rejeitadas e 4 un para retrabalho
+471;2265;APROVADO COM RESSALVA;24;290;2026-02-13 18:19:00;2 un rejeitadas e 3 un para retrabalho
+472;2268;APROVADO COM RESSALVA;11;290;2026-02-13 14:31:00;1 un rejeitadas e 2 un para retrabalho
+473;2275;APROVADO COM RESSALVA;4;206;2026-02-15 18:14:00;1 un rejeitadas e 2 un para retrabalho
+474;2279;APROVADO COM RESSALVA;27;479;2026-02-15 11:04:00;2 un rejeitadas e 1 un para retrabalho
+475;2283;APROVADO COM RESSALVA;15;479;2026-02-16 17:27:00;4 un rejeitadas e 3 un para retrabalho
+476;2287;APROVADO COM RESSALVA;24;446;2026-02-15 18:14:00;4 un rejeitadas e 2 un para retrabalho
+477;2288;APROVADO COM RESSALVA;23;181;2026-02-14 01:17:00;1 un rejeitadas e 4 un para retrabalho
+478;2294;APROVADO COM RESSALVA;14;257;2026-02-15 20:17:00;1 un rejeitadas e 2 un para retrabalho
+479;2298;APROVADO COM RESSALVA;16;446;2026-02-15 19:54:00;3 un rejeitadas e 2 un para retrabalho
+480;2301;APROVADO COM RESSALVA;12;21;2026-02-17 09:47:00;2 un rejeitadas e 3 un para retrabalho
+481;2305;APROVADO COM RESSALVA;15;377;2026-02-15 12:56:00;2 un rejeitadas e 2 un para retrabalho
+482;2312;APROVADO COM RESSALVA;4;454;2026-02-17 09:48:00;2 un rejeitadas e 2 un para retrabalho
+483;2318;APROVADO COM RESSALVA;19;469;2026-02-17 12:08:00;2 un rejeitadas e 5 un para retrabalho
+484;2325;APROVADO COM RESSALVA;2;226;2026-02-16 18:54:00;1 un rejeitadas e 1 un para retrabalho
+485;2328;APROVADO COM RESSALVA;27;232;2026-02-16 16:35:00;2 un rejeitadas e 3 un para retrabalho
+486;2334;REPROVADO;6;290;2026-02-15 20:30:00;2 un rejeitadas e 3 un para retrabalho
+487;2341;APROVADO COM RESSALVA;17;77;2026-02-16 20:52:00;2 un rejeitadas e 3 un para retrabalho
+488;2348;APROVADO COM RESSALVA;28;446;2026-02-17 20:20:00;3 un rejeitadas e 2 un para retrabalho
+489;2355;REPROVADO;24;379;2026-02-17 06:55:00;3 un rejeitadas e 5 un para retrabalho
+490;2362;APROVADO COM RESSALVA;17;257;2026-02-18 10:05:00;2 un rejeitadas e 5 un para retrabalho
+491;2366;APROVADO COM RESSALVA;17;234;2026-02-18 09:23:00;1 un rejeitadas e 1 un para retrabalho
+492;2372;APROVADO COM RESSALVA;9;9;2026-02-17 10:19:00;1 un rejeitadas e 2 un para retrabalho
+493;2375;APROVADO COM RESSALVA;11;243;2026-02-16 12:45:00;1 un rejeitadas e 1 un para retrabalho
+494;2381;APROVADO COM RESSALVA;19;336;2026-02-18 12:09:00;1 un rejeitadas e 4 un para retrabalho
+495;2385;APROVADO COM RESSALVA;14;260;2026-02-17 13:50:00;1 un rejeitadas e 1 un para retrabalho
+496;2389;APROVADO COM RESSALVA;25;232;2026-02-16 15:45:00;1 un para retrabalho
+497;2392;APROVADO COM RESSALVA;11;377;2026-02-18 13:54:00;5 un rejeitadas e 5 un para retrabalho
+498;2395;APROVADO COM RESSALVA;11;8;2026-02-18 14:44:00;1 un rejeitadas e 1 un para retrabalho
+499;2401;APROVADO COM RESSALVA;19;331;2026-02-16 15:36:00;3 un rejeitadas e 3 un para retrabalho
+500;2405;APROVADO COM RESSALVA;26;374;2026-02-16 17:53:00;3 un rejeitadas e 1 un para retrabalho
+501;2412;APROVADO COM RESSALVA;2;454;2026-02-16 18:29:00;3 un rejeitadas e 3 un para retrabalho
+502;2418;REPROVADO;19;78;2026-02-18 16:34:00;1 un rejeitadas e 2 un para retrabalho
+503;2425;APROVADO COM RESSALVA;14;379;2026-02-16 18:09:00;4 un rejeitadas e 2 un para retrabalho
+504;2428;APROVADO COM RESSALVA;25;356;2026-02-17 18:01:00;1 un rejeitadas e 5 un para retrabalho
+505;2431;APROVADO COM RESSALVA;25;325;2026-02-18 18:44:00;2 un rejeitadas e 1 un para retrabalho
+506;2438;APROVADO COM RESSALVA;15;283;2026-02-18 08:25:00;2 un rejeitadas e 2 un para retrabalho
+507;2442;APROVADO COM RESSALVA;17;179;2026-02-19 08:38:00;1 un rejeitadas e 2 un para retrabalho
+508;2449;APROVADO COM RESSALVA;24;331;2026-02-19 08:36:00;1 un rejeitadas e 2 un para retrabalho
+509;2453;APROVADO COM RESSALVA;27;78;2026-02-18 10:08:00;1 un rejeitadas
+510;2460;APROVADO COM RESSALVA;15;234;2026-02-19 09:00:00;1 un rejeitadas
+511;2467;APROVADO COM RESSALVA;28;105;2026-02-18 11:31:00;2 un rejeitadas e 2 un para retrabalho
+512;2471;APROVADO COM RESSALVA;24;209;2026-02-19 13:08:00;2 un rejeitadas e 1 un para retrabalho
+513;2475;APROVADO COM RESSALVA;14;356;2026-02-19 21:35:00;1 un rejeitadas e 3 un para retrabalho
+514;2476;APROVADO COM RESSALVA;23;379;2026-02-16 21:22:00;2 un rejeitadas e 4 un para retrabalho
+515;2482;APROVADO COM RESSALVA;17;78;2026-02-17 19:43:00;3 un rejeitadas e 4 un para retrabalho
+516;2486;APROVADO COM RESSALVA;14;283;2026-02-17 21:13:00;4 un rejeitadas e 5 un para retrabalho
+517;2487;APROVADO COM RESSALVA;23;454;2026-02-17 04:21:00;1 un rejeitadas e 6 un para retrabalho
+518;2490;APROVADO;;179;2026-02-17 14:53:00;
+519;2496;APROVADO COM RESSALVA;17;374;2026-02-18 07:53:00;2 un rejeitadas e 2 un para retrabalho
+520;2503;APROVADO COM RESSALVA;14;488;2026-02-18 09:06:00;3 un rejeitadas e 2 un para retrabalho
+521;2509;APROVADO COM RESSALVA;6;358;2026-02-19 10:24:00;1 un rejeitadas e 1 un para retrabalho
+522;2513;APROVADO COM RESSALVA;15;356;2026-02-19 14:00:00;2 un rejeitadas e 6 un para retrabalho
+523;2516;APROVADO COM RESSALVA;13;484;2026-02-20 18:27:00;3 un rejeitadas e 3 un para retrabalho
+524;2517;APROVADO COM RESSALVA;23;131;2026-02-17 19:16:00;2 un rejeitadas e 4 un para retrabalho
+525;2526;APROVADO COM RESSALVA;16;260;2026-02-18 20:26:00;1 un rejeitadas e 3 un para retrabalho
+526;2530;APROVADO COM RESSALVA;20;358;2026-02-20 08:30:00;2 un rejeitadas e 2 un para retrabalho
+527;2536;APROVADO COM RESSALVA;6;232;2026-02-19 06:03:00;2 un rejeitadas e 1 un para retrabalho
+528;2537;APROVADO COM RESSALVA;22;226;2026-02-18 14:38:00;1 un rejeitadas e 1 un para retrabalho
+529;2543;APROVADO COM RESSALVA;20;209;2026-02-20 06:25:00;1 un rejeitadas e 3 un para retrabalho
+530;2547;APROVADO COM RESSALVA;24;358;2026-02-20 09:39:00;2 un rejeitadas e 3 un para retrabalho
+531;2550;APROVADO COM RESSALVA;27;325;2026-02-20 10:23:00;2 un rejeitadas e 2 un para retrabalho
+532;2557;APROVADO COM RESSALVA;16;358;2026-02-19 14:28:00;3 un rejeitadas e 2 un para retrabalho
+533;2564;REPROVADO;16;105;2026-02-19 14:54:00;1 un rejeitadas e 1 un para retrabalho
+534;2568;APROVADO COM RESSALVA;20;377;2026-02-21 17:56:00;3 un rejeitadas e 3 un para retrabalho
+535;2571;APROVADO COM RESSALVA;12;181;2026-02-20 18:01:00;2 un rejeitadas e 1 un para retrabalho
+536;2578;APROVADO COM RESSALVA;2;283;2026-02-21 21:32:00;1 un rejeitadas
+537;2585;APROVADO COM RESSALVA;16;179;2026-02-22 10:34:00;1 un rejeitadas e 1 un para retrabalho
+538;2591;APROVADO COM RESSALVA;18;9;2026-02-20 11:38:00;2 un rejeitadas e 3 un para retrabalho
+539;2595;APROVADO COM RESSALVA;14;343;2026-02-20 11:50:00;1 un rejeitadas e 2 un para retrabalho
+540;2599;APROVADO COM RESSALVA;27;283;2026-02-22 13:57:00;3 un rejeitadas e 2 un para retrabalho
+541;2603;APROVADO COM RESSALVA;15;469;2026-02-22 19:01:00;1 un rejeitadas e 2 un para retrabalho
+542;2606;APROVADO COM RESSALVA;36;131;2026-02-21 17:14:00;1 un para retrabalho
+543;2609;APROVADO COM RESSALVA;12;479;2026-02-21 15:27:00;4 un rejeitadas e 3 un para retrabalho
+544;2616;APROVADO COM RESSALVA;4;488;2026-02-22 18:51:00;3 un rejeitadas e 2 un para retrabalho
+545;2623;APROVADO COM RESSALVA;17;358;2026-02-21 19:12:00;2 un rejeitadas e 2 un para retrabalho
+546;2624;APROVADO COM RESSALVA;23;179;2026-02-20 09:01:00;2 un rejeitadas e 3 un para retrabalho
+547;2633;APROVADO COM RESSALVA;16;231;2026-02-21 11:33:00;1 un rejeitadas e 1 un para retrabalho
+548;2634;APROVADO COM RESSALVA;23;454;2026-02-20 18:39:00;2 un rejeitadas e 3 un para retrabalho
+549;2639;APROVADO COM RESSALVA;1;21;2026-02-21 08:44:00;1 un rejeitadas e 1 un para retrabalho
+550;2642;APROVADO COM RESSALVA;13;454;2026-02-22 10:01:00;2 un rejeitadas e 3 un para retrabalho
+551;2646;APROVADO COM RESSALVA;17;231;2026-02-21 12:15:00;1 un rejeitadas e 4 un para retrabalho
+552;2647;APROVADO COM RESSALVA;23;314;2026-02-20 15:29:00;3 un rejeitadas e 2 un para retrabalho
+553;2656;APROVADO COM RESSALVA;24;325;2026-02-22 12:42:00;1 un rejeitadas e 2 un para retrabalho
+554;2663;APROVADO COM RESSALVA;28;148;2026-02-22 12:07:00;2 un rejeitadas e 2 un para retrabalho
+555;2666;APROVADO COM RESSALVA;1;209;2026-02-21 12:14:00;1 un rejeitadas e 1 un para retrabalho
+556;2670;APROVADO COM RESSALVA;16;21;2026-02-23 12:53:00;2 un rejeitadas e 4 un para retrabalho
+557;2674;APROVADO COM RESSALVA;26;336;2026-02-22 18:40:00;2 un rejeitadas e 6 un para retrabalho
+558;2681;APROVADO COM RESSALVA;24;374;2026-02-21 18:44:00;2 un rejeitadas e 3 un para retrabalho
+559;2685;APROVADO COM RESSALVA;15;343;2026-02-22 20:41:00;3 un rejeitadas e 2 un para retrabalho
+560;2692;APROVADO COM RESSALVA;17;356;2026-02-23 18:41:00;1 un rejeitadas e 3 un para retrabalho
+561;2696;APROVADO COM RESSALVA;14;231;2026-02-22 19:55:00;1 un para retrabalho
+562;2703;APROVADO COM RESSALVA;14;343;2026-02-24 06:41:00;2 un rejeitadas e 4 un para retrabalho
+563;2706;APROVADO COM RESSALVA;25;61;2026-02-24 09:03:00;2 un rejeitadas e 3 un para retrabalho
+564;2710;APROVADO COM RESSALVA;17;239;2026-02-24 08:08:00;1 un rejeitadas e 2 un para retrabalho
+565;2714;REPROVADO;17;9;2026-02-23 11:55:00;4 un rejeitadas e 5 un para retrabalho
+566;2718;APROVADO COM RESSALVA;20;257;2026-02-24 11:03:00;1 un para retrabalho
+567;2721;APROVADO COM RESSALVA;13;210;2026-02-24 11:20:00;1 un para retrabalho
+568;2725;APROVADO COM RESSALVA;20;148;2026-02-23 11:09:00;1 un rejeitadas e 3 un para retrabalho
+569;2729;APROVADO COM RESSALVA;14;377;2026-02-23 13:36:00;3 un rejeitadas e 3 un para retrabalho
+570;2736;APROVADO COM RESSALVA;28;105;2026-02-24 17:39:00;2 un rejeitadas e 1 un para retrabalho
+571;2743;APROVADO COM RESSALVA;2;148;2026-02-24 17:32:00;1 un rejeitadas e 1 un para retrabalho
+572;2747;APROVADO COM RESSALVA;16;325;2026-02-23 19:07:00;1 un rejeitadas e 2 un para retrabalho
+573;2750;APROVADO COM RESSALVA;27;488;2026-02-22 19:14:00;1 un rejeitadas e 4 un para retrabalho
+574;2753;REPROVADO;25;377;2026-02-24 13:50:00;4 un rejeitadas e 8 un para retrabalho
+575;2754;APROVADO COM RESSALVA;22;479;2026-02-22 23:20:00;2 un rejeitadas e 4 un para retrabalho
+576;2760;APROVADO COM RESSALVA;14;283;2026-02-23 14:49:00;1 un para retrabalho
+577;2764;REPROVADO;14;105;2026-02-25 17:03:00;1 un rejeitadas e 3 un para retrabalho
+578;2771;APROVADO COM RESSALVA;14;379;2026-02-25 17:16:00;2 un rejeitadas e 3 un para retrabalho
+579;2777;APROVADO COM RESSALVA;9;454;2026-02-25 19:35:00;1 un rejeitadas e 1 un para retrabalho
+580;2780;APROVADO COM RESSALVA;11;336;2026-02-24 08:04:00;5 un rejeitadas e 4 un para retrabalho
+581;2783;APROVADO COM RESSALVA;1;336;2026-02-26 09:31:00;1 un rejeitadas e 2 un para retrabalho
+582;2790;APROVADO COM RESSALVA;16;325;2026-02-26 06:53:00;2 un rejeitadas e 2 un para retrabalho
+583;2797;APROVADO COM RESSALVA;14;454;2026-02-24 11:03:00;3 un rejeitadas e 2 un para retrabalho
+584;2798;APROVADO COM RESSALVA;23;358;2026-02-23 18:33:00;3 un rejeitadas e 4 un para retrabalho
+585;2807;APROVADO COM RESSALVA;16;469;2026-02-24 12:24:00;2 un rejeitadas e 1 un para retrabalho
+586;2810;APROVADO COM RESSALVA;11;488;2026-02-25 13:29:00;3 un rejeitadas e 3 un para retrabalho
+587;2817;APROVADO COM RESSALVA;14;127;2026-02-24 16:32:00;3 un rejeitadas e 1 un para retrabalho
+588;2821;APROVADO COM RESSALVA;17;336;2026-02-25 17:16:00;2 un rejeitadas e 3 un para retrabalho
+589;2824;APROVADO COM RESSALVA;13;331;2026-02-25 15:53:00;5 un rejeitadas e 6 un para retrabalho
+590;2825;APROVADO COM RESSALVA;22;239;2026-02-24 06:20:00;1 un para retrabalho
+591;2833;APROVADO COM RESSALVA;9;325;2026-02-24 18:31:00;3 un rejeitadas e 6 un para retrabalho
+592;2834;APROVADO COM RESSALVA;23;9;2026-02-24 04:56:00;2 un rejeitadas e 5 un para retrabalho
+593;2840;APROVADO COM RESSALVA;20;479;2026-02-26 21:53:00;2 un rejeitadas e 3 un para retrabalho
+594;2847;APROVADO COM RESSALVA;16;56;2026-02-24 21:58:00;1 un rejeitadas e 1 un para retrabalho
+595;2850;APROVADO;;78;2026-02-27 07:59:00;
+596;2854;APROVADO COM RESSALVA;16;377;2026-02-27 06:03:00;4 un rejeitadas e 3 un para retrabalho
+597;2858;APROVADO COM RESSALVA;14;181;2026-02-27 08:59:00;1 un rejeitadas e 2 un para retrabalho
+598;2861;APROVADO COM RESSALVA;1;454;2026-02-26 09:40:00;1 un rejeitadas e 5 un para retrabalho
+599;2862;APROVADO COM RESSALVA;22;32;2026-02-24 17:47:00;1 un rejeitadas e 3 un para retrabalho
+600;2871;APROVADO COM RESSALVA;28;336;2026-02-26 12:58:00;2 un rejeitadas e 2 un para retrabalho
+601;2878;APROVADO COM RESSALVA;15;206;2026-02-26 09:22:00;1 un rejeitadas e 1 un para retrabalho
+602;2881;APROVADO COM RESSALVA;25;231;2026-02-26 11:26:00;1 un rejeitadas e 1 un para retrabalho
+603;2884;APROVADO COM RESSALVA;1;454;2026-02-25 18:34:00;4 un rejeitadas e 4 un para retrabalho
+604;2890;APROVADO COM RESSALVA;6;260;2026-02-25 21:51:00;1 un para retrabalho
+605;2894;APROVADO COM RESSALVA;15;479;2026-02-25 19:01:00;2 un rejeitadas e 2 un para retrabalho
+606;2898;APROVADO COM RESSALVA;25;243;2026-02-25 20:37:00;1 un para retrabalho
+607;2904;APROVADO COM RESSALVA;18;454;2026-02-26 21:32:00;3 un rejeitadas e 8 un para retrabalho
+608;2907;APROVADO COM RESSALVA;1;234;2026-02-27 06:49:00;1 un rejeitadas e 1 un para retrabalho
+609;2911;APROVADO COM RESSALVA;17;479;2026-02-26 13:12:00;1 un rejeitadas e 2 un para retrabalho
+610;2918;APROVADO COM RESSALVA;14;209;2026-02-27 13:45:00;1 un rejeitadas e 1 un para retrabalho
+611;2924;APROVADO COM RESSALVA;18;78;2026-02-28 17:47:00;3 un rejeitadas e 5 un para retrabalho
+612;2927;APROVADO COM RESSALVA;12;139;2026-02-26 19:31:00;2 un rejeitadas e 3 un para retrabalho
+613;2931;APROVADO COM RESSALVA;27;454;2026-02-28 19:14:00;1 un rejeitadas e 4 un para retrabalho
+614;2935;APROVADO COM RESSALVA;14;232;2026-02-27 20:16:00;1 un rejeitadas e 3 un para retrabalho
+615;2942;APROVADO COM RESSALVA;24;78;2026-02-27 07:44:00;1 un rejeitadas e 1 un para retrabalho
+616;2949;APROVADO COM RESSALVA;28;325;2026-02-28 07:51:00;5 un rejeitadas e 4 un para retrabalho
+617;2956;APROVADO COM RESSALVA;15;9;2026-03-01 07:52:00;1 un rejeitadas e 2 un para retrabalho
+618;2959;REPROVADO;11;257;2026-03-01 09:32:00;11 un rejeitadas e 4 un para retrabalho
+619;2966;APROVADO COM RESSALVA;3;179;2026-02-27 10:43:00;1 un rejeitadas e 1 un para retrabalho
+620;2973;REPROVADO;3;139;2026-02-28 06:44:00;4 un rejeitadas e 4 un para retrabalho
+621;2980;APROVADO COM RESSALVA;3;379;2026-02-28 09:44:00;3 un rejeitadas e 6 un para retrabalho
+622;2984;APROVADO COM RESSALVA;26;377;2026-02-28 10:51:00;2 un rejeitadas e 2 un para retrabalho
+623;2991;APROVADO COM RESSALVA;16;331;2026-02-27 12:37:00;2 un rejeitadas e 4 un para retrabalho
+624;2992;APROVADO COM RESSALVA;23;231;2026-02-26 22:09:00;1 un rejeitadas e 1 un para retrabalho
+625;2997;APROVADO COM RESSALVA;25;234;2026-02-28 16:36:00;2 un rejeitadas e 4 un para retrabalho
+626;3001;APROVADO COM RESSALVA;26;148;2026-02-27 17:18:00;2 un rejeitadas e 4 un para retrabalho
+627;3005;APROVADO COM RESSALVA;24;377;2026-02-27 19:32:00;1 un rejeitadas e 3 un para retrabalho
+628;3006;APROVADO COM RESSALVA;23;336;2026-02-26 22:41:00;1 un rejeitadas e 4 un para retrabalho
+629;3012;APROVADO COM RESSALVA;17;331;2026-03-02 10:17:00;1 un rejeitadas e 2 un para retrabalho
+630;3019;APROVADO COM RESSALVA;28;488;2026-02-28 08:45:00;2 un rejeitadas e 2 un para retrabalho
+631;3026;APROVADO COM RESSALVA;15;243;2026-02-28 10:19:00;1 un rejeitadas e 2 un para retrabalho
+632;3030;APROVADO COM RESSALVA;16;290;2026-03-02 14:37:00;1 un rejeitadas e 1 un para retrabalho
+633;3034;APROVADO COM RESSALVA;16;206;2026-03-01 12:56:00;4 un rejeitadas e 5 un para retrabalho
+634;3041;APROVADO COM RESSALVA;15;377;2026-03-01 13:13:00;1 un rejeitadas e 1 un para retrabalho
+635;3042;APROVADO COM RESSALVA;23;77;2026-02-28 10:01:00;2 un rejeitadas e 2 un para retrabalho
+636;3051;APROVADO COM RESSALVA;24;336;2026-03-02 21:43:00;1 un rejeitadas e 4 un para retrabalho
+637;3057;APROVADO COM RESSALVA;18;488;2026-03-01 21:40:00;2 un rejeitadas e 2 un para retrabalho
+638;3061;APROVADO COM RESSALVA;26;488;2026-03-01 21:43:00;2 un rejeitadas e 4 un para retrabalho
+639;3064;REPROVADO;11;231;2026-03-03 06:31:00;3 un rejeitadas e 1 un para retrabalho
+640;3071;APROVADO COM RESSALVA;16;231;2026-03-03 08:57:00;1 un rejeitadas
+641;3075;APROVADO COM RESSALVA;16;343;2026-03-01 08:48:00;1 un rejeitadas e 1 un para retrabalho
+642;3082;REPROVADO;4;336;2026-03-03 11:24:00;4 un rejeitadas e 4 un para retrabalho
+643;3088;APROVADO COM RESSALVA;6;331;2026-03-03 14:48:00;2 un rejeitadas e 4 un para retrabalho
+644;3095;APROVADO COM RESSALVA;16;61;2026-03-03 15:15:00;1 un rejeitadas e 1 un para retrabalho
+645;3096;APROVADO COM RESSALVA;22;374;2026-02-28 20:18:00;3 un rejeitadas e 2 un para retrabalho
+646;3104;APROVADO COM RESSALVA;19;231;2026-03-01 20:27:00;1 un rejeitadas e 2 un para retrabalho
+647;3111;APROVADO COM RESSALVA;40;234;2026-03-01 17:41:00;1 un para retrabalho
+648;3112;APROVADO;;181;2026-03-01 05:46:00;
+649;3120;APROVADO COM RESSALVA;6;283;2026-03-01 21:55:00;1 un rejeitadas e 1 un para retrabalho
+650;3123;REPROVADO;11;336;2026-03-01 20:58:00;11 un rejeitadas e 5 un para retrabalho
+651;3127;APROVADO COM RESSALVA;24;446;2026-03-02 08:50:00;2 un rejeitadas e 5 un para retrabalho
+652;3131;APROVADO COM RESSALVA;1;377;2026-03-04 11:20:00;2 un rejeitadas e 4 un para retrabalho
+653;3132;APROVADO COM RESSALVA;23;314;2026-03-01 22:20:00;3 un rejeitadas e 5 un para retrabalho
+654;3137;APROVADO COM RESSALVA;25;8;2026-03-02 13:07:00;3 un rejeitadas e 4 un para retrabalho
+655;3144;REPROVADO;24;377;2026-03-02 16:02:00;2 un rejeitadas e 4 un para retrabalho
+656;3148;APROVADO COM RESSALVA;24;8;2026-03-02 19:54:00;3 un rejeitadas e 2 un para retrabalho
+657;3154;APROVADO COM RESSALVA;18;257;2026-03-02 19:54:00;1 un rejeitadas
+658;3161;APROVADO COM RESSALVA;3;260;2026-03-04 18:00:00;3 un rejeitadas e 2 un para retrabalho
+659;3164;REPROVADO;11;8;2026-03-04 21:19:00;10 un rejeitadas e 6 un para retrabalho
+660;3167;APROVADO COM RESSALVA;27;84;2026-03-04 20:02:00;2 un rejeitadas e 4 un para retrabalho
+661;3174;APROVADO COM RESSALVA;24;454;2026-03-03 20:31:00;2 un rejeitadas e 2 un para retrabalho
+662;3181;APROVADO COM RESSALVA;16;131;2026-03-05 10:56:00;1 un rejeitadas e 1 un para retrabalho
+663;3184;APROVADO COM RESSALVA;27;484;2026-03-04 13:49:00;2 un rejeitadas e 6 un para retrabalho
+664;3187;APROVADO COM RESSALVA;25;469;2026-03-05 11:57:00;5 un rejeitadas e 8 un para retrabalho
+665;3190;REPROVADO;11;325;2026-03-04 12:21:00;13 un rejeitadas e 2 un para retrabalho
+666;3194;APROVADO COM RESSALVA;17;84;2026-03-03 14:21:00;1 un rejeitadas e 1 un para retrabalho
+667;3201;APROVADO COM RESSALVA;17;239;2026-03-04 16:20:00;1 un rejeitadas e 1 un para retrabalho
+668;3204;REPROVADO;11;358;2026-03-03 19:14:00;12 un rejeitadas e 8 un para retrabalho
+669;3207;REPROVADO;11;343;2026-03-03 21:43:00;9 un rejeitadas e 4 un para retrabalho
+670;3211;REPROVADO;16;56;2026-03-05 20:36:00;3 un rejeitadas e 5 un para retrabalho
+671;3214;REPROVADO;11;325;2026-03-04 06:31:00;6 un rejeitadas e 2 un para retrabalho
+672;3218;APROVADO COM RESSALVA;1;356;2026-03-05 08:37:00;1 un rejeitadas e 3 un para retrabalho
+673;3222;APROVADO COM RESSALVA;14;78;2026-03-04 07:12:00;3 un rejeitadas e 2 un para retrabalho
+674;3226;APROVADO COM RESSALVA;24;358;2026-03-06 08:18:00;1 un rejeitadas e 1 un para retrabalho
+675;3233;APROVADO COM RESSALVA;4;446;2026-03-04 10:47:00;2 un rejeitadas e 3 un para retrabalho
+676;3239;APROVADO COM RESSALVA;6;9;2026-03-06 12:58:00;1 un rejeitadas e 1 un para retrabalho
+677;3246;APROVADO COM RESSALVA;15;377;2026-03-05 09:36:00;3 un rejeitadas e 2 un para retrabalho
+678;3247;APROVADO COM RESSALVA;23;325;2026-03-03 20:59:00;2 un rejeitadas e 3 un para retrabalho
+679;3256;REPROVADO;28;37;2026-03-06 14:01:00;1 un rejeitadas e 2 un para retrabalho
+680;3263;APROVADO COM RESSALVA;15;131;2026-03-04 14:06:00;1 un rejeitadas e 2 un para retrabalho
+681;3267;APROVADO COM RESSALVA;27;260;2026-03-05 12:12:00;1 un rejeitadas e 2 un para retrabalho
+682;3273;APROVADO COM RESSALVA;9;479;2026-03-05 15:07:00;3 un rejeitadas e 2 un para retrabalho
+683;3280;APROVADO COM RESSALVA;15;336;2026-03-06 09:40:00;3 un rejeitadas e 7 un para retrabalho
+684;3281;APROVADO COM RESSALVA;23;446;2026-03-04 17:42:00;2 un rejeitadas e 4 un para retrabalho
+685;3290;REPROVADO;3;454;2026-03-05 10:11:00;4 un rejeitadas e 4 un para retrabalho
+686;3293;APROVADO COM RESSALVA;27;148;2026-03-07 11:35:00;1 un para retrabalho
+687;3299;APROVADO COM RESSALVA;6;356;2026-03-06 10:05:00;1 un rejeitadas e 2 un para retrabalho
+688;3303;APROVADO COM RESSALVA;17;374;2026-03-07 08:55:00;3 un rejeitadas e 3 un para retrabalho
+689;3310;APROVADO COM RESSALVA;24;9;2026-03-05 15:46:00;1 un rejeitadas e 2 un para retrabalho
+690;3317;APROVADO COM RESSALVA;16;358;2026-03-07 14:22:00;1 un rejeitadas e 5 un para retrabalho
+691;3318;APROVADO COM RESSALVA;22;78;2026-03-04 20:34:00;1 un rejeitadas e 1 un para retrabalho
+692;3324;APROVADO COM RESSALVA;26;379;2026-03-05 19:28:00;2 un rejeitadas e 3 un para retrabalho
+693;3325;APROVADO COM RESSALVA;22;179;2026-03-05 03:06:00;1 un rejeitadas e 3 un para retrabalho
+694;3334;APROVADO COM RESSALVA;17;469;2026-03-07 19:15:00;1 un rejeitadas e 2 un para retrabalho
+695;3341;APROVADO COM RESSALVA;2;9;2026-03-06 07:00:00;3 un rejeitadas e 4 un para retrabalho
+696;3345;APROVADO COM RESSALVA;24;454;2026-03-08 06:04:00;1 un rejeitadas e 2 un para retrabalho
+697;3348;APROVADO COM RESSALVA;27;343;2026-03-07 09:19:00;2 un rejeitadas e 2 un para retrabalho
+698;3352;APROVADO COM RESSALVA;26;454;2026-03-06 09:12:00;1 un rejeitadas e 4 un para retrabalho
+699;3356;APROVADO COM RESSALVA;20;260;2026-03-08 06:20:00;1 un rejeitadas
+700;3359;APROVADO COM RESSALVA;27;314;2026-03-07 09:02:00;2 un rejeitadas e 2 un para retrabalho
+701;3366;APROVADO COM RESSALVA;15;446;2026-03-06 08:10:00;4 un rejeitadas e 5 un para retrabalho
+702;3370;APROVADO COM RESSALVA;24;314;2026-03-07 14:13:00;2 un rejeitadas e 2 un para retrabalho
+703;3376;APROVADO COM RESSALVA;18;84;2026-03-08 16:38:00;1 un rejeitadas e 2 un para retrabalho
+704;3380;APROVADO COM RESSALVA;16;206;2026-03-08 14:41:00;2 un rejeitadas e 1 un para retrabalho
+705;3387;APROVADO COM RESSALVA;16;257;2026-03-06 17:49:00;1 un rejeitadas e 1 un para retrabalho
+706;3388;APROVADO COM RESSALVA;23;446;2026-03-05 20:42:00;2 un rejeitadas e 3 un para retrabalho
+707;3393;REPROVADO;13;61;2026-03-06 18:08:00;6 un rejeitadas e 2 un para retrabalho
+708;3400;APROVADO COM RESSALVA;17;21;2026-03-07 21:35:00;1 un rejeitadas e 2 un para retrabalho
+709;3407;APROVADO COM RESSALVA;4;148;2026-03-07 21:58:00;1 un rejeitadas e 2 un para retrabalho
+710;3413;APROVADO COM RESSALVA;18;32;2026-03-08 07:54:00;2 un rejeitadas e 3 un para retrabalho
+711;3416;APROVADO COM RESSALVA;25;336;2026-03-09 06:44:00;1 un rejeitadas e 3 un para retrabalho
+712;3423;APROVADO COM RESSALVA;15;239;2026-03-09 10:50:00;1 un rejeitadas
+713;3427;APROVADO COM RESSALVA;20;21;2026-03-08 06:52:00;2 un rejeitadas e 3 un para retrabalho
+714;3431;APROVADO COM RESSALVA;17;283;2026-03-08 11:06:00;1 un rejeitadas
+715;3435;REPROVADO;15;78;2026-03-07 07:27:00;1 un rejeitadas e 3 un para retrabalho
+716;3439;APROVADO COM RESSALVA;26;446;2026-03-09 12:26:00;1 un rejeitadas e 4 un para retrabalho
+717;3446;APROVADO COM RESSALVA;16;78;2026-03-09 13:04:00;2 un rejeitadas e 4 un para retrabalho
+718;3450;APROVADO COM RESSALVA;17;374;2026-03-08 17:40:00;1 un rejeitadas e 2 un para retrabalho
+719;3453;APROVADO COM RESSALVA;25;9;2026-03-08 18:30:00;1 un rejeitadas
+720;3456;REPROVADO;13;139;2026-03-08 18:47:00;2 un rejeitadas e 1 un para retrabalho
+721;3460;APROVADO COM RESSALVA;27;206;2026-03-10 07:47:00;2 un rejeitadas e 5 un para retrabalho
+722;3467;APROVADO COM RESSALVA;14;356;2026-03-09 08:40:00;1 un rejeitadas e 2 un para retrabalho
+723;3471;APROVADO COM RESSALVA;26;232;2026-03-08 08:54:00;1 un rejeitadas
+724;3478;APROVADO COM RESSALVA;28;283;2026-03-09 08:13:00;2 un rejeitadas e 3 un para retrabalho
+725;3485;APROVADO COM RESSALVA;14;488;2026-03-10 09:20:00;2 un rejeitadas e 2 un para retrabalho
+726;3488;APROVADO COM RESSALVA;27;454;2026-03-10 10:30:00;2 un rejeitadas e 4 un para retrabalho
+727;3495;APROVADO COM RESSALVA;3;358;2026-03-08 09:38:00;3 un rejeitadas e 2 un para retrabalho
+728;3499;APROVADO COM RESSALVA;17;336;2026-03-08 15:57:00;1 un rejeitadas e 2 un para retrabalho
+729;3502;REPROVADO;11;379;2026-03-10 13:45:00;10 un rejeitadas e 6 un para retrabalho
+730;3508;APROVADO COM RESSALVA;19;484;2026-03-09 19:20:00;2 un rejeitadas e 4 un para retrabalho
+731;3509;APROVADO COM RESSALVA;22;77;2026-03-08 05:43:00;1 un rejeitadas e 6 un para retrabalho
+732;3517;APROVADO COM RESSALVA;6;356;2026-03-08 18:56:00;2 un rejeitadas e 4 un para retrabalho
+733;3518;APROVADO COM RESSALVA;22;21;2026-03-08 06:17:00;1 un rejeitadas e 7 un para retrabalho
+734;3527;APROVADO COM RESSALVA;3;206;2026-03-11 08:14:00;1 un rejeitadas e 1 un para retrabalho
+735;3531;APROVADO COM RESSALVA;1;343;2026-03-09 06:01:00;3 un rejeitadas e 3 un para retrabalho
+736;3534;REPROVADO;11;343;2026-03-10 06:45:00;8 un rejeitadas e 3 un para retrabalho
+737;3540;REPROVADO;19;181;2026-03-10 08:59:00;1 un rejeitadas e 1 un para retrabalho
+738;3543;APROVADO COM RESSALVA;1;356;2026-03-11 09:25:00;3 un rejeitadas e 2 un para retrabalho
+739;3544;APROVADO;;84;2026-03-09 00:39:00;
+740;3550;APROVADO COM RESSALVA;16;469;2026-03-10 17:21:00;4 un rejeitadas e 6 un para retrabalho
+741;3554;APROVADO COM RESSALVA;24;139;2026-03-11 14:32:00;1 un rejeitadas e 2 un para retrabalho
+742;3560;APROVADO COM RESSALVA;19;488;2026-03-11 15:39:00;2 un rejeitadas e 3 un para retrabalho
+743;3567;APROVADO COM RESSALVA;28;331;2026-03-11 18:46:00;1 un rejeitadas e 1 un para retrabalho
+744;3573;APROVADO COM RESSALVA;6;469;2026-03-11 16:49:00;2 un rejeitadas e 3 un para retrabalho
+745;3577;APROVADO COM RESSALVA;24;239;2026-03-09 21:16:00;2 un rejeitadas e 3 un para retrabalho
+746;3581;APROVADO COM RESSALVA;17;454;2026-03-11 19:37:00;2 un rejeitadas e 3 un para retrabalho
+747;3585;APROVADO COM RESSALVA;15;275;2026-03-10 07:38:00;1 un rejeitadas e 2 un para retrabalho
+748;3589;APROVADO COM RESSALVA;41;260;2026-03-12 07:37:00;1 un para retrabalho
+749;3590;APROVADO COM RESSALVA;23;484;2026-03-09 19:20:00;2 un rejeitadas e 5 un para retrabalho
+750;3596;APROVADO COM RESSALVA;16;331;2026-03-12 12:52:00;1 un rejeitadas e 2 un para retrabalho
+751;3600;APROVADO COM RESSALVA;25;37;2026-03-10 15:14:00;1 un para retrabalho
+752;3604;APROVADO COM RESSALVA;16;374;2026-03-11 16:41:00;1 un rejeitadas e 1 un para retrabalho
+753;3610;APROVADO COM RESSALVA;8;32;2026-03-10 17:12:00;1 un para retrabalho
+754;3616;APROVADO COM RESSALVA;18;78;2026-03-12 16:41:00;2 un rejeitadas e 2 un para retrabalho
+755;3617;APROVADO COM RESSALVA;23;8;2026-03-10 05:52:00;1 un para retrabalho
+756;3626;REPROVADO;4;331;2026-03-11 07:47:00;5 un rejeitadas e 7 un para retrabalho
+757;3629;REPROVADO;11;77;2026-03-12 10:15:00;3 un rejeitadas e 1 un para retrabalho
+758;3636;APROVADO COM RESSALVA;16;32;2026-03-12 06:44:00;1 un para retrabalho
+759;3637;APROVADO COM RESSALVA;22;356;2026-03-10 12:02:00;1 un rejeitadas e 2 un para retrabalho
+760;3643;APROVADO COM RESSALVA;16;127;2026-03-12 15:45:00;1 un rejeitadas e 1 un para retrabalho
+761;3650;APROVADO COM RESSALVA;4;379;2026-03-11 12:09:00;1 un rejeitadas e 2 un para retrabalho
+762;3651;APROVADO COM RESSALVA;23;356;2026-03-10 17:27:00;1 un rejeitadas e 2 un para retrabalho
+763;3657;APROVADO COM RESSALVA;27;358;2026-03-11 17:51:00;2 un rejeitadas e 5 un para retrabalho
+764;3661;APROVADO COM RESSALVA;1;37;2026-03-12 20:26:00;2 un rejeitadas e 5 un para retrabalho
+765;3664;REPROVADO;11;61;2026-03-13 08:17:00;10 un rejeitadas e 6 un para retrabalho
+766;3668;APROVADO COM RESSALVA;16;479;2026-03-14 11:44:00;3 un rejeitadas e 5 un para retrabalho
+767;3674;APROVADO COM RESSALVA;18;290;2026-03-12 16:15:00;1 un rejeitadas e 6 un para retrabalho
+768;3681;APROVADO COM RESSALVA;17;356;2026-03-13 12:53:00;2 un rejeitadas e 3 un para retrabalho
+769;3688;REPROVADO;15;210;2026-03-12 14:28:00;1 un rejeitadas e 2 un para retrabalho
+770;3692;APROVADO COM RESSALVA;24;239;2026-03-14 18:47:00;1 un rejeitadas e 1 un para retrabalho
+771;3696;APROVADO COM RESSALVA;20;356;2026-03-13 19:51:00;1 un rejeitadas e 2 un para retrabalho
+772;3699;REPROVADO;11;488;2026-03-14 21:16:00;7 un rejeitadas e 3 un para retrabalho
+773;3705;APROVADO COM RESSALVA;18;454;2026-03-12 21:01:00;2 un rejeitadas e 2 un para retrabalho
+774;3712;APROVADO COM RESSALVA;14;374;2026-03-14 19:32:00;2 un rejeitadas e 1 un para retrabalho
+775;3716;APROVADO COM RESSALVA;16;377;2026-03-14 06:41:00;2 un rejeitadas e 3 un para retrabalho
+776;3723;APROVADO COM RESSALVA;2;148;2026-03-15 06:13:00;1 un rejeitadas e 1 un para retrabalho
+777;3727;APROVADO COM RESSALVA;17;336;2026-03-15 11:48:00;2 un rejeitadas e 3 un para retrabalho
+778;3734;APROVADO COM RESSALVA;24;290;2026-03-15 12:17:00;1 un rejeitadas e 1 un para retrabalho
+779;3741;APROVADO COM RESSALVA;16;231;2026-03-13 09:49:00;2 un rejeitadas e 1 un para retrabalho
+780;3744;APROVADO COM RESSALVA;25;9;2026-03-14 11:21:00;1 un rejeitadas e 1 un para retrabalho
+781;3745;APROVADO COM RESSALVA;22;379;2026-03-12 22:56:00;1 un rejeitadas e 1 un para retrabalho
+782;3751;APROVADO COM RESSALVA;24;469;2026-03-13 15:28:00;1 un rejeitadas e 2 un para retrabalho
+783;3755;APROVADO COM RESSALVA;17;231;2026-03-13 14:42:00;3 un rejeitadas e 2 un para retrabalho
+784;3758;APROVADO COM RESSALVA;11;127;2026-03-13 13:53:00;1 un rejeitadas
+785;3761;APROVADO COM RESSALVA;27;232;2026-03-13 15:58:00;1 un rejeitadas e 2 un para retrabalho
+786;3764;APROVADO COM RESSALVA;1;84;2026-03-15 18:30:00;1 un para retrabalho
+787;3767;REPROVADO;12;77;2026-03-13 21:00:00;5 un rejeitadas e 4 un para retrabalho
+788;3770;APROVADO COM RESSALVA;41;209;2026-03-13 21:40:00;1 un para retrabalho
+789;3777;APROVADO COM RESSALVA;2;37;2026-03-14 10:31:00;1 un rejeitadas e 1 un para retrabalho
+790;3783;REPROVADO;19;243;2026-03-16 10:59:00;1 un rejeitadas e 1 un para retrabalho
+791;3790;APROVADO COM RESSALVA;24;488;2026-03-15 07:06:00;2 un rejeitadas e 2 un para retrabalho
+792;3793;REPROVADO;11;374;2026-03-14 09:30:00;6 un rejeitadas e 4 un para retrabalho
+793;3800;REPROVADO;16;84;2026-03-16 12:34:00;1 un rejeitadas e 1 un para retrabalho
+794;3803;APROVADO COM RESSALVA;1;377;2026-03-14 12:04:00;5 un rejeitadas e 5 un para retrabalho
+795;3807;APROVADO COM RESSALVA;15;232;2026-03-14 14:26:00;1 un rejeitadas e 1 un para retrabalho
+796;3814;APROVADO COM RESSALVA;16;446;2026-03-15 11:51:00;3 un rejeitadas e 4 un para retrabalho
+797;3821;APROVADO COM RESSALVA;14;377;2026-03-15 11:53:00;3 un rejeitadas e 4 un para retrabalho
+798;3828;APROVADO COM RESSALVA;24;232;2026-03-15 14:59:00;3 un rejeitadas e 5 un para retrabalho
+799;3835;APROVADO COM RESSALVA;16;232;2026-03-16 16:11:00;1 un rejeitadas e 1 un para retrabalho
+800;3842;APROVADO COM RESSALVA;31;232;2026-03-15 17:40:00;1 un para retrabalho
+801;3849;APROVADO COM RESSALVA;24;374;2026-03-14 17:17:00;3 un rejeitadas e 1 un para retrabalho
+802;3856;APROVADO COM RESSALVA;3;325;2026-03-14 18:48:00;4 un rejeitadas e 2 un para retrabalho
+803;3862;APROVADO COM RESSALVA;19;479;2026-03-16 11:17:00;3 un rejeitadas e 7 un para retrabalho
+804;3869;APROVADO COM RESSALVA;4;446;2026-03-16 09:24:00;2 un rejeitadas e 3 un para retrabalho
+805;3872;REPROVADO;25;131;2026-03-16 13:45:00;1 un rejeitadas e 2 un para retrabalho
+806;3876;APROVADO COM RESSALVA;17;283;2026-03-15 14:22:00;1 un rejeitadas e 1 un para retrabalho
+807;3883;APROVADO COM RESSALVA;2;148;2026-03-17 12:34:00;1 un rejeitadas e 1 un para retrabalho
+808;3886;REPROVADO;11;206;2026-03-17 13:38:00;3 un rejeitadas e 1 un para retrabalho
+809;3893;APROVADO COM RESSALVA;14;37;2026-03-16 13:05:00;1 un rejeitadas e 2 un para retrabalho
+810;3896;REPROVADO;11;469;2026-03-17 17:10:00;10 un rejeitadas e 4 un para retrabalho
+811;3900;APROVADO COM RESSALVA;16;343;2026-03-17 16:49:00;3 un rejeitadas e 8 un para retrabalho
+812;3903;APROVADO COM RESSALVA;27;358;2026-03-17 20:41:00;2 un rejeitadas e 2 un para retrabalho
+813;3907;APROVADO COM RESSALVA;14;226;2026-03-18 06:18:00;2 un para retrabalho
+814;3910;APROVADO COM RESSALVA;27;356;2026-03-16 06:06:00;2 un rejeitadas e 4 un para retrabalho
+815;3913;REPROVADO;12;32;2026-03-16 08:26:00;3 un rejeitadas e 2 un para retrabalho
+816;3920;APROVADO COM RESSALVA;16;479;2026-03-16 09:56:00;2 un rejeitadas e 2 un para retrabalho
+817;3927;APROVADO COM RESSALVA;16;77;2026-03-16 08:25:00;2 un para retrabalho
+818;3933;APROVADO COM RESSALVA;18;379;2026-03-17 07:50:00;2 un rejeitadas e 4 un para retrabalho
+819;3940;APROVADO COM RESSALVA;4;336;2026-03-18 09:05:00;3 un rejeitadas e 6 un para retrabalho
+820;3944;APROVADO COM RESSALVA;24;446;2026-03-18 06:20:00;2 un rejeitadas e 3 un para retrabalho
+821;3947;REPROVADO;11;469;2026-03-17 11:30:00;12 un rejeitadas e 4 un para retrabalho
+822;3951;APROVADO COM RESSALVA;17;454;2026-03-18 13:36:00;2 un rejeitadas e 3 un para retrabalho
+823;3952;APROVADO COM RESSALVA;22;232;2026-03-15 19:23:00;1 un para retrabalho
+824;3957;APROVADO COM RESSALVA;27;356;2026-03-17 14:01:00;2 un rejeitadas e 3 un para retrabalho
+825;3963;APROVADO COM RESSALVA;6;131;2026-03-16 17:00:00;1 un rejeitadas e 3 un para retrabalho
+826;3964;APROVADO COM RESSALVA;23;21;2026-03-16 01:03:00;2 un rejeitadas e 5 un para retrabalho
+827;3967;APROVADO COM RESSALVA;22;231;2026-03-15 18:40:00;1 un rejeitadas e 3 un para retrabalho
+828;3976;APROVADO COM RESSALVA;31;206;2026-03-16 20:18:00;2 un para retrabalho
+829;3980;APROVADO COM RESSALVA;24;488;2026-03-19 07:55:00;2 un rejeitadas e 2 un para retrabalho
+830;3984;APROVADO COM RESSALVA;24;37;2026-03-17 06:57:00;1 un para retrabalho
+831;3988;APROVADO COM RESSALVA;14;484;2026-03-19 07:49:00;3 un rejeitadas e 5 un para retrabalho
+832;3992;APROVADO COM RESSALVA;27;377;2026-03-17 10:52:00;2 un rejeitadas e 1 un para retrabalho
+833;3993;APROVADO COM RESSALVA;23;374;2026-03-16 21:03:00;4 un rejeitadas e 2 un para retrabalho
+834;4002;APROVADO COM RESSALVA;16;454;2026-03-17 15:09:00;3 un rejeitadas e 3 un para retrabalho
+835;4003;APROVADO COM RESSALVA;23;148;2026-03-16 17:25:00;1 un para retrabalho
+836;4009;APROVADO COM RESSALVA;16;488;2026-03-19 18:21:00;2 un rejeitadas e 3 un para retrabalho
+837;4013;APROVADO COM RESSALVA;27;275;2026-03-18 16:35:00;2 un rejeitadas e 3 un para retrabalho
+838;4014;APROVADO COM RESSALVA;22;314;2026-03-17 05:16:00;1 un rejeitadas e 3 un para retrabalho
+839;4020;APROVADO COM RESSALVA;26;77;2026-03-18 06:06:00;1 un rejeitadas
+840;4026;APROVADO COM RESSALVA;6;331;2026-03-19 12:40:00;2 un rejeitadas e 6 un para retrabalho
+841;4033;APROVADO COM RESSALVA;28;210;2026-03-20 12:17:00;1 un rejeitadas e 1 un para retrabalho
+842;4040;APROVADO COM RESSALVA;17;336;2026-03-20 12:01:00;2 un rejeitadas e 2 un para retrabalho
+843;4043;APROVADO COM RESSALVA;25;61;2026-03-18 15:56:00;1 un rejeitadas e 2 un para retrabalho
+844;4050;APROVADO COM RESSALVA;14;488;2026-03-19 16:46:00;2 un rejeitadas e 1 un para retrabalho
+845;4057;APROVADO COM RESSALVA;2;484;2026-03-19 16:54:00;1 un rejeitadas e 2 un para retrabalho
+846;4060;REPROVADO;11;325;2026-03-19 19:21:00;9 un rejeitadas e 2 un para retrabalho
+847;4064;APROVADO COM RESSALVA;17;454;2026-03-21 07:56:00;1 un rejeitadas e 2 un para retrabalho
+848;4067;REPROVADO;11;209;2026-03-21 11:17:00;4 un rejeitadas e 3 un para retrabalho
+849;4071;APROVADO COM RESSALVA;24;206;2026-03-19 10:21:00;2 un rejeitadas e 3 un para retrabalho
+850;4075;APROVADO COM RESSALVA;27;32;2026-03-20 08:15:00;1 un rejeitadas e 1 un para retrabalho
+851;4079;APROVADO COM RESSALVA;26;446;2026-03-20 09:26:00;3 un rejeitadas e 6 un para retrabalho
+852;4083;REPROVADO;17;8;2026-03-19 14:03:00;1 un rejeitadas e 2 un para retrabalho
+853;4089;APROVADO COM RESSALVA;9;105;2026-03-20 18:00:00;1 un rejeitadas e 1 un para retrabalho
+854;4093;APROVADO COM RESSALVA;20;377;2026-03-19 17:48:00;2 un rejeitadas e 1 un para retrabalho
+855;4100;APROVADO COM RESSALVA;24;231;2026-03-21 07:42:00;2 un rejeitadas e 2 un para retrabalho
+856;4101;APROVADO COM RESSALVA;23;377;2026-03-19 08:27:00;2 un rejeitadas e 3 un para retrabalho
+857;4107;APROVADO COM RESSALVA;15;148;2026-03-22 06:31:00;2 un rejeitadas e 2 un para retrabalho
+858;4111;APROVADO COM RESSALVA;26;275;2026-03-21 06:39:00;1 un rejeitadas e 3 un para retrabalho
+859;4118;APROVADO COM RESSALVA;16;343;2026-03-22 08:44:00;2 un rejeitadas e 2 un para retrabalho
+860;4124;APROVADO COM RESSALVA;6;484;2026-03-22 11:35:00;1 un rejeitadas e 4 un para retrabalho
+861;4128;REPROVADO;14;139;2026-03-20 12:56:00;1 un rejeitadas e 1 un para retrabalho
+862;4134;APROVADO COM RESSALVA;6;78;2026-03-21 11:11:00;1 un rejeitadas e 2 un para retrabalho
+863;4138;APROVADO COM RESSALVA;20;454;2026-03-20 12:11:00;1 un rejeitadas e 1 un para retrabalho
+864;4141;REPROVADO;11;488;2026-03-21 10:47:00;6 un rejeitadas e 1 un para retrabalho
+865;4145;APROVADO COM RESSALVA;16;257;2026-03-21 14:38:00;1 un rejeitadas e 2 un para retrabalho
+866;4148;APROVADO COM RESSALVA;1;275;2026-03-22 16:26:00;1 un rejeitadas e 1 un para retrabalho
+867;4155;APROVADO COM RESSALVA;17;343;2026-03-21 20:03:00;2 un rejeitadas e 2 un para retrabalho
+868;4162;APROVADO COM RESSALVA;16;331;2026-03-20 21:44:00;2 un rejeitadas e 6 un para retrabalho
+869;4166;APROVADO COM RESSALVA;16;479;2026-03-21 20:06:00;2 un rejeitadas e 1 un para retrabalho
+870;4167;APROVADO COM RESSALVA;23;454;2026-03-20 13:43:00;1 un rejeitadas e 2 un para retrabalho
+871;4173;APROVADO COM RESSALVA;24;454;2026-03-23 08:15:00;2 un rejeitadas e 5 un para retrabalho
+872;4176;REPROVADO;13;479;2026-03-23 12:53:00;6 un rejeitadas e 3 un para retrabalho
+873;4183;APROVADO COM RESSALVA;24;206;2026-03-22 15:35:00;1 un rejeitadas e 3 un para retrabalho
+874;4189;APROVADO COM RESSALVA;19;479;2026-03-23 19:47:00;2 un rejeitadas e 4 un para retrabalho
+875;4196;APROVADO COM RESSALVA;2;206;2026-03-22 18:03:00;4 un rejeitadas e 1 un para retrabalho
+876;4200;APROVADO COM RESSALVA;17;275;2026-03-22 18:34:00;2 un rejeitadas e 4 un para retrabalho
+877;4204;APROVADO COM RESSALVA;15;356;2026-03-23 17:17:00;3 un rejeitadas e 3 un para retrabalho
+878;4211;APROVADO COM RESSALVA;24;226;2026-03-23 20:30:00;1 un rejeitadas e 1 un para retrabalho
+879;4214;REPROVADO;1;232;2026-03-24 08:46:00;1 un rejeitadas e 2 un para retrabalho
+880;4221;APROVADO COM RESSALVA;3;56;2026-03-22 07:02:00;3 un rejeitadas e 4 un para retrabalho
+881;4224;REPROVADO;11;179;2026-03-22 11:45:00;8 un rejeitadas e 1 un para retrabalho
+882;4231;APROVADO COM RESSALVA;14;234;2026-03-23 12:58:00;1 un rejeitadas
+883;4235;APROVADO COM RESSALVA;15;488;2026-03-24 18:55:00;3 un rejeitadas e 2 un para retrabalho
+884;4238;APROVADO COM RESSALVA;27;377;2026-03-22 19:03:00;2 un rejeitadas e 2 un para retrabalho
+885;4245;APROVADO COM RESSALVA;2;356;2026-03-22 19:12:00;2 un rejeitadas e 3 un para retrabalho
+886;4252;APROVADO COM RESSALVA;17;131;2026-03-22 18:01:00;2 un rejeitadas e 3 un para retrabalho
+887;4259;APROVADO COM RESSALVA;15;374;2026-03-22 20:37:00;3 un rejeitadas e 4 un para retrabalho
+888;4262;APROVADO COM RESSALVA;25;61;2026-03-22 21:48:00;2 un rejeitadas e 4 un para retrabalho
+889;4265;REPROVADO;11;243;2026-03-23 08:56:00;5 un rejeitadas e 3 un para retrabalho
+890;4272;APROVADO COM RESSALVA;17;131;2026-03-25 07:21:00;1 un rejeitadas e 1 un para retrabalho
+891;4279;APROVADO COM RESSALVA;16;469;2026-03-25 08:29:00;1 un rejeitadas e 1 un para retrabalho
+892;4283;APROVADO COM RESSALVA;16;127;2026-03-23 10:49:00;1 un rejeitadas e 5 un para retrabalho
+893;4284;APROVADO COM RESSALVA;23;314;2026-03-22 19:17:00;2 un rejeitadas e 4 un para retrabalho
+894;4290;APROVADO COM RESSALVA;24;210;2026-03-25 11:17:00;2 un rejeitadas e 5 un para retrabalho
+895;4297;APROVADO COM RESSALVA;15;179;2026-03-24 15:24:00;1 un rejeitadas e 1 un para retrabalho
+896;4300;APROVADO COM RESSALVA;25;32;2026-03-25 15:10:00;1 un rejeitadas e 1 un para retrabalho
+897;4306;APROVADO COM RESSALVA;19;290;2026-03-24 18:26:00;2 un rejeitadas e 1 un para retrabalho
+898;4313;APROVADO COM RESSALVA;24;331;2026-03-23 18:49:00;2 un rejeitadas e 1 un para retrabalho
+899;4314;REPROVADO;22;105;2026-03-23 08:46:00;1 un rejeitadas e 1 un para retrabalho
+900;4322;APROVADO COM RESSALVA;18;379;2026-03-26 08:14:00;1 un rejeitadas e 4 un para retrabalho
+901;4326;APROVADO COM RESSALVA;14;232;2026-03-26 08:34:00;1 un rejeitadas e 2 un para retrabalho
+902;4333;APROVADO COM RESSALVA;24;331;2026-03-24 08:19:00;4 un rejeitadas e 5 un para retrabalho
+903;4336;APROVADO COM RESSALVA;27;484;2026-03-24 14:49:00;2 un rejeitadas e 3 un para retrabalho
+904;4343;APROVADO COM RESSALVA;3;446;2026-03-26 12:22:00;4 un rejeitadas e 3 un para retrabalho
+905;4344;APROVADO COM RESSALVA;22;469;2026-03-24 03:26:00;2 un rejeitadas e 7 un para retrabalho
+906;4350;APROVADO COM RESSALVA;17;275;2026-03-25 17:21:00;1 un rejeitadas
+907;4353;REPROVADO;11;210;2026-03-25 14:24:00;2 un rejeitadas e 1 un para retrabalho
+908;4357;APROVADO COM RESSALVA;20;377;2026-03-26 16:24:00;3 un rejeitadas e 6 un para retrabalho
+909;4364;APROVADO COM RESSALVA;3;257;2026-03-25 19:03:00;2 un rejeitadas e 3 un para retrabalho
+910;4371;APROVADO COM RESSALVA;15;283;2026-03-24 20:35:00;1 un rejeitadas e 2 un para retrabalho
+911;4377;APROVADO COM RESSALVA;19;325;2026-03-24 21:36:00;2 un rejeitadas e 3 un para retrabalho
+912;4381;APROVADO COM RESSALVA;17;484;2026-03-25 07:46:00;1 un rejeitadas e 2 un para retrabalho
+913;4382;APROVADO COM RESSALVA;22;379;2026-03-24 19:48:00;3 un rejeitadas e 3 un para retrabalho
+914;4388;APROVADO COM RESSALVA;27;275;2026-03-26 09:14:00;2 un rejeitadas e 3 un para retrabalho
+915;4395;APROVADO COM RESSALVA;24;239;2026-03-25 11:31:00;1 un rejeitadas e 2 un para retrabalho
+916;4399;APROVADO COM RESSALVA;1;343;2026-03-25 13:07:00;3 un rejeitadas e 6 un para retrabalho
+917;4406;APROVADO COM RESSALVA;17;314;2026-03-26 11:21:00;1 un rejeitadas e 1 un para retrabalho
+918;4410;APROVADO COM RESSALVA;26;314;2026-03-27 13:27:00;1 un rejeitadas e 3 un para retrabalho
+919;4413;REPROVADO;12;210;2026-03-27 18:00:00;2 un rejeitadas e 1 un para retrabalho
+920;4416;APROVADO COM RESSALVA;27;21;2026-03-26 21:26:00;2 un rejeitadas e 3 un para retrabalho
+921;4419;REPROVADO;11;379;2026-03-25 21:39:00;13 un rejeitadas e 8 un para retrabalho
+922;4423;APROVADO COM RESSALVA;24;469;2026-03-26 21:43:00;2 un rejeitadas e 1 un para retrabalho
+923;4426;APROVADO COM RESSALVA;25;374;2026-03-26 08:53:00;1 un rejeitadas e 2 un para retrabalho
+924;4430;APROVADO COM RESSALVA;24;325;2026-03-28 10:10:00;3 un rejeitadas e 5 un para retrabalho
+925;4436;APROVADO COM RESSALVA;6;231;2026-03-27 06:35:00;2 un rejeitadas e 2 un para retrabalho
+926;4443;APROVADO COM RESSALVA;4;479;2026-03-27 10:12:00;3 un rejeitadas e 1 un para retrabalho
+927;4450;APROVADO COM RESSALVA;3;231;2026-03-27 14:15:00;1 un rejeitadas e 1 un para retrabalho
+928;4454;APROVADO COM RESSALVA;14;127;2026-03-28 10:57:00;1 un rejeitadas e 1 un para retrabalho
+929;4461;APROVADO COM RESSALVA;17;379;2026-03-28 12:28:00;2 un rejeitadas e 4 un para retrabalho
+930;4467;APROVADO COM RESSALVA;6;232;2026-03-28 18:19:00;1 un rejeitadas e 1 un para retrabalho
+931;4474;APROVADO COM RESSALVA;16;9;2026-03-26 16:31:00;1 un para retrabalho
+932;4478;APROVADO COM RESSALVA;26;469;2026-03-26 19:55:00;2 un rejeitadas e 2 un para retrabalho
+933;4482;APROVADO COM RESSALVA;20;232;2026-03-26 17:56:00;2 un rejeitadas e 5 un para retrabalho
+934;4483;APROVADO;;226;2026-03-26 01:26:00;
+935;4492;APROVADO COM RESSALVA;24;325;2026-03-27 07:59:00;4 un rejeitadas e 2 un para retrabalho
+936;4499;APROVADO COM RESSALVA;28;469;2026-03-29 07:15:00;3 un rejeitadas e 4 un para retrabalho
+937;4503;APROVADO COM RESSALVA;15;314;2026-03-28 10:38:00;1 un rejeitadas e 1 un para retrabalho
+938;4506;REPROVADO;13;479;2026-03-28 15:21:00;7 un rejeitadas e 2 un para retrabalho
+939;4507;APROVADO COM RESSALVA;23;484;2026-03-26 16:14:00;2 un rejeitadas e 2 un para retrabalho
+940;4513;APROVADO;;275;2026-03-27 15:47:00;
+941;4516;REPROVADO;11;148;2026-03-28 15:35:00;9 un rejeitadas e 4 un para retrabalho
+942;4523;APROVADO COM RESSALVA;28;446;2026-03-29 17:59:00;2 un rejeitadas e 3 un para retrabalho
+943;4526;REPROVADO;27;37;2026-03-29 15:31:00;3 un rejeitadas e 6 un para retrabalho
+944;4530;APROVADO COM RESSALVA;27;275;2026-03-27 19:21:00;2 un para retrabalho
+945;4534;APROVADO COM RESSALVA;15;84;2026-03-28 21:46:00;1 un rejeitadas
+946;4535;APROVADO COM RESSALVA;23;226;2026-03-27 13:59:00;2 un rejeitadas e 3 un para retrabalho
+947;4543;APROVADO COM RESSALVA;18;331;2026-03-28 13:22:00;2 un rejeitadas e 4 un para retrabalho
+948;4550;APROVADO COM RESSALVA;4;231;2026-03-28 14:23:00;3 un rejeitadas e 2 un para retrabalho
+949;4553;APROVADO COM RESSALVA;1;343;2026-03-29 12:35:00;1 un rejeitadas e 1 un para retrabalho
+950;4556;REPROVADO;12;358;2026-03-29 15:36:00;6 un rejeitadas e 3 un para retrabalho
+951;4557;APROVADO COM RESSALVA;23;231;2026-03-27 21:35:00;3 un rejeitadas e 2 un para retrabalho
+952;4566;APROVADO COM RESSALVA;24;257;2026-03-29 14:26:00;2 un rejeitadas e 3 un para retrabalho
+953;4573;APROVADO COM RESSALVA;24;358;2026-03-28 17:28:00;2 un rejeitadas e 5 un para retrabalho
+954;4577;APROVADO COM RESSALVA;1;232;2026-03-28 20:07:00;1 un rejeitadas e 1 un para retrabalho
+955;4581;APROVADO COM RESSALVA;16;377;2026-03-28 21:03:00;2 un rejeitadas e 6 un para retrabalho
+956;4588;REPROVADO;16;356;2026-03-29 20:20:00;2 un rejeitadas e 4 un para retrabalho
+957;4592;REPROVADO;24;148;2026-03-29 10:45:00;4 un rejeitadas e 8 un para retrabalho
+958;4598;REPROVADO;19;206;2026-03-29 17:45:00;1 un rejeitadas e 2 un para retrabalho
+959;4605;APROVADO COM RESSALVA;4;32;2026-03-29 13:58:00;1 un rejeitadas e 2 un para retrabalho
+960;4608;APROVADO COM RESSALVA;27;454;2026-03-29 18:11:00;1 un rejeitadas e 1 un para retrabalho
